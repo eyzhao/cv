@@ -35,6 +35,11 @@ populate_contact_data = function(contact_data) {
                 </div>
             </div>
         `)
+
+    $('title')
+        .append(`
+            Eric Y. Zhao - Curriculum Vitae
+        `)
 }
 
 write_section = function(section_data, index) {
@@ -52,20 +57,21 @@ write_section = function(section_data, index) {
         .append(`
             <div class='section' id="${section_id}">
                 <div
-                    class='section-title'
-                    id='${section_id}-title'
+                    class='section-header'
+                    id='${section_id}-header'
                 >
-                    ${section_data.title}
+                    <span class='section-title' id="${section_id}-title">
+                        ${section_data.title}
+                    </span>
+                    <div class='section-title-underline' id='${section_id}-title-underline'>
+                    </div>
                 </div>
             </div>
         `)
 
     if ('display' in section_data) {
         if ('background-color' in section_data.display) {
-            $(`#${section_id}-title`).css('background-color', section_data.display['background-color']);
-        }
-        if ('color' in section_data.display) {
-            $(`#${section_id}-title`).css('color', section_data.display.color);
+            $(`#${section_id}-title-underline`).css('border-top-color', section_data.display['background-color']);
         }
     }
 
@@ -117,18 +123,35 @@ write_subsection = function(subsection_data, section_id) {
     subsection_title.innerHTML = subsection_data["title"];
 
     if (subsection_data['display']['type'] == 'nonoverlapping') {
-        nonoverlapping_timeline(subsection_data, subsection_id + '-timeline')
+        entries = nonoverlapping_timeline(subsection_data, subsection_id + '-timeline')
     } else if (subsection_data['display']['type'] == 'events') {
-        events_timeline(subsection_data, subsection_id + '-timeline', subsection_id + '-legend')
+        entries = events_timeline(subsection_data, subsection_id + '-timeline', subsection_id + '-legend')
     } else if (subsection_data['display']['type'] == 'overlapping') {
-        overlapping_timeline(subsection_data, subsection_id + '-timeline')
+        entries = overlapping_timeline(subsection_data, subsection_id + '-timeline')
     }
 
-    fill_details(subsection_data, subsection_id + '-details')
+    if ('year_labels' in subsection_data.display) {
+        show_year_labels = subsection_data.display['year_labels']
+    } else {
+        show_year_labels = false
+    }
+
+    fill_details(entries, subsection_id + '-details', year_labels = show_year_labels)
 }
 
-fill_details = function(data, element_id) {
-    for (let entry_data of data['entries']) {
+fill_details = function(entries, element_id, year_labels) {
+    for (let entry_data of entries) {
+        if ('new_year' in entry_data) {
+            if (entry_data['new_year'] && year_labels) {
+                year = entry_data['date'].getFullYear()
+                $(`#${element_id}`)
+                    .append(`
+                        <div class='year-label'>
+                            ${year}
+                        </div>
+                    `)
+            }
+        }
         if ('description' in entry_data && 'title' in entry_data) {
             $(`#${element_id}`)
                 .append(`
@@ -165,9 +188,6 @@ parse_entry_dates = function(entry) {
 }
 
 overlapping_timeline = function(data, element_id) {
-    console.log(element_id)
-    console.log(data)
-
     height = data['entries'].length * 50;
 
     entries = data['entries'];
@@ -199,9 +219,6 @@ overlapping_timeline = function(data, element_id) {
                 return(60 + (i % 8) * 4);
             })
             .attr('y', (d) => {
-                console.log(d);
-                console.log(d['start']);
-                console.log(y_scale(d['start']));
                 return(y_scale(d['start']));
             })
             .attr('width', 1.5)
@@ -256,6 +273,7 @@ overlapping_timeline = function(data, element_id) {
         .attr("transform", "translate(60,0)")
         .call(y_axis);
 
+    return(entries)
 }
 
 get_label_intersect = function(d, y, y_scale) {
@@ -269,9 +287,6 @@ get_label_intersect = function(d, y, y_scale) {
 }
 
 nonoverlapping_timeline = function(data, element_id) {
-    console.log(element_id)
-    console.log(data)
-
     var svg_container = d3.select('div#' + element_id)
         .append('svg')
         .attr('id', 'svg-' + element_id)
@@ -324,15 +339,22 @@ nonoverlapping_timeline = function(data, element_id) {
             })
 
     fit_height('svg-' + element_id);
+    return(data['entries'])
 }
 
 events_timeline = function(data, element_id, legend_id) {
-    console.log(element_id)
-    console.log(data)
-
-    console.log('events')
     entries = data['entries'];
     entries = entries.map(parse_entry_dates)
+        .map((entry, index) => {
+            if (index == 0) {
+                entry['new_year'] = true
+            } else if (entry.date.getFullYear() != entries[index - 1].date.getFullYear()) {
+                entry['new_year'] = true
+            } else {
+                entry['new_year'] = false
+            }
+            return(entry)
+        })
 
     entries = entries.sort(function(a, b) {
         return(a['date'] - b['date'])
@@ -342,7 +364,7 @@ events_timeline = function(data, element_id, legend_id) {
         return(entry['category'])
     }).filter((elem, pos, arr) => {
         return (arr.indexOf(elem) == pos);
-    });;
+    }).sort();;
 
     pagebreak_indices = entries.map((entry, index) => {
         if (index == 0) {
@@ -500,6 +522,8 @@ events_timeline = function(data, element_id, legend_id) {
             .text(d => { return(d) })
 
     fit_height('svg-legend-' + element_id)
+
+    return(entries)
 }
 
 fit_height = function(svg_element_id) {

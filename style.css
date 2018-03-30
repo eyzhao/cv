@@ -11,6 +11,13 @@ body {
     font-family: georgia;
 }
 
+div .year-label {
+    font-style: italic;
+    font-family: lato;
+    font-weight: 200;
+    margin: 1em 0em 0.5em;
+}
+
 div .subsection {
     display: grid;
     grid-template-areas:
@@ -127,13 +134,21 @@ div.legend {
 }
 
 
-div.section-title {
-    background-color: #111111;
-    padding: 30;
+div.section-header {
+    padding: 20;
     font-family: 'Lato', sans-serif;
     font-size: 36;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: black;
+}
+
+div.section-title-underline {
+    width: 25px;
+    height: 0px;
+    margin: 10px auto 0px;
+    padding-bottom: 8;
+    border-top-style: solid;
+    border-top-width: 6px;
 }

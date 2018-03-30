@@ -81,6 +81,7 @@ sections:
   - title: Awards
     display:
       type: events
+      year_labels: true
     entries:
     - brief: President's Entry
       title: UBC President's Entry Award.
@@ -102,13 +103,13 @@ sections:
       description: $500. GPA-based.
       date: '2011-01-10'
       category: Award
+      display:
+        pagebreak: true
     - brief: BCCGN Award
       title: BC Clinical Genomics Network Summer Research Scholarship.
       description: $3750.
       date: '2011-05-01'
       category: Research Scholarship / Grant
-      display:
-        pagebreak: true
     - brief: Fac. Science Achievement Award
       title: Faculty of Science Achievement Award
       description: >
@@ -215,10 +216,24 @@ sections:
       description: >
         Awarded annual to 8 outstanding UBC leaders to share their
         experiences and invoke inspiration via a 3-minute video feature.
+    - brief: John Bosdet Travel Award
+      date: '2017-02-24'
+      category: Award
+      title: John Bosdet Travel Award.
+      description: Award to support trainee conference travel.
+    - brief: TGC Travel Award
+      date: '2018-03-28'
+      category: Award
+      title: Translational Genomics Cluster (TGC) Trainee Collaboration & Travel Award.
+      description: >
+        $2500. Travel award to enable development and/or expansion of collaborations with
+        national and international researchers.
 
-  - title: Journal Articles
+  - title: Peer-Reviewed Journal Articles
     display:
       type: events
+      year_labels: true 
+      pagebreak: true
     entries:
     - brief: Morin et al, Nature
       date: '2011-08-18'
@@ -227,8 +242,8 @@ sections:
         Frequent mutation of histone-modifying genes in
         Non-Hodgkin’s lymphoma.
       description: >
-        Nature. Ryan D. Morin, Maria Mendez-Lago, Andrew J. Mungall,
-        ... <strong>Eric Y. Zhao</strong>, ...
+        <strong>Nature</strong>. Ryan D. Morin, Maria Mendez-Lago, Andrew J. Mungall,
+        ... <u>Eric Y. Zhao</u>, ...
         Steven J. M. Jones, Joseph M. Connors,
         Martin Hirst, Randy D. Gascoyne, Marco A. Marra.
     - brief: Oetting et al. Human Mutation
@@ -236,21 +251,11 @@ sections:
       category: Co-author
       title: >
         Getting Ready for the Human Phenome Project:
-        The 2012 Forum of the Human Variome Project
+        The 2012 Forum of the Human Variome Project.
       description: >
-        Human Mutation. William S. Oetting, Peter N. Robinson,
+        <strong>Human Mutation</strong>. William S. Oetting, Peter N. Robinson,
         Marc S. Greenblatt, Richard G Cotton, Tim Beck,
-        ... <strong>Eric Y. Zhao</strong>.
-    - brief: Keow et al. CIM
-      date: '2015-08-09'
-      category: Co-author
-      title: >
-        Scientific overview: CSCI-CITAC Annual General Meeting
-        and Young Investigators’ Forum 2014
-      description: >
-        Clinical and Investigative Medicine. Jonathan Keow,
-        <strong>Eric Y. Zhao</strong>, Nardin Samuel, Ayan Dey,
-        ... Xin Wang.
+        ... <u>Eric Y. Zhao</u>.
     - brief: Sheffield et al. J Thoracic Oncol
       date: '2015-09-01'
       category: Co-author
@@ -258,9 +263,9 @@ sections:
         Predictive biomarker testing for programmed cell
         death 1 inhibition in non-small cell lung cancer
       description: >
-        Journal of Thoracic Oncology. Brandon S Sheffield,
+        <strong>Journal of Thoracic Oncology</strong>. Brandon S Sheffield,
         Georgia Geller, Erin Pleasance, 
-        ... <strong>Eric Zhao</strong>, ...
+        ... <u>Eric Zhao</u>, ...
         Cheryl Ho, Diana Ionescu
     - brief: Laskin et al. MCS
       date: '2015-10-10'
@@ -269,9 +274,9 @@ sections:
         Lessons learned from the application of whole genome
         analysis to the treatment of patients with advanced cancers
       description: >
-        Molecular Case Studies. Janessa Laskin, Steven Jones,
+        <strong>Molecular Case Studies</strong>. Janessa Laskin, Steven Jones,
         Samuel Aparicio, Stephen Chia, Carolyn Ch'ng, Rebecca Deyell,
-        ... <strong>Eric Y. Zhao</strong>,
+        ... <u>Eric Y. Zhao</u>,
         Stephen Yip, Marco A. Marra.
     - brief: Sheffield et al. J Histochem Cytochem.
       date: '2016-10-01'
@@ -280,9 +285,9 @@ sections:
         Investigation of PD-L1 Biomarker Testing Methods for PD-1
         Axis Inhibition in Non-squamous Non-small Cell Lung Cancer.
       description: >
-        J Histochem Cytochem. Brandon S. Sheffield, Regan Fulton,
+        <strong>J Histochem Cytochem</strong>. Brandon S. Sheffield, Regan Fulton,
         Steven E. Kalloger,
-        ... <strong>Eric Y. Zhao</strong> ...
+        ... <u>Eric Y. Zhao</u> ...
         Cheryl Ho, Diana N. Ionescu.
     - brief: Xie et al. UBCMJ
       date: '2016-10-01'
@@ -291,19 +296,8 @@ sections:
         The role of BDNF in Huntington Disease: A targeted
         analysis of 12 microarray studies.
       description: >
-        UBC Medical Journal. Ronald Xie, Sharon Yang, Felix Ma,
-        <strong>Eric Y. Zhao</strong>
-    - brief: Zhao et al. CIM
-      date: '2016-10-14'
-      category: Primary Author
-      title: >
-        Scientific Overview: CSCI- CITAC Annual General Meeting
-        and Young Investigators' Forum 2015.
-      description: >
-        Clinical and Investigative Medicine.
-        <strong>Eric Y. Zhao</strong>,
-        Ellen T. Zhou, Matthew G. Benesch, Ayan Dey, ...
-        Alexandra Kuzyk.
+        <strong>UBC Medical Journal</strong>. Ronald Xie, Sharon Yang, Felix Ma,
+        <u>Eric Y. Zhao</u>
     - brief: den Brok et al. JCO Precision Oncol
       date: '2017-03-10'
       category: Co-author
@@ -311,9 +305,9 @@ sections:
         Homologous recombination deficiency in breast cancer:
         a clinical review
       description: >
-        JCO Precision Oncology. Wendie D den Brok,
+        <strong>JCO Precision Oncology</strong>. Wendie D den Brok,
         Kasmintan A. Schrader, Sophie Sun, Anna V. Tinker, 
-        <strong>Eric Y. Zhao</strong>, Samuel Aparicio,
+        <u>Eric Y. Zhao</u>, Samuel Aparicio,
         Karen A. Gelmon
     - brief: Thibodeau et al. MCS
       date: '2017-05-16'
@@ -324,20 +318,18 @@ sections:
         concomitant diagnosis of metastatic invasive ductal 
         breast carcinoma.
       description: >
-        Molecular Case Studies. My Linh Thibodeau, Caralyn Reisle,
-        <strong>Eric Y. Zhao</strong>, ...
+        <strong>Molecular Case Studies</strong>. My Linh Thibodeau, Caralyn Reisle,
+        <u>Eric Y. Zhao</u>, ...
         Janessa Laskin, Marco A Marra, Kasmintan A. Schrader,
         Steven J. M. Jones.
-      display:
-        pagebreak: true
     - brief: Siu et al. JOE
       date: '2017-09-05'
       category: Co-author
       title: >
         Characterization of the Human Thyroid Epigenome
       description: >
-        Journal of Endocrinology. Celia Siu, Sam Wiseman,
-        ... <strong>Eric Y. Zhao</strong> ...
+        <strong>Journal of Endocrinology</strong>. Celia Siu, Sam Wiseman,
+        ... <u>Eric Y. Zhao</u> ...
         Marco A. Marra, Martin Hirst, Steven J. M. Jones.
     - brief: Smith et al. UBCMJ, Accepted
       date: '2017-11-18'
@@ -345,7 +337,7 @@ sections:
       title: >
         'MIND Speaks Up: an online platform for youth mental health'
       description: >
-        <em>Accepted</em>. UBC Medical Journal. Meghan Smith, <strong>Eric Zhao</strong>,
+        <em>Accepted</em>. <strong>UBC Medical Journal</strong>. Meghan Smith, <u>Eric Zhao</u>,
         Connor Hawkins, Megan Lucey, Jordan Yeo, Kelly Zerr
     - brief: Zhao et al. Clin Cancer Res
       date: '2017-12-15'
@@ -354,7 +346,7 @@ sections:
         Homologous Recombination Deficiency and Platinum-based
         Therapy Outcomes in Advanced Breast Cancer.
       description: >
-        Clinical Cancer Research. <strong>Eric Y. Zhao</strong>,
+        <strong>Clinical Cancer Research</strong>. <u>Eric Y. Zhao</u>,
         Yaoqing Shen, Erin D. Pleasance, ...
         Janessa Laskin, Marco A. Marra, Steven J. M. Jones.
     - brief: Wong et al. MCS
@@ -365,8 +357,8 @@ sections:
         neuroendocrine tumors (PNETs) using whole-genome and
         transcriptome sequencing
       description: >
-        Molecular Case Studies. Hui-li Wong, Kevin C Yang,
-        <strong>Eric Y. Zhao</strong>, ... David F. Shaeffer,
+        <strong>Molecular Case Studies</strong>. Hui-li Wong, Kevin C Yang,
+        <u>Eric Y. Zhao</u>, ... David F. Shaeffer,
         Sharon M. Gorski, Daniel J. Renouf.
     - brief: Thibodeau et al. NPJ Precision Oncology
       date: '2018-03-19'
@@ -375,28 +367,24 @@ sections:
         Whole genome and whole transcriptome genomic profiling
         of a metastatic eccrine porocarcinoma
       description: >
-        NPJ Precision Oncology. My Linh Thibodeau, Melika Bonakdar,
-        <strong>Eric Zhao</strong>, Karen Mungall, Caralyn Resile,
+        <strong>NPJ Precision Oncology</strong>. My Linh Thibodeau, Melika Bonakdar,
+        <u>Eric Zhao</u>, Karen Mungall, Caralyn Resile,
         ... Kasmintan A. Schrader, Steven J. M. Jones.
       url: https://www.nature.com/articles/s41698-018-0050-5
-    - brief: Zhao et al. CSH Perspectives
-      date: 'present'
-      category: Primary Author
-      title: >
-        Whole Genome Sequencing of Cancer.
-      description: >
-        <em>Accepted</em>. Cold Spring Harbor Perspectives -
-        Book Chapter.
-        <strong>Eric Y. Zhao</strong>, Martin R. Jones,
-        Steven J. M. Jones.
+
+  - title: Articles Submitted or In Review
+    display:
+      type: events
+      year_labels: true
+    entries:
     - brief: Zhao et al. In Review
       date: 'present'
       category: Primary Author
       title: >
         SignIT: Inferring Mutation Signatures and their Clonal
-        Evolution in Individual Tumours
+        Evolution in Individual Tumours.
       description: >
-        <em>In Review</em>. <strong>Eric Y. Zhao</strong>,
+        <em>In Review</em>. <u>Eric Y. Zhao</u>,
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
@@ -406,10 +394,10 @@ sections:
       title: >
         Temporal dynamics of genomic alterations in a BRCA1
         germline mutated pancreatic cancer with low genomic
-        instability burden but exceptional response to FOLFIRINOX
+        instability burden but exceptional response to FOLFIRINOX.
       description: >
         <em>In Review</em>. Hui-li Wong,
-        <strong>Eric Y. Zhao</strong> (co-primary), Martin R. Jones,
+        <u>Eric Y. Zhao</u> (co-primary), Martin R. Jones,
         Caralyn R. Reisle, ...
         Steven J. M. Jones, Kasmintan Schrader,
         David F. Schaeffer, Daniel J. Renouf.
@@ -420,34 +408,74 @@ sections:
         Genome-wide discovery of somatic coding and regulatory variants in Diffuse Large B-cell Lymphoma.
       description: >
         <em>In Review</em>. Sarah E. Arthur, Aixiang Jiang, Bruno M. Grande, 
-        ... Eric Y. Zhao ... Marco A. Marra, Joseph M. Connors, Christian Steidl,
+        ... <u>Eric Y. Zhao</u> ... Marco A. Marra, Joseph M. Connors, Christian Steidl,
         David W. Scott, Ryan D. Morin.
     - brief: Shen et al. In Draft
       date: 'present'
       category: Co-author
+      hidden: true
       title: >
         Comprehensive genomic profiling of matched glioblastoma tumours,
         cell-lines, and xenografts reveals genomic stability and
         adaptation to disparate growth environments.  
       description: >
         <em>In Draft</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
-        ... <strong>Eric Y. Zhao</strong> ..., David Kaplan, Marco A. Marra,
+        ... <u>Eric Y. Zhao</u> ..., David Kaplan, Marco A. Marra,
         Steven J. M. Jones
     - brief: Grande et al. In Draft
       date: 'present'
       category: Co-author
+      hidden: true
       title: >
         Genome-wide discovery of somatic coding and non-coding mutations in pediatric endemic and
         sporadic Burkitt lymphoma.
       description: >
         <em>In Draft</em>. Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
-        ... <strong>Eric Y. Zhao</strong> ...,
+        ... <u>Eric Y. Zhao</u> ...,
         Marco A. Marra, Ryan D. Morin, Louis M. Staudt
+
+
+  - title: Invited or Non-Peer Reviewed Articles
+    display:
+      type: events
+      year_labels: true
+    entries:
+    - brief: Keow et al. CIM
+      date: '2015-08-09'
+      category: Co-author
+      title: >
+        Scientific overview: CSCI-CITAC Annual General Meeting
+        and Young Investigators’ Forum 2014.
+      description: >
+        <strong>Clinical and Investigative Medicine</strong>. Jonathan Keow,
+        <u>Eric Y. Zhao</u>, Nardin Samuel, Ayan Dey,
+        ... Xin Wang.
+    - brief: Zhao et al. CIM
+      date: '2016-10-14'
+      category: Primary Author
+      title: >
+        Scientific Overview: CSCI- CITAC Annual General Meeting
+        and Young Investigators' Forum 2015.
+      description: >
+        <strong>Clinical and Investigative Medicine</strong>.
+        <u>Eric Y. Zhao</u>,
+        Ellen T. Zhou, Matthew G. Benesch, Ayan Dey, ...
+        Alexandra Kuzyk.
+    - brief: Zhao et al. CSH Perspectives
+      date: 'present'
+      category: Primary Author
+      title: >
+        Whole Genome Sequencing of Cancer.
+      description: >
+        <em>Accepted</em>. <strong>Cold Spring Harbor Perspectives -
+        Book Chapter</strong>.
+        <u>Eric Y. Zhao</u>, Martin R. Jones,
+        Steven J. M. Jones.
+
 
   - title: Invited Speaker
     display:
       type: events
-      pagebreak: true
     entries:
     - brief: Mental Health Workshop
       date: '2017-03-09'
@@ -483,9 +511,10 @@ sections:
       description: >
         Meeting of the BC Cancer Agency Genome Stability group.
 
-  - title: Conference Talks & Published Abstracts
+  - title: Selected Conference Talks
     display:
       type: events
+      pagebreak: true
     entries:
       - brief: HVP, San Francisco
         date: '2012-11-26'
@@ -497,7 +526,7 @@ sections:
         description: >
           "Getting ready for the human phenome project," a
           meeting of the Human Variome Project (HVP).
-          <strong>Eric Y. Zhao</strong>,
+          <u>Eric Y. Zhao</u>,
           Erica Tsang, Jan M. Friedman, Farah R. Zahir
       - brief: ISMRM, Salt Lake City
         date: '2013-04-22'
@@ -508,7 +537,7 @@ sections:
         description: >
           International Society for Magnetic Resonance in Medicine
           (ISMRM).
-          <strong>Eric Y. Zhao</strong>, Irene Vavasour,
+          <u>Eric Y. Zhao</u>, Irene Vavasour,
           Marjan Zakeri, Michael Borich, Cornelia Laule,
           Alexander Rauscher,
           Anthony Traboulsee, David Li, Lara Boyd, Alex MacKay.
@@ -520,7 +549,7 @@ sections:
           Improvement with Cisplatin
         description: >
           Advances in Genome Biology and Technology (AGBT).
-          <strong>Eric Y. Zhao</strong>, Yaoqing Shen,
+          <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones
       - brief: ASHG, Vancouver
@@ -531,7 +560,7 @@ sections:
           Mutation Signature of BRCA1/2 Impairment.
         description: >
           American Society for Human Genetics (ASHG).
-          <strong>Eric Y. Zhao</strong>, Yaoqing Shen,
+          <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones
       - brief: AACR, Washington DC
@@ -542,17 +571,9 @@ sections:
           Recombination Deficiency (HRD) with Therapeutic Outcomes.
         description: >
           American Association of Cancer Research (AACR).
-          <strong>Eric Y. Zhao</strong>, Yaoqing Shen,
+          <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones 
-      - brief: Lever et al. NW-NLP
-        date: '2018-04-27'
-        category: Published Abstract
-        title: 'Building Knowledge Bases for Precision Cancer Medicine'
-        description: >
-          5th Pacific Northwest Regional NLP Workshop: NW-NLP 2018.
-          Jake Lever, <strong>Eric Zhao</strong>, Jasleen Grewal, ... Obi Griffith, Malachi Griffith, Martin Jones and Steven JM Jones.
-
 
   - title: Conference Prizes
     display:
@@ -821,9 +842,11 @@ sections:
       type: overlapping
     entries:
     - brief: UBC Orientations Squad Leader
+      hidden: true
       start: '2010-04-01'
       end: '2012-09-30'
     - brief: Science Peer Academic Coaches
+      hidden: true
       start: '2010-04-01'
       end: '2012-05-30'
     - brief: University Transition Program
