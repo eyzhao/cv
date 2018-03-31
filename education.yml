@@ -103,8 +103,6 @@ sections:
       description: $500. GPA-based.
       date: '2011-01-10'
       category: Award
-      display:
-        pagebreak: true
     - brief: BCCGN Award
       title: BC Clinical Genomics Network Summer Research Scholarship.
       description: $3750.
@@ -233,7 +231,6 @@ sections:
     display:
       type: events
       year_labels: true 
-      pagebreak: true
     entries:
     - brief: Morin et al, Nature
       date: '2011-08-18'
@@ -514,7 +511,6 @@ sections:
   - title: Selected Conference Talks
     display:
       type: events
-      pagebreak: true
       year_labels: true
     entries:
       - brief: HVP, San Francisco
