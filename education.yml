@@ -220,7 +220,7 @@ sections:
       date: '2017-02-24'
       category: Award
       title: John Bosdet Travel Award.
-      description: Award to support trainee conference travel.
+      description: $1500. Award to support trainee conference travel.
     - brief: TGC Travel Award
       date: '2018-03-28'
       category: Award
@@ -515,6 +515,7 @@ sections:
     display:
       type: events
       pagebreak: true
+      year_labels: true
     entries:
       - brief: HVP, San Francisco
         date: '2012-11-26'
@@ -527,7 +528,8 @@ sections:
           "Getting ready for the human phenome project," a
           meeting of the Human Variome Project (HVP).
           <u>Eric Y. Zhao</u>,
-          Erica Tsang, Jan M. Friedman, Farah R. Zahir
+          Erica Tsang, Jan M. Friedman, Farah R. Zahir.
+          <strong>Oral Presentation and Panelist</strong>
       - brief: ISMRM, Salt Lake City
         date: '2013-04-22'
         category: Oral Presentation
@@ -541,6 +543,7 @@ sections:
           Marjan Zakeri, Michael Borich, Cornelia Laule,
           Alexander Rauscher,
           Anthony Traboulsee, David Li, Lara Boyd, Alex MacKay.
+          <strong>Oral Presentation</strong>
       - brief: AGBT, Orlando
         date: '2016-02-13'
         category: Oral Presentation
@@ -551,7 +554,8 @@ sections:
           Advances in Genome Biology and Technology (AGBT).
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
-          Marco A. Marra, Steven J. M. Jones
+          Marco A. Marra, Steven J. M. Jones.
+          <strong>Oral Presentation</strong>
       - brief: ASHG, Vancouver
         date: '2016-10-20'
         category: Poster Presentation
@@ -562,7 +566,8 @@ sections:
           American Society for Human Genetics (ASHG).
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
-          Marco A. Marra, Steven J. M. Jones
+          Marco A. Marra, Steven J. M. Jones.
+          <strong>Poster Presentation</strong>
       - brief: AACR, Washington DC
         date: '2017-04-04'
         category: Poster Presentation
@@ -573,7 +578,18 @@ sections:
           American Association of Cancer Research (AACR).
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
-          Marco A. Marra, Steven J. M. Jones 
+          Marco A. Marra, Steven J. M. Jones.
+          <strong>Poster Presentation</strong>
+      - brief: ASCO, Chicago IL
+        date: '2018-06-05'
+        category: Oral Presentation
+        title: >
+          The Evolution of Genomic Instability in Metastatic Cancer
+        description: >
+          <em>Accepted</em>. American Society of Clinical Oncology (ASCO).
+          <u>Eric Y. Zhao</u>, Erin D Pleasance, Martin R Jones, Yaoqing Shen,
+          ... Janessa J. Laskin, Marco A. Marra, Steven J. M. Jones.
+          <strong>Oral Presentation</strong>
 
   - title: Conference Prizes
     display:
