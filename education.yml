@@ -368,6 +368,16 @@ sections:
         <u>Eric Zhao</u>, Karen Mungall, Caralyn Resile,
         ... Kasmintan A. Schrader, Steven J. M. Jones.
       url: https://www.nature.com/articles/s41698-018-0050-5
+    - brief:
+      date: '2018-04-06'
+      category: Co-author
+      title: >
+        Personalized oncogenomic analysis of metastatic adenoid cystic
+        carcinoma: using whole-genome sequencing to inform clinical decision-making.
+      description: >
+        <strong>Cold Spring Harb Mol Case Stud.</strong>.
+        Manik Chahal, Erin Pleasance, Jasleen Grewal, <u>Eric Zhao</u>,
+        ... Steven JM Jones, Marco A Marra, Janessa Laskin.
 
   - title: Articles Submitted or In Review
     display:
