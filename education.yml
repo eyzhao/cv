@@ -103,6 +103,8 @@ sections:
       description: $500. GPA-based.
       date: '2011-01-10'
       category: Award
+      display:
+        pagebreak: true
     - brief: BCCGN Award
       title: BC Clinical Genomics Network Summer Research Scholarship.
       description: $3750.
@@ -231,6 +233,7 @@ sections:
     display:
       type: events
       year_labels: true 
+      pagebreak: true
     entries:
     - brief: Morin et al, Nature
       date: '2011-08-18'
@@ -481,6 +484,7 @@ sections:
   - title: Invited Speaker
     display:
       type: events
+      pagebreak: true
     entries:
     - brief: Mental Health Workshop
       date: '2017-03-09'
@@ -864,8 +868,10 @@ sections:
       title: Selection Committee Member, Laura Taylor Memorial Award.
       description: >
         I was involved in organizing the inaugural Laura Taylor
-        Memorial Award, generously donated by the Taylor family
-        in memory of UBC Medical Student Laura Taylor.
+        Memorial Award, generously donated by the Taylor family.
+        The award recognizes individuals who demonstrate exceptional
+        contributions to their peers and learning environment,
+        especially relating to mental health support and destigmatization.
 
   - title: 'Mentorship'
     display:
