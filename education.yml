@@ -410,27 +410,25 @@ sections:
         <em>In Review</em>. Sarah E. Arthur, Aixiang Jiang, Bruno M. Grande, 
         ... <u>Eric Y. Zhao</u> ... Marco A. Marra, Joseph M. Connors, Christian Steidl,
         David W. Scott, Ryan D. Morin.
-    - brief: Shen et al. In Draft
+    - brief: Shen et al. Submitted.
       date: 'present'
       category: Co-author
-      hidden: true
       title: >
         Comprehensive genomic profiling of matched glioblastoma tumours,
         cell-lines, and xenografts reveals genomic stability and
         adaptation to disparate growth environments.  
       description: >
-        <em>In Draft</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
+        <em>Submitted</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
         ... <u>Eric Y. Zhao</u> ..., David Kaplan, Marco A. Marra,
         Steven J. M. Jones
-    - brief: Grande et al. In Draft
+    - brief: Grande et al. Submitted
       date: 'present'
       category: Co-author
-      hidden: true
       title: >
         Genome-wide discovery of somatic coding and non-coding mutations in pediatric endemic and
         sporadic Burkitt lymphoma.
       description: >
-        <em>In Draft</em>. Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
+        <em>Submitted</em>. Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
         ... <u>Eric Y. Zhao</u> ...,
         Marco A. Marra, Ryan D. Morin, Louis M. Staudt
 
@@ -574,6 +572,26 @@ sections:
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones 
+      - brief: CCRC, Vancouver BC
+        date: '2017-11-05'
+        category: Poster Presentation
+        title: >
+          Homologous Recombination Deficiency and Platinum-based
+          Therapy Outcomes in Advanced Breast Cancer
+        description: >
+          Canadian Cancer Research Conference (CCRC).
+          <u>Eric Y. Zhao</u>, Yaoqing Shen,
+          Erin D. Pleasance, ..., Janessa Laskin,
+          Marco A. Marra, Steven J. M. Jones
+      - brief: ASCO, Chicago IL
+        date: '2018-06-05'
+        category: Oral Presentation
+        title: >
+          Evolution of Genomic Instability in Metastatic Cancer
+        description: >
+          American Society of Clinical Oncology (ASCO).
+          Eric Y Zhao, Erin Pleasance, Martin Jones ...,
+          Marco A Marra, Steven JM Jones
 
   - title: Conference Prizes
     display:
