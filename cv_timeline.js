@@ -30,9 +30,6 @@ populate_contact_data = function(contact_data) {
                         ${contact_data['title']}
                     </div>
                 </div>
-                <div id='contentsbox'>
-                    Curriculum Vitae, last updated: ${contact_data['lastupdate']}
-                </div>
             </div>
         `)
 
