@@ -378,6 +378,19 @@ sections:
         <strong>Cold Spring Harb Mol Case Stud.</strong>.
         Manik Chahal, Erin Pleasance, Jasleen Grewal, <u>Eric Zhao</u>,
         ... Steven JM Jones, Marco A Marra, Janessa Laskin.
+    - brief: Wong et al. In Review
+      date: 'present'
+      category: Primary Author
+      title: >
+        Temporal dynamics of genomic alterations in a BRCA1
+        germline mutated pancreatic cancer with low genomic
+        instability burden but exceptional response to FOLFIRINOX.
+      description: >
+        <em>Accepted</em>. Hui-li Wong,
+        <u>Eric Y. Zhao</u> (co-primary), Martin R. Jones,
+        Caralyn R. Reisle, ...
+        Steven J. M. Jones, Kasmintan Schrader,
+        David F. Schaeffer, Daniel J. Renouf.
 
   - title: Articles Submitted or In Review
     display:
@@ -395,19 +408,6 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Wong et al. In Review
-      date: 'present'
-      category: Primary Author
-      title: >
-        Temporal dynamics of genomic alterations in a BRCA1
-        germline mutated pancreatic cancer with low genomic
-        instability burden but exceptional response to FOLFIRINOX.
-      description: >
-        <em>In Review</em>. Hui-li Wong,
-        <u>Eric Y. Zhao</u> (co-primary), Martin R. Jones,
-        Caralyn R. Reisle, ...
-        Steven J. M. Jones, Kasmintan Schrader,
-        David F. Schaeffer, Daniel J. Renouf.
     - brief: Arthur et al. In Review
       date: 'present'
       category: Co-author
@@ -602,7 +602,7 @@ sections:
         title: >
           The Evolution of Genomic Instability in Metastatic Cancer
         description: >
-          <em>Accepted</em>. American Society of Clinical Oncology (ASCO).
+          American Society of Clinical Oncology (ASCO).
           <u>Eric Y. Zhao</u>, Erin D Pleasance, Martin R Jones, Yaoqing Shen,
           ... Janessa J. Laskin, Marco A. Marra, Steven J. M. Jones.
           <strong>Oral Presentation</strong>
