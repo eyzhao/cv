@@ -621,6 +621,16 @@ sections:
       category: National
       title: Poster Prize - Honourable Mention.
       description: $50 prize from the Banting Foundation.
+      
+  - title: Media Appearances
+    display:
+      type: events
+    entries:
+    - brief: MD/PhD Program
+      date: '2018-07-03'
+      category: Video Feature
+      title: The UBC MD/PhD Program
+      description: A video showcasing and promoting the UBC MD/PhD program.
   
 - title: Leader
   display:
