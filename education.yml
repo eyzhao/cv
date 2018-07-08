@@ -226,6 +226,12 @@ sections:
       description: >
         $2500. Travel award to enable development and/or expansion of collaborations with
         national and international researchers.
+    - brief: Skarsgard Research Award
+      date: '2018-05-01'
+      category: Award
+      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
+      description: >
+        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
 
   - title: Peer-Reviewed Journal Articles
     display:
