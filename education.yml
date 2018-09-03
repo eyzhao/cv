@@ -232,6 +232,12 @@ sections:
       title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
       description: >
         Award for the top PhD dissertation and to honour exceptional leadership pursuits.
+    - brief: CCSRI Travel Award
+      date: '2018-08-01'
+      category: Award
+      title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
+      description: >
+        $1000. Travel award to support attendance at a cancer research conference.
 
   - title: Peer-Reviewed Journal Articles
     display:
