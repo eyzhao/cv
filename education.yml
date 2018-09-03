@@ -397,6 +397,16 @@ sections:
         Caralyn R. Reisle, ...
         Steven J. M. Jones, Kasmintan Schrader,
         David F. Schaeffer, Daniel J. Renouf.
+    - brief: Morin et al. Nat Comm
+      date: 'present'
+      category: Co-author
+      title: >
+        Genome-wide discovery of somatic regulatory variants in Diffuse Large B-cell Lymphoma
+      description: >
+        <em>Accepted</em>. <strong>Nature Communications</strong>.
+        Ryan Morin, Sarah Arthur, Aixiang Jiang, ..., <u>Eric Zhao</u>,
+        Luka Culibrk, Nicole Thomas, Timothy Audas, Peter Unrau,
+        Gregg Morin, Razvan Cojocaru.
 
   - title: Articles Submitted or In Review
     display:
