@@ -78,6 +78,7 @@ sections:
         by chemotherapy.
       start: '2013-08-01'
       end: '2018-06-11'
+      
   - title: Awards
     display:
       type: events
@@ -238,6 +239,12 @@ sections:
       title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
       description: >
         $1000. Travel award to support attendance at a cancer research conference.
+    - brief: Cdn Medical Hall of Fame Award
+      date: '2018-09-05'
+      category: Award
+      title: Canadian Medical Hall of Fame Award.
+      description: >
+         Award for outstanding potential healthcare leaders and innovators who show perseverance, collaboration, and an entrepreneurial spirit. Awarded to one student per medical school. Details at http://www.cdnmedhall.org/2018awardrecipients.
 
   - title: Peer-Reviewed Journal Articles
     display:
