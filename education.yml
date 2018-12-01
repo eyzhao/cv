@@ -78,6 +78,7 @@ sections:
         by chemotherapy.
       start: '2013-08-01'
       end: '2018-06-11'
+      
   - title: Awards
     display:
       type: events
@@ -238,6 +239,12 @@ sections:
       title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
       description: >
         $1000. Travel award to support attendance at a cancer research conference.
+    - brief: Cdn Medical Hall of Fame Award
+      date: '2018-09-05'
+      category: Award
+      title: Canadian Medical Hall of Fame Award.
+      description: >
+         $5000. Award for outstanding potential healthcare leaders and innovators who show perseverance, collaboration, and an entrepreneurial spirit. Awarded to one student per medical school. Details at http://www.cdnmedhall.org/2018awardrecipients.
 
   - title: Peer-Reviewed Journal Articles
     display:
@@ -390,6 +397,16 @@ sections:
         <strong>Cold Spring Harb Mol Case Stud.</strong>.
         Manik Chahal, Erin Pleasance, Jasleen Grewal, <u>Eric Zhao</u>,
         ... Steven JM Jones, Marco A Marra, Janessa Laskin.
+    - brief: Morin et al. Nat Comm
+      date: '2018-10-01'
+      category: Co-author
+      title: >
+        Genome-wide discovery of somatic regulatory variants in Diffuse Large B-cell Lymphoma
+      description: >
+        <em>Accepted</em>. <strong>Nature Communications</strong>.
+        Sarah E. Arthur, Aixiang Jiang, Bruno M. Grande, ...
+        <u>Eric Y. Zhao</u>, ... Christian Steidl,
+        David W. Scott & Ryan D. Morin
     - brief: Wong et al. JCO PO
       date: '2018-10-19'
       category: Primary Author
@@ -414,7 +431,6 @@ sections:
         <u>Eric Y. Zhao</u>, Kevin Nguyen, Alvin Qiu, Jesse Tinker,
         Daphne Lu, John Liu.
 
-
   - title: Articles Submitted or In Review
     display:
       type: events
@@ -431,15 +447,6 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Arthur et al. In Review
-      date: 'present'
-      category: Co-author
-      title: >
-        Genome-wide discovery of somatic coding and regulatory variants in Diffuse Large B-cell Lymphoma.
-      description: >
-        <em>In Review</em>. Sarah E. Arthur, Aixiang Jiang, Bruno M. Grande, 
-        ... <u>Eric Y. Zhao</u> ... Marco A. Marra, Joseph M. Connors, Christian Steidl,
-        David W. Scott, Ryan D. Morin.
     - brief: Shen et al. Submitted.
       date: 'present'
       category: Co-author
