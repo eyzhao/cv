@@ -391,18 +391,29 @@ sections:
         Manik Chahal, Erin Pleasance, Jasleen Grewal, <u>Eric Zhao</u>,
         ... Steven JM Jones, Marco A Marra, Janessa Laskin.
     - brief: Wong et al. JCO PO
-      date: 'present'
+      date: '2018-10-19'
       category: Primary Author
       title: >
         Temporal dynamics of genomic alterations in a BRCA1
         germline mutated pancreatic cancer with low genomic
         instability burden but exceptional response to FOLFIRINOX.
       description: >
-        <em>Accepted</em>. <strong>JCO Precision Oncology</strong>. Hui-li Wong,
+        <strong>JCO Precision Oncology</strong>. Hui-li Wong,
         <u>Eric Y. Zhao</u> (co-primary), Martin R. Jones,
         Caralyn R. Reisle, ...
         Steven J. M. Jones, Kasmintan Schrader,
         David F. Schaeffer, Daniel J. Renouf.
+    - brief: Zhao et al. UBCMJ
+      date: 'present'
+      category: Primary Author
+      title: >
+        Coordinating Student Academic Advocacy in the UBC Medical
+        Undergraduate Program through the Medical Education Committee (MEC)
+      description: >
+        <em>Accepted</em>. <strong>UBC Medical Journal</strong>.
+        <u>Eric Y. Zhao</u>, Kevin Nguyen, Alvin Qiu, Jesse Tinker,
+        Daphne Lu, John Liu.
+
 
   - title: Articles Submitted or In Review
     display:
