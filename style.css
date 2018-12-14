@@ -86,8 +86,21 @@ div .timeline-block {
 
 .entry-title {
     font-weight: bold;
-    color: #A41034;
     /* color: #ED1B2F; */
+}
+
+a.entry-title-link:link, a.entry-title-link:visited {
+    color: #A41034;
+    text-decoration: none    
+}
+
+a.entry-title-link:hover, a.entry-title-link:active {
+    color: #A41034;
+    text-decoration: underline
+}
+
+span.entry-title-nolink {
+    color: #000000;
 }
 
 .subsection-title {

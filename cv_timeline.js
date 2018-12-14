@@ -156,9 +156,15 @@ fill_details = function(entries, element_id, year_labels) {
             $(`#${element_id}`)
                 .append(`
                     <div class="entry">
-                        <span class="entry-title">
-                            ${entry_data['title']}
-                        </span>
+
+                        <${entry_data['url'] ? 'a' : 'span'}
+                            href="${entry_data['url'] ? entry_data['url'] : '#'}"
+                            class="${entry_data['url'] ? 'entry-title-link' : 'entry-title-nolink'}">
+
+                            <span class="entry-title">
+                                ${entry_data['title']}
+                            </span>
+                        </a>
                         ${entry_data['description']}
                     </div>
                 `)
