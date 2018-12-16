@@ -1049,3 +1049,51 @@ sections:
       - brief: INTERFACE Summit (attendee)
         start: '2016-08-20'
         end: '2016-08-24'
+
+- title: Artist
+  display:
+    background-image: 'images/gradspeech.png'
+    background-color: '#002859'
+    color: '#FFFFFF'
+  subsections:
+
+  - title: 'Digital Media'
+    display:
+      type: overlapping
+    entries:
+      - brief: CITAC Logo & Website
+        start: '2015-11-01'
+        end: '2016-11-01'
+        title: CITAC Logo & Website.
+        description: Led the design and development of a full-featured website for the Clinician-Investigator Trainee Association of Canada.
+      - brief: Cofounder, Kickassslimes
+        start: '2017-03-01'
+        end: 'present'
+        title: CTO and co-founder, Kickassslimes.
+        description: Manages online store, analytics, and fulfillment pipeline for www.kickassslimes.com, associated with the instagram handle @kickassslimes with 500,000+ followers.
+        url: https://www.kickassslismes.com
+
+  - title: 'Classical Piano'
+    display:
+      type: events
+    entries:
+      - brief: Young Artist Experience
+        category: Performance
+        date: '2010-08-31'
+        title: Young Artist Experience at UBC.
+        description: UBC-based Summer Collaborative and Chamber Music Intensive. Pieces performed&colon; (1) Shostakovich Piano Trio no. 2, op. 67, mvt 1, (2) Mozart Piano Quartet K. 478, mvt 1 (3) Dvorak Piano Quartet No. 2, Op. 87, mvt 3, (4) Beethoven Piano Trio op. 1 no. 3, mvt 1
+      - brief: Graduation Recital
+        category: Performance
+        date: '2013-06-01'
+        title: Graduation Recital, Saman Arfaie and Eric Zhao.
+        description: Pieces performed&colon; (1) Beethoven, Sonata no. 30, op. 109., (2) Mendelssohn Piano Trio no. 1, op 49., (3) Chopin, Ballade no. 3, op 47., (4) Debussy L. 106, "L'isle Joyeuse".
+      - brief: Spring Gala
+        category: Performance
+        date: '2014-03-01'
+        title: 2014 UBC Medicine Spring Gala at the Chan Centre.
+        description: Tango by Piazzolla, "Oblivion". Christina Zhang, Ann Lin, Eric Zhao.
+      - brief: Spring Gala
+        category: Performance
+        date: '2018-03-01'
+        title: 2018 UBC Medicine Spring Gala at the Chan Centre.
+        description: Liszt Etude S. 144 no. 1, "Un Sospiro". Eric Zhao.
