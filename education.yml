@@ -468,6 +468,16 @@ sections:
         <em>Accepted</em>. <strong>UBC Medical Journal</strong>.
         <u>Eric Y. Zhao</u>, Kevin Nguyen, Alvin Qiu, Jesse Tinker,
         Daphne Lu, John Liu.
+    - brief: Grande et al. Blood
+      date: 'present'
+      category: Co-author
+      title: >
+        Genome-wide discovery of somatic coding and non-coding mutations in pediatric endemic and
+        sporadic Burkitt lymphoma.
+      description: >
+        <em>Accepted</em>. Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
+        ... <u>Eric Y. Zhao</u> ...,
+        Marco A. Marra, Ryan D. Morin, Louis M. Staudt
 
   - title: Articles Submitted or In Review
     display:
@@ -496,17 +506,6 @@ sections:
         <em>Submitted</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
         ... <u>Eric Y. Zhao</u> ..., David Kaplan, Marco A. Marra,
         Steven J. M. Jones
-    - brief: Grande et al. Submitted
-      date: 'present'
-      category: Co-author
-      title: >
-        Genome-wide discovery of somatic coding and non-coding mutations in pediatric endemic and
-        sporadic Burkitt lymphoma.
-      description: >
-        <em>Submitted</em>. Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
-        ... <u>Eric Y. Zhao</u> ...,
-        Marco A. Marra, Ryan D. Morin, Louis M. Staudt
-
 
   - title: Invited or Non-Peer Reviewed Articles
     display:
