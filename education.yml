@@ -1,4 +1,4 @@
----
+
 contact:
   name: Eric Zhao
   title: MD/PhD Candidate
@@ -118,6 +118,8 @@ sections:
       date: '2011-05-01'
       category: Research Scholarship / Grant
       url: https://bccgn.med.ubc.ca/resources/awards/training-awards/
+      display:
+        pagebreak: true
     - brief: Science Excellence in Service Award
       title: Dean of Science Excellence in Service Award
       description: >
@@ -495,7 +497,7 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Shen et al. Submitted.
+    - brief: Shen et al. In Review.
       date: 'present'
       category: Co-author
       title: >
@@ -503,9 +505,19 @@ sections:
         cell-lines, and xenografts reveals genomic stability and
         adaptation to disparate growth environments.  
       description: >
-        <em>Submitted</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
+        <em>In Review</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
         ... <u>Eric Y. Zhao</u> ..., David Kaplan, Marco A. Marra,
         Steven J. M. Jones
+    - brief: Williamson et al. In Review.
+      date: 'present'
+      category: Co-author
+      title: >
+        Genomic characterization of a well-differentiated grade 3
+        pancreatic neuroendocrine tumour
+      description: >
+        <em>In Review</em>. Laura M Williamson, Jasleen K Grewal,
+        My Linh Thibodeau, <u>Eric Y. Zhao</u>, ..., Daniel J Renouf,
+        David F Shaeffer, Steven JM Jones.
 
   - title: Invited or Non-Peer Reviewed Articles
     display:
