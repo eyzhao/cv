@@ -300,17 +300,6 @@ sections:
         Marc S. Greenblatt, Richard G Cotton, Tim Beck,
         ... <u>Eric Y. Zhao</u>.
       url: https://www.ncbi.nlm.nih.gov/pubmed/23401191
-    - brief: Sheffield et al. J Thoracic Oncol
-      date: '2015-09-01'
-      category: Co-author
-      title: >
-        Predictive biomarker testing for programmed cell
-        death 1 inhibition in non-small cell lung cancer
-      description: >
-        <strong>Journal of Thoracic Oncology</strong>. Brandon S Sheffield,
-        Georgia Geller, Erin Pleasance, 
-        ... <u>Eric Zhao</u>, ...
-        Cheryl Ho, Diana Ionescu
     - brief: Laskin et al. MCS
       date: '2015-10-10'
       category: Co-author
@@ -497,6 +486,16 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
+    - brief: Feng et al. In Review
+      date: 'present'
+      category: Primary Author
+      title: >
+        Therapeutic Implication of Genomic Landscape of Adult Metastatic Sarcoma
+      description: >
+        <em>In Review</em>. Xiaolan Feng, Erin D. Pleasance (co-primary),
+        <u>Eric Y. Zhao (co-primary)</u>, Tony Ng (co-primary), Jasleen Grewal,
+        Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
+        Marco A. Marra, and Janessa Laskin.
     - brief: Shen et al. In Review.
       date: 'present'
       category: Co-author
