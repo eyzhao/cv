@@ -469,6 +469,13 @@ sections:
         <em>Accepted</em>. Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
         ... <u>Eric Y. Zhao</u> ...,
         Marco A. Marra, Ryan D. Morin, Louis M. Staudt
+    - brief: Lever et al. Nat Methods
+      date: 'present'
+      category: Co-author
+      title: >
+        CancerMine, A literature-mined resource for drivers, oncogenes and tumor suppressors in cancer
+      description: >
+        <em>Accepted</em>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
 
   - title: Articles Submitted or In Review
     display:
