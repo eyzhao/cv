@@ -274,6 +274,13 @@ sections:
     - brief: John Bosdet Travel Award
       date: '2019-03-12'
       category: Award
+    - brief: Med Alumni Association Award
+      date: '2019-05-09'
+      category: Award
+      title: UBC Medical Alumni Association Award
+      description: >
+        $500. This inaugural award honours two medical students (one in year 1 or 2 and one in year 3 or 4) who demonstrate excellence in leadership by engaging and guiding others in promoting a responsible and evolving medical student community and/or health care system.
+      hidden: true
 
 
   - title: Peer-Reviewed Journal Articles
