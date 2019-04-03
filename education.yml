@@ -488,6 +488,18 @@ sections:
         CancerMine, A literature-mined resource for drivers, oncogenes and tumor suppressors in cancer
       description: >
         <em>Accepted</em>. <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
+    - brief: Feng et al. JCO PO
+      date: 'present'
+      category: Primary Author
+      title: >
+        Therapeutic Implication of Genomic Landscape of Adult Metastatic Sarcoma
+      description: >
+        <em>Accepted</em>. <strong>JCO Precision Oncology</strong>.
+        Xiaolan Feng, Erin D. Pleasance (co-primary),
+        <u>Eric Y. Zhao (co-primary)</u>, Tony Ng (co-primary), Jasleen Grewal,
+        Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
+        Marco A. Marra, and Janessa Laskin.
+
 
   - title: Articles Submitted or In Review
     display:
@@ -505,16 +517,6 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Feng et al. In Review
-      date: 'present'
-      category: Primary Author
-      title: >
-        Therapeutic Implication of Genomic Landscape of Adult Metastatic Sarcoma
-      description: >
-        <em>In Review</em>. Xiaolan Feng, Erin D. Pleasance (co-primary),
-        <u>Eric Y. Zhao (co-primary)</u>, Tony Ng (co-primary), Jasleen Grewal,
-        Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
-        Marco A. Marra, and Janessa Laskin.
     - brief: Shen et al. In Review.
       date: 'present'
       category: Co-author
