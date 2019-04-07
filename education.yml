@@ -311,7 +311,7 @@ sections:
         Marc S. Greenblatt, Richard G Cotton, Tim Beck,
         ... <u>Eric Y. Zhao</u>.
       url: https://www.ncbi.nlm.nih.gov/pubmed/23401191
-    - brief: Laskin et al. MCS
+    - brief: Laskin et al. Molecular Case Studies
       date: '2015-10-10'
       category: Co-author
       title: >
@@ -323,7 +323,7 @@ sections:
         ... <u>Eric Y. Zhao</u>,
         Stephen Yip, Marco A. Marra.
       url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4850882/
-    - brief: Sheffield et al. J Histochem Cytochem.
+    - brief: Sheffield et al. Journal of Histochemistry & Cytochemistry
       date: '2016-10-01'
       category: Co-author
       title: >
@@ -1081,6 +1081,26 @@ sections:
         start: '2016-08-20'
         end: '2016-08-24'
 
+  - title: 'Palliative Care Volunteering'
+    display:
+      type: overlapping
+      pagebreak: true
+    entries:
+      - brief: VGH Palliative Care Unit
+        start: '2012-03-16'
+        end: '2014-06-01'
+        title: Bedside Volunteer, Vancouver General Hospital Palliative Care Unit.
+        description: >
+          Provided companionship and emotional support to patients
+          and their families at the end of life.
+      - brief: Vancouver Hospice Society
+        start: '2014-05-01'
+        end: '2015-06-01'
+        title: Bedside Volunteer, Vancouver Hospice Society.
+        description: >
+          Providing companionship to patients at the newly established VHS hospice
+          in accordance with hospice principles of death with dignity.
+
 - title: Artist
   display:
     background-image: 'images/gradspeech.png'
@@ -1102,7 +1122,7 @@ sections:
         end: 'present'
         title: CTO and co-founder, Kickassslimes.
         description: Manages online store, analytics, and fulfillment pipeline for www.kickassslimes.com, associated with the instagram handle @kickassslimes with 500,000+ followers.
-        url: https://www.kickassslismes.com
+        url: https://www.kickassslimes.com
 
   - title: 'Classical Piano'
     display:
@@ -1121,10 +1141,11 @@ sections:
       - brief: Spring Gala
         category: Performance
         date: '2014-03-01'
-        title: 2014 UBC Medicine Spring Gala at the Chan Centre.
-        description: Tango by Piazzolla, "Oblivion". Christina Zhang, Ann Lin, Eric Zhao.
+        title: UBC Medicine Spring Gala at the Chan Centre.
+        description: 2014, Tango by Piazzolla, "Oblivion". 2018, Liszt Etude S. 144 no. 1, "Un Sospiro". 2019, Poulenc Flute Sonata FP 164 mvt. 3.
       - brief: Spring Gala
         category: Performance
         date: '2018-03-01'
-        title: 2018 UBC Medicine Spring Gala at the Chan Centre.
-        description: Liszt Etude S. 144 no. 1, "Un Sospiro". Eric Zhao.
+      - brief: Spring Gala
+        category: Performance
+        date: '2019-03-01'
