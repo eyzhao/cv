@@ -2,7 +2,7 @@
 contact:
   name: Eric Zhao
   title: MD/PhD Candidate
-  lastupdate: June 23, 2018
+  lastupdate: May 12, 2019
 sections:
 - title: Scholar
   display:
@@ -280,6 +280,7 @@ sections:
       title: UBC Medical Alumni Association Award
       description: >
         $500. This inaugural award honours two medical students (one in year 1 or 2 and one in year 3 or 4) who demonstrate excellence in leadership by engaging and guiding others in promoting a responsible and evolving medical student community and/or health care system.
+      url: https://alumni.med.ubc.ca/maa/maa-awards/
 
 
   - title: Peer-Reviewed Journal Articles
@@ -471,22 +472,23 @@ sections:
         Marco A. Marra, Ryan D. Morin, Louis M. Staudt
       url: http://www.bloodjournal.org/content/early/2019/01/04/blood-2018-09-871418
     - brief: Zhao et al. UBCMJ
-      date: 'present'
+      date: '2019-03-22'
       category: Primary Author
       title: >
         Coordinating Student Academic Advocacy in the UBC Medical
         Undergraduate Program through the Medical Education Committee (MEC)
       description: >
-        <em>Accepted</em>. <strong>UBC Medical Journal</strong>.
+        <strong>UBC Medical Journal</strong>.
         <u>Eric Y. Zhao</u>, Kevin Nguyen, Alvin Qiu, Jesse Tinker,
         Daphne Lu, John Liu.
+      url: https://ojs.library.ubc.ca/index.php/ubcmj/article/view/190997
     - brief: Lever et al. Nat Methods
       date: 'present'
       category: Co-author
       title: >
         CancerMine, A literature-mined resource for drivers, oncogenes and tumor suppressors in cancer
       description: >
-        <em>Accepted</em>. <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
+        <em>Accepted.</em> <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
     - brief: Feng, Pleasance, Zhao, Ng et al. JCO Precision Oncology
       date: 'present'
       category: Primary Author
@@ -542,6 +544,7 @@ sections:
     display:
       type: events
       year_labels: true
+      pagebreak: true
     entries:
     - brief: Keow et al. CIM
       date: '2015-08-09'
@@ -724,6 +727,16 @@ sections:
           ... Janessa J. Laskin, Marco A. Marra, Steven J. M. Jones.
           <strong>Oral Presentation</strong>
         url: http://ascopubs.org/doi/abs/10.1200/JCO.2018.36.15_suppl.12008
+      - brief: ASCO, Chicago IL
+        date: '2019-05-31'
+        category: Poster Presentation
+        title: >
+          The Whole Genome Landscape of Adult Metastatic Sarcoma
+        description: >
+          American Society of Clinical Oncology (ASCO).
+          <u>Eric Y. Zhao</u>, Xiaolan Feng, Erin Pleasance, Tony Ng,
+          ... Karen Gelmon, Stephen Yip, Steven J.M. Jones, Marco Marra
+          and Janessa Laskin
 
   - title: Conference Prizes
     display:
@@ -741,7 +754,7 @@ sections:
       title: Poster Prize - Honourable Mention.
       description: $50 prize from the Banting Foundation.
       
-  - title: Media Appearances
+  - title: Media
     display:
       type: events
     entries:
@@ -751,6 +764,12 @@ sections:
       title: The UBC MD/PhD Program
       description: A video showcasing and promoting the UBC MD/PhD program.
       url: https://youtu.be/zQnzy_qqM-M
+    - brief: AACR Featured Article
+      date: '2017-12-18'
+      category: Featured Article
+      title: Mutational Signatures May Identify Patients with Breast Cancer Most Likely to Benefit from Platinum-based Chemotherapy.
+      description: Our paper selected for an AACR news feature, as well as being a Clinical Cancer Research highlighted article.
+      url: https://www.aacr.org/Newsroom/Pages/News-Release-Detail.aspx?ItemID=1138
   
 - title: Leader
   display:
