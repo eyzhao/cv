@@ -483,12 +483,13 @@ sections:
         Daphne Lu, John Liu.
       url: https://ojs.library.ubc.ca/index.php/ubcmj/article/view/190997
     - brief: Lever et al. Nat Methods
-      date: 'present'
+      date: '2019-05-20'
       category: Co-author
       title: >
         CancerMine, A literature-mined resource for drivers, oncogenes and tumor suppressors in cancer
       description: >
-        <em>Accepted.</em> <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
+        <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
+      url: https://www.nature.com/articles/s41592-019-0422-y
     - brief: Feng, Pleasance, Zhao, Ng et al. JCO Precision Oncology
       date: 'present'
       category: Primary Author
