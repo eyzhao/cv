@@ -2,7 +2,7 @@
 contact:
   name: Eric Zhao
   title: MD/PhD Candidate
-  lastupdate: May 12, 2019
+  lastupdate: July 9, 2019
 sections:
 - title: Scholar
   display:
@@ -381,13 +381,13 @@ sections:
         ... <u>Eric Y. Zhao</u> ...
         Marco A. Marra, Martin Hirst, Steven J. M. Jones.
       url: https://www.ncbi.nlm.nih.gov/pubmed/28808080
-    - brief: Smith et al. UBCMJ, Accepted
+    - brief: Smith et al. UBCMJ
       date: '2017-11-18'
       category: Co-author
       title: >
         'MIND Speaks Up: an online platform for youth mental health'
       description: >
-        <em>Accepted</em>. <strong>UBC Medical Journal</strong>. Meghan Smith, <u>Eric Zhao</u>,
+        <strong>UBC Medical Journal</strong>. Meghan Smith, <u>Eric Zhao</u>,
         Connor Hawkins, Megan Lucey, Jordan Yeo, Kelly Zerr
       url: https://med-fom-ubcmj.sites.olt.ubc.ca/files/2018/02/Smith-et-al-PROOF.pdf
     - brief: Zhao et al. Clin Cancer Res
@@ -441,7 +441,7 @@ sections:
       title: >
         Genome-wide discovery of somatic regulatory variants in Diffuse Large B-cell Lymphoma
       description: >
-        <em>Accepted</em>. <strong>Nature Communications</strong>.
+        <strong>Nature Communications</strong>.
         Sarah E. Arthur, Aixiang Jiang, Bruno M. Grande, ...
         <u>Eric Y. Zhao</u>, ... Christian Steidl,
         David W. Scott & Ryan D. Morin
@@ -491,16 +491,17 @@ sections:
         <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
       url: https://www.nature.com/articles/s41592-019-0422-y
     - brief: Feng, Pleasance, Zhao, Ng et al. JCO Precision Oncology
-      date: 'present'
+      date: '2019-06-13'
       category: Primary Author
       title: >
         Therapeutic Implication of Genomic Landscape of Adult Metastatic Sarcoma
       description: >
-        <em>Accepted</em>. <strong>JCO Precision Oncology</strong>.
+        <strong>JCO Precision Oncology</strong>.
         Xiaolan Feng, Erin D. Pleasance (co-primary),
         <u>Eric Y. Zhao (co-primary)</u>, Tony Ng (co-primary), Jasleen Grewal,
         Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
         Marco A. Marra, and Janessa Laskin.
+      url: https://ascopubs.org/doi/10.1200/PO.18.00325
 
 
   - title: Articles Submitted or In Review
@@ -540,6 +541,16 @@ sections:
         <em>In Review</em>. Laura M Williamson, Jasleen K Grewal,
         My Linh Thibodeau, <u>Eric Y. Zhao</u>, ..., Daniel J Renouf,
         David F Shaeffer, Steven JM Jones.
+    - brief: Zhao et al. In Review.
+      date: 'present'
+      category: Primary Author
+      title: >
+        Myelin water imaging and transcranial magnetic stimulation suggest
+        structure-function relationships in multiple sclerosis.
+      description: >
+        <em>In Review</em>. Eric Y. Zhao, Irene M. Vavasour, Marjan Zakeri,
+        Michael R. Borich, Cornelia Laule, Alexander Rauscher, Anthony Traboulsee,
+        David K. B. Li, Lara A. Boyd, Alex L. MacKay
 
   - title: Invited or Non-Peer Reviewed Articles
     display:
