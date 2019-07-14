@@ -311,14 +311,14 @@ sections:
         Marc S. Greenblatt, Richard G Cotton, Tim Beck,
         ... <u>Eric Y. Zhao</u>.
       url: https://www.ncbi.nlm.nih.gov/pubmed/23401191
-    - brief: Laskin et al. Molecular Case Studies
+    - brief: Laskin et al. MCS
       date: '2015-10-10'
       category: Co-author
       title: >
         Lessons learned from the application of whole genome
         analysis to the treatment of patients with advanced cancers
       description: >
-        <strong>Molecular Case Studies</strong>. Janessa Laskin, Steven Jones,
+        <strong>Cold Spring Harbor Molecular Case Studies</strong>. Janessa Laskin, Steven Jones,
         Samuel Aparicio, Stephen Chia, Carolyn Ch'ng, Rebecca Deyell,
         ... <u>Eric Y. Zhao</u>,
         Stephen Yip, Marco A. Marra.
@@ -366,7 +366,7 @@ sections:
         concomitant diagnosis of metastatic invasive ductal 
         breast carcinoma.
       description: >
-        <strong>Molecular Case Studies</strong>. My Linh Thibodeau, Caralyn Reisle,
+        <strong>Cold Spring Harbor Molecular Case Studies</strong>. My Linh Thibodeau, Caralyn Reisle,
         <u>Eric Y. Zhao</u>, ...
         Janessa Laskin, Marco A Marra, Kasmintan A. Schrader,
         Steven J. M. Jones.
@@ -409,7 +409,7 @@ sections:
         neuroendocrine tumors (PNETs) using whole-genome and
         transcriptome sequencing
       description: >
-        <strong>Molecular Case Studies</strong>. Hui-li Wong, Kevin C Yang,
+        <strong>Cold Spring Harbor Molecular Case Studies</strong>. Hui-li Wong, Kevin C Yang,
         <u>Eric Y. Zhao</u>, ... David F. Shaeffer,
         Sharon M. Gorski, Daniel J. Renouf.
       url: https://www.ncbi.nlm.nih.gov/pubmed/29092957
@@ -482,6 +482,20 @@ sections:
         <u>Eric Y. Zhao</u>, Kevin Nguyen, Alvin Qiu, Jesse Tinker,
         Daphne Lu, John Liu.
       url: https://ojs.library.ubc.ca/index.php/ubcmj/article/view/190997
+    - brief: Thibodeau et al. MCS
+      date: ' 2019-04-01'
+      category: Co-author
+      title: >
+        Base excision repair deficiency signatures implicate
+        germline and somatic MUTYH aberrations in pancreatic
+        ductal adenocarcinoma and breast cancer oncogenesis.
+      description: >
+        <strong>Cold Spring Harbor Molecular Case Studies</strong>.
+        My Linh Thibodeau, Eric Y. Zhao, Caralyn Reisle, Carolyn Ch'ng,
+        Hui-li Wong, ..., David Huntsman, David F. Shaeffer, Janessa
+        Laskin, Marco A. Marra, Daniel J. Renouf, Steven J. M. Jones,
+        Kasmintan A. Schrader
+      url: https://www.ncbi.nlm.nih.gov/pubmed/30833417
     - brief: Lever et al. Nat Methods
       date: '2019-05-20'
       category: Co-author
@@ -490,6 +504,18 @@ sections:
       description: >
         <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
       url: https://www.nature.com/articles/s41592-019-0422-y
+    - brief: Williamson et al. MCS
+      date: '2019-06-03'
+      category: Co-author
+      title: >
+        Genomic characterization of a well-differentiated
+        grade 3 pancreatic neuroendocrine tumor.
+      description: >
+        <strong>Cold Spring Harbor Molecular Case Studies</strong>.
+        Laura M. Williamson, Michael Steel, Jasleen K. Grewal,
+        My Linh Thibodeau, Eric Y. Zhao, ..., Janessa Laskin,
+        Daniel J. Renouf, David F. Schaeffer, Steven J. M. Jones
+      url: http://molecularcasestudies.cshlp.org/content/5/3/a003814.long
     - brief: Feng, Pleasance, Zhao, Ng et al. JCO Precision Oncology
       date: '2019-06-13'
       category: Primary Author
@@ -502,6 +528,7 @@ sections:
         Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
         Marco A. Marra, and Janessa Laskin.
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
+
 
 
   - title: Articles Submitted or In Review
