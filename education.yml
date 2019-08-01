@@ -528,8 +528,28 @@ sections:
         Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
         Marco A. Marra, and Janessa Laskin.
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
-
-
+    - brief: Williamson et al. In Review.
+      date: '2019-06-01'
+      category: Co-author
+      title: >
+        Genomic characterization of a well-differentiated grade 3
+        pancreatic neuroendocrine tumour
+      description: >
+        <strong>Cold Spring Harbor Molecular Case Studies</strong>.
+        Laura M Williamson, Jasleen K Grewal,
+        My Linh Thibodeau, <u>Eric Y. Zhao</u>, ..., Daniel J Renouf,
+        David F Shaeffer, Steven JM Jones.
+    - brief: Shen et al. In Review.
+      date: 'present'
+      category: Co-author
+      title: >
+        Comprehensive genomic profiling of matched glioblastoma tumours,
+        cell-lines, and xenografts reveals genomic stability and
+        adaptation to disparate growth environments.  
+      description: >
+        <em>Accepted</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
+        ... <u>Eric Y. Zhao</u> ..., David Kaplan, Marco A. Marra,
+        Steven J. M. Jones
 
   - title: Articles Submitted or In Review
     display:
@@ -547,27 +567,6 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Shen et al. In Review.
-      date: 'present'
-      category: Co-author
-      title: >
-        Comprehensive genomic profiling of matched glioblastoma tumours,
-        cell-lines, and xenografts reveals genomic stability and
-        adaptation to disparate growth environments.  
-      description: >
-        <em>In Review</em>. Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
-        ... <u>Eric Y. Zhao</u> ..., David Kaplan, Marco A. Marra,
-        Steven J. M. Jones
-    - brief: Williamson et al. In Review.
-      date: 'present'
-      category: Co-author
-      title: >
-        Genomic characterization of a well-differentiated grade 3
-        pancreatic neuroendocrine tumour
-      description: >
-        <em>In Review</em>. Laura M Williamson, Jasleen K Grewal,
-        My Linh Thibodeau, <u>Eric Y. Zhao</u>, ..., Daniel J Renouf,
-        David F Shaeffer, Steven JM Jones.
     - brief: Zhao et al. In Review.
       date: 'present'
       category: Primary Author
