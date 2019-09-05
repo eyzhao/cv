@@ -2,7 +2,7 @@
 contact:
   name: Eric Zhao
   title: MD/PhD Candidate
-  lastupdate: July 9, 2019
+  lastupdate: August 17, 2019
 sections:
 - title: Scholar
   display:
@@ -27,6 +27,7 @@ sections:
         on glatiramer acetate treatment and controls''
       start: '2009-09-01'
       end: '2013-06-01'
+      url: 'https://cps.med.ubc.ca/undergraduate/'
     - brief: MD PhD
       title: Joint Doctor of Medicine & Doctor of Philosophy.
       description: >
@@ -274,6 +275,16 @@ sections:
     - brief: John Bosdet Travel Award
       date: '2019-03-12'
       category: Award
+    - brief: Finalist, Governor General's Gold Medal
+      date: '2019-04-01'
+      category: Award
+      title: Finalist, Governor General's Gold Medal.
+      description: >
+        Finalist (top 6) among 500 doctoral students across all UBC Faculties.
+        Chosen as the top graduate student within the Faculty of Medicine.
+        One gold medal is awarded annually to the student who has achieved the most outstanding
+        academic record as a doctoral student.
+      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: Med Alumni Association Award
       date: '2019-05-09'
       category: Award
@@ -345,7 +356,7 @@ sections:
         <strong>UBC Medical Journal</strong>. Ronald Xie, Sharon Yang, Felix Ma,
         <u>Eric Y. Zhao</u>
       url: https://ojs.library.ubc.ca/index.php/ubcmj/article/view/185951
-    - brief: den Brok et al. JCO Precision Oncol
+    - brief: den Brok et al. JCO PO
       date: '2017-03-10'
       category: Co-author
       title: >
@@ -513,10 +524,10 @@ sections:
       description: >
         <strong>Cold Spring Harbor Molecular Case Studies</strong>.
         Laura M. Williamson, Michael Steel, Jasleen K. Grewal,
-        My Linh Thibodeau, Eric Y. Zhao, ..., Janessa Laskin,
+        My Linh Thibodeau, <u>Eric Y. Zhao</u>, ..., Janessa Laskin,
         Daniel J. Renouf, David F. Schaeffer, Steven J. M. Jones
       url: http://molecularcasestudies.cshlp.org/content/5/3/a003814.long
-    - brief: Feng, Pleasance, Zhao, Ng et al. JCO Precision Oncology
+    - brief: Feng, Pleasance, Zhao, Ng et al. JCO PO
       date: '2019-06-13'
       category: Primary Author
       title: >
@@ -528,6 +539,8 @@ sections:
         Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
         Marco A. Marra, and Janessa Laskin.
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
+      display:
+        pagebreak: true
     - brief: Shen et al. PNAS
       date: 'present'
       category: Co-author
@@ -537,14 +550,16 @@ sections:
         adaptation to disparate growth environments.  
       description: >
         <em>Accepted to Proceedings of the National Academy of Science.</em>
-        Yaoqing Shen, Cameron Grisdale, Sumaiya Islam,
-        ... <u>Eric Y. Zhao</u> ..., David Kaplan, Marco A. Marra,
-        Steven J. M. Jones
+        Yaoqing Shen, Cameron J. Grisdale, Sumaiya A. Islam, Pinaki Bose, Jake Lever,
+        <u>Eric Y. Zhao</u>, ... David R. Kaplan, J. Gregory Cairncross, Marco A. Marra,
+        and Steven J. M. Jones
+      url: https://www.pnas.org/content/early/2019/08/29/1813495116
 
   - title: Articles Submitted or In Review
     display:
       type: events
       year_labels: true
+      pagebreak: true
     entries:
     - brief: Zhao et al. In Review
       date: 'present'
@@ -564,15 +579,32 @@ sections:
         Myelin water imaging and transcranial magnetic stimulation suggest
         structure-function relationships in multiple sclerosis.
       description: >
-        <em>In Review</em>. Eric Y. Zhao, Irene M. Vavasour, Marjan Zakeri,
+        <em>In Review</em>. <u>Eric Y. Zhao</u>, Irene M. Vavasour, Marjan Zakeri,
         Michael R. Borich, Cornelia Laule, Alexander Rauscher, Anthony Traboulsee,
         David K. B. Li, Lara A. Boyd, Alex L. MacKay
+    - brief: Pleasance et al. In Review
+      date: 'present'
+      category: Co-author
+      title: >
+        Pan-cancer analysis of advanced patient tumors reveals interactions between therapy and genomic landscapes
+      description: >
+        <em>In Review</em>. Erin Pleasance, Emma Titmuss, Laura Williamson, Harwood Kwan, <u>Eric Zhao</u>, ...
+        Howard Lim, Daniel Renouf, Steven Jones, Janessa Laskin, and Marco Marra.
+    - brief: Dixon et al. In Review
+      date: 'present'
+      category: Co-author
+      title: >
+        Establishing a framework for the clinical translation of germline findings in precision oncology.
+      description: >
+        <em>In Review</em>. Katherine Dixon, Sean Young, Yaoqing Shen,
+        My Linh Thibodeau, Alexandra Fok, Erin Pleasance, <u>Eric Zhao</u>, ...,
+        Steven Jones, Sophie Sun, Aly Karsan, Marco Marra, Janessa Laskin,
+        Howard Lim, and Kasmintan A. Schrader.
 
   - title: Invited or Non-Peer Reviewed Articles
     display:
       type: events
       year_labels: true
-      pagebreak: true
     entries:
     - brief: Keow et al. CIM
       date: '2015-08-09'
@@ -598,7 +630,7 @@ sections:
         Alexandra Kuzyk.
       url: https://www.ncbi.nlm.nih.gov/pubmed/27805897
     - brief: Zhao et al. CSH Perspectives
-      date: 'present'
+      date: '2019-03-01'
       category: Primary Author
       title: >
         Whole Genome Sequencing of Cancer.
@@ -786,6 +818,7 @@ sections:
   - title: Media
     display:
       type: events
+      pagebreak: true
     entries:
     - brief: MD/PhD Program
       date: '2018-07-03'
@@ -969,11 +1002,12 @@ sections:
       url: https://stratplan.med.ubc.ca/
     - brief: CaRMS Awards Committee
       start: '2017-01-15'
-      end: '2018-02-28'
+      end: 'present'
       title: >
         Member, Awards Committee of the Canadian Resident Matching Service (CaRMS).
       description: >
-        Took part in the annual awards selection process for the CaRMS Sandra Banner Student Award for Leadership.
+        Student representative on the committee tasked with the selection of recipients
+        of the CaRMS Sandra Banner Student Award for Leadership.
       url: https://www.carms.ca/events-awards/sandra-banner-student-award-for-leadership/
 
 
@@ -1168,7 +1202,8 @@ sections:
         start: '2017-03-01'
         end: 'present'
         title: CTO and co-founder, Kickassslimes.
-        description: Manages online store, analytics, and fulfillment pipeline for www.kickassslimes.com, associated with the instagram handle @kickassslimes with 500,000+ followers.
+        description: Managing an active online store, analytics, and fulfillment pipeline for www.kickassslimes.com,
+          associated with the instagram handle @kickassslimes with 500,000+ followers.
         url: https://www.kickassslimes.com
 
   - title: 'Classical Piano'
