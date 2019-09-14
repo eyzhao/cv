@@ -2,7 +2,7 @@
 contact:
   name: Eric Zhao
   title: MD/PhD Candidate
-  lastupdate: August 17, 2019
+  lastupdate: September 10, 2019
 sections:
 - title: Scholar
   display:
@@ -47,10 +47,8 @@ sections:
       title: Summer Research Intern with Dr. Marco Marra.
       description: >
         Developed Mutation Browser, a web-browser based application
-        for integrative exploration of cancer genomics data.
-        Provided validation tracking, automated primer design, summary statistics,
-        data filtering, and links to relevant entries of bioinformatics databases
-        such as UniProt and Ensembl.
+        for integrative exploration of cancer genomics data, which
+        contributed directly to research publications.
       start: '2010-05-01'
       end: '2010-09-15'
       url: http://www.bcgsc.ca/faculty/mmarra
@@ -539,8 +537,6 @@ sections:
         Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
         Marco A. Marra, and Janessa Laskin.
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
-      display:
-        pagebreak: true
     - brief: Shen et al. PNAS
       date: 'present'
       category: Co-author
@@ -549,11 +545,26 @@ sections:
         cell-lines, and xenografts reveals genomic stability and
         adaptation to disparate growth environments.  
       description: >
-        <em>Accepted to Proceedings of the National Academy of Science.</em>
+        <strong>Proceedings of the National Academy of Science.</strong>
         Yaoqing Shen, Cameron J. Grisdale, Sumaiya A. Islam, Pinaki Bose, Jake Lever,
         <u>Eric Y. Zhao</u>, ... David R. Kaplan, J. Gregory Cairncross, Marco A. Marra,
         and Steven J. M. Jones
       url: https://www.pnas.org/content/early/2019/08/29/1813495116
+      display:
+        pagebreak: true
+    - brief: Zhao et al. Front Phys
+      date: 'present'
+      category: Primary Author
+      title: >
+        Myelin water imaging and transcranial magnetic stimulation suggest
+        structure-function relationships in multiple sclerosis.
+      description: >
+        <em>Accepted</em>. <strong>Frontiers in Physics</strong>.
+        <u>Eric Y. Zhao</u>, Irene M. Vavasour, Marjan Zakeri,
+        Michael R. Borich, Cornelia Laule, Alexander Rauscher, Anthony Traboulsee,
+        David K. B. Li, Lara A. Boyd, Alex L. MacKay
+      url: https://www.frontiersin.org/articles/10.3389/fphy.2019.00141/abstract
+
 
   - title: Articles Submitted or In Review
     display:
@@ -572,16 +583,6 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Zhao et al. In Review.
-      date: 'present'
-      category: Primary Author
-      title: >
-        Myelin water imaging and transcranial magnetic stimulation suggest
-        structure-function relationships in multiple sclerosis.
-      description: >
-        <em>In Review</em>. <u>Eric Y. Zhao</u>, Irene M. Vavasour, Marjan Zakeri,
-        Michael R. Borich, Cornelia Laule, Alexander Rauscher, Anthony Traboulsee,
-        David K. B. Li, Lara A. Boyd, Alex L. MacKay
     - brief: Pleasance et al. In Review
       date: 'present'
       category: Co-author
@@ -798,6 +799,7 @@ sections:
           Nisreen Mohammad, Sara K. Taylor, Christine Simmons (designated presenter)*,
           ... Karen Gelmon, Stephen Yip, Steven J.M. Jones, Marco Marra
           and Janessa Laskin. * A designated presenter was chosen because of scheduling conflicts.
+        url: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.3137
 
   - title: Conference Prizes
     display:
@@ -812,10 +814,10 @@ sections:
     - brief: CITAC Young Investigator Forum
       date: '2017-11-24'
       category: National
-      title: Poster Prize - Honourable Mention.
+      title: CSCI/CITAC Young Investigator Forum Poster Prize - Honourable Mention.
       description: $50 prize from the Banting Foundation.
       
-  - title: Media
+  - title: Media Features
     display:
       type: events
       pagebreak: true
@@ -857,7 +859,7 @@ sections:
     - brief: UBC Vancouver Student Senator
       start: '2014-05-15'
       end: '2016-05-15'
-      title: Student Senator, UBC Vancouver Senate.
+      title: Vice Chair, UBC Vancouver Senate.
       description: >
         The Senate is the highest academic decision
         making body at UBC Vancouver. Student
@@ -933,10 +935,10 @@ sections:
       start: '2014-05-15'
       end: '2016-05-15'
       title: Vice Chair, UBC Vancouver Senate Teaching & Learning Committee.
-    - brief: Other Senate Committees
+    - brief: Senate Committees
       start: '2014-05-15'
       end: '2016-05-15'
-      title: Other Standing Committees of the UBC Vancouver Senate.
+      title: Standing Committees of the UBC Vancouver Senate.
       description: >
         During my time as a student senator, I served as vice-chair
         of the Teaching & Learning Committee, and as a member of
