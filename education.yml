@@ -538,7 +538,7 @@ sections:
         Marco A. Marra, and Janessa Laskin.
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
     - brief: Shen et al. PNAS
-      date: 'present'
+      date: '2019-09-17'
       category: Co-author
       title: >
         Comprehensive genomic profiling of matched glioblastoma tumours,
@@ -553,7 +553,7 @@ sections:
       display:
         pagebreak: true
     - brief: Zhao et al. Front Phys
-      date: 'present'
+      date: '2019-10-09'
       category: Primary Author
       title: >
         Myelin water imaging and transcranial magnetic stimulation suggest
@@ -563,7 +563,7 @@ sections:
         <u>Eric Y. Zhao</u>, Irene M. Vavasour, Marjan Zakeri,
         Michael R. Borich, Cornelia Laule, Alexander Rauscher, Anthony Traboulsee,
         David K. B. Li, Lara A. Boyd, Alex L. MacKay
-      url: https://www.frontiersin.org/articles/10.3389/fphy.2019.00141/abstract
+      url: https://www.frontiersin.org/articles/10.3389/fphy.2019.00141/full
 
 
   - title: Articles Submitted or In Review
