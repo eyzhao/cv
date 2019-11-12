@@ -2,7 +2,7 @@
 contact:
   name: Eric Zhao
   title: MD/PhD Candidate
-  lastupdate: September 10, 2019
+  lastupdate: November 10, 2019
 sections:
 - title: Scholar
   display:
@@ -18,9 +18,8 @@ sections:
     - brief: B. Sc.
       title: Bachelor of Science.
       description: >
-        Honours Physiology, Minor in Physics.
-        The University of British Columbia.
-        Honours thesis title: ''Correlations
+        UBC. Honours Physiology, Minor in Physics.
+        Thesis title: ''Correlations
         between corpus callosal myelin water
         fraction and measures of transcallosal
         inhibition in multiple sclerosis patients
@@ -29,12 +28,14 @@ sections:
       end: '2013-06-01'
       url: 'https://cps.med.ubc.ca/undergraduate/'
     - brief: MD PhD
-      title: Joint Doctor of Medicine & Doctor of Philosophy.
+      title: Joint Doctor of Medicine (MD) & Doctor of Philosophy (PhD).
+      highlight: true
       description: >
-        Bioinformatics. Seven-year program involving full training
+        UBC. Bioinformatics Training Program.
+        Seven-year program involving full training
         as a medical doctor (MD) as well as dedicated graduate health
-        research to complete a PhD. My dissertation was entitled
-        ''Clinical Actionability and Evolution
+        research to complete a PhD. Dissertation title: ''Clinical
+        Actionability and Evolution
         of Mutational Processes in Metastatic Cancer.''
       start: '2013-08-20'
       url: https://mdprogram.med.ubc.ca/mdphd/
@@ -43,102 +44,133 @@ sections:
     display:
       type: overlapping
     entries:
-    - brief: Summer Intern, Marra Lab
+    - brief: Summer Intern, BC Cancer
       title: Summer Research Intern with Dr. Marco Marra.
       description: >
-        Developed Mutation Browser, a web-browser based application
-        for integrative exploration of cancer genomics data, which
-        contributed directly to research publications.
+        Developed a web-based application for integrative exploration
+        of annotated cancer genome data. Enables non-programmers
+        to generative complex queries, improving accessibility and
+        collaboration in genome analysis. Contributed to a publication
+        in Nature.
       start: '2010-05-01'
       end: '2010-09-15'
       url: http://www.bcgsc.ca/faculty/mmarra
-    - brief: Research Student, Friedman Lab
+    - brief: Research Student, Medical Genetics
       title: Research & Workstudy Student with Dr. Jan Friedman.
       description: >
-        Developed PhenoKeeper, an application which leverages the
-        human phenotype ontology and semantic web technologies to
-        store and retrieve phenotypic data to support medical
-        genetics research.
+        Developed an application to encode medical genetics research
+        participants using the human phenotype ontology and
+        semantic web technologies. It enables rapid and complex
+        search by similar phenotypic features to support observational
+        studies in medical genetics. I presented this work in an oral
+        presentation at a meeting of the Human Variome Project.
       start: '2011-05-01'
       end: '2012-09-15'
       url: http://www.friedmanlab.org/
-    - brief: Research Student, MacKay Lab
+    - brief: Research Student, MRI Centre
       title: Honours Thesis & Summer Intern with Dr. Alex MacKay.
       description: >
-        Investigated the neurophysiological impacts of demyelination
-        in multiple sclerosis by pairing advanced magnetic resonance
-        imaging techniques with transcranial magnetic stimulation.
+        I investigated the neurophysiological features of
+        multiple sclerosis and their direct correlation with radiologically
+        quantified demyelination. This novel research project paired
+        advanced magnetic resonance imaging techniques with transcranial
+        magnetic stimulation to characterize structure-function relationships.
+        I was invited to give a talk at ISMRM and published this work as
+        a peer-reviewed article in Frontiers in Physics.
       start: '2012-09-15'
       end: '2013-09-01'
       url: https://mriresearch.med.ubc.ca/
-    - brief: PhD Student, Jones Lab
-      title: PhD Student with Dr. Steven Jones
+    - brief: PhD Student, BC Cancer
+      title: PhD Student with Dr. Steven Jones.
+      highlight: true
       description: >
-        Assessed the clinical actionability of a new class of cancer biomarkers
-        related to genome instability. Developed mathematical models to infer
-        changes in mutation signatures over time and applied these approaches
-        to map the mutagenic landscape of metastatic cancers. Discovered signatures
-        associated with chemotherapy sensitivity as well as signatures induced
-        by chemotherapy.
+        I demonstrated that genomic scars (a.k.a. mutation signatures)
+        associated with homology-directed
+        DNA repair deficiency are predictive of response to platinum-based
+        chemotherapy. I developed mathematical models to infer how these
+        genomic scars change over time, and demonstrated correlations with
+        treatment response and acquired resistance. I applied these techniques
+        to a pan-cancer analysis of over 500 metastatic cancer genomes,
+        discovering genomic scars associated with metastasis and cytotoxic
+        chemotherapy exposure.
       start: '2013-08-01'
       end: '2018-06-11'
       url: http://www.bcgsc.ca/faculty/sjones
+    - brief: FLEX Project, OICR/PMH
+      title: FLEX Student with Dr. Trevor Pugh.
+      description: >
+        I will be partaking in analysis of whole exomes in the OCTANE project.
+        The proposed goal of my project will be to assess the marginal clinical
+        utility of whole exome and transcriptome sequencing in cancers with
+        no clear drivers identified by targeted panel sequencing. This will help
+        to develop clearer indications for extended sequencing of human cancers.
+        This project is part of the UBC Medical Program's Flexible and
+        Enhanced Learning course.
+      start: '2019-11-25'
+      end: '2019-12-20'
       
   - title: Awards
     display:
       type: events
       year_labels: true
+      pagebreak: true
     entries:
     - brief: President's Entry
       title: UBC President's Entry Award.
-      description: $2000, GPA-based.
+      description: $2000, based on GPA.
       date: '2009-06-01'
       category: Award
     - brief: Trek Excellence
       title: UBC Trek Excellence Award.
-      description: $1500. For top 5% of UBC students.
+      description: $1500. Awarded to the top 5% of UBC students.
       date: '2010-07-01'
       category: Award
       url: https://students.ubc.ca/enrolment/finances/awards-scholarships-bursaries/trek-excellence-scholarship
     - brief: GSAT Scholarship
       title: GSAT-Funded Summer Research Award.
-      description: $3600. Supports summer research internship in genome science.
+      description:
+        $3600. Supports summer research internship in genome science, which
+        I undertook with Dr. Marco Marra at the BC Genome Sciences Centre.
       date: '2010-05-01'
       category: Research Scholarship / Grant
       url: https://www.gsat.ubc.ca/
     - brief: Dean of Science Scholarship
       title: Dean of Science Scholarship.
-      description: $500. GPA-based.
+      description: $500. Awarded to top science students based on GPA.
       date: '2011-01-10'
       category: Award
     - brief: BCCGN Award
       title: BC Clinical Genomics Network Summer Research Scholarship.
-      description: $3750.
+      description: >
+        $3750. Supports summer research internship in clinical genomics,
+        which I undertook with Dr. Jan Friedman at the UBC Department of Medical
+        Genetics.
       date: '2011-05-01'
-      category: Research Scholarship / Grant
+      category: Research Scholarship / Grast
       url: https://bccgn.med.ubc.ca/resources/awards/training-awards/
-      display:
-        pagebreak: true
     - brief: Science Excellence in Service Award
       title: Dean of Science Excellence in Service Award
+      highlight: true
       description: >
         $1000. Awarded annual to 5 staff, 5 students, and 5 faculty
-        members whose contributions in service, administration, 
-        leadership, and outreach have had a significant positive 
-        impact in achieving the goals of the Faculty of Science.
+        members whose contributions have had a significant positive 
+        impact in achieving UBC Science's mission. Nominations
+        are approved by Department Heads and selected by a Faculty
+        of Science committee.
       date: '2011-05-15'
       category: Award
       url: https://science.ubc.ca/faculty/awards/service
     - brief: BCCHRI Scholarship
       title: BC Children's Hospital Research Institute (BCCHRI) Summer Research Scholarship.
       description: >
-        $3750. To support a summer research internship at the BCCHRI.
+        $3750. To support a summer research internship at the BCCHRI with
+        Dr. Jan Friedman.
       date: '2012-03-30'
       category: Research Scholarship / Grant
       url: https://bcchr.ca/about-us/training-opportunities/undergraduate-medical-students/summer-student-research-program-4
     - brief: UBC SUS Grant
       title: UBC SUS Professional Development Grant.
-      description: $250. Supported conference travel.
+      description: $250. Competitive grant to support conference travel.
       date: '2013-01-10'
       category: Research Scholarship / Grant
       url: http://sus.ubc.ca/grants/
@@ -154,7 +186,7 @@ sections:
     - brief: ISMRM Travel Award
       title: ISMRM Educational Stipend.
       description: >
-        $440. Travel award to attend international
+        $440. Competitive travel award to support attendance at international
         magnetic resonance imaging conference.
       date: '2013-03-15'
       category: Research Scholarship / Grant
@@ -163,23 +195,26 @@ sections:
       title: Dean of Science Research Award.
       description: >
         $2500. To support summer research at UBC.
+        I undertook research with Dr. Alex MacKay at the UBC MRI Research Centre.
       date: '2013-04-15'
       category: Research Scholarship / Grant
     - brief: Physiology Prize
       title: Physiology Prize.
-      description: $150. For best undergraduate thesis.
+      description: $150. For best undergraduate thesis within the Department of
+        Cellular, Anatomical, and Physiologic Sciences.
       date: '2013-05-15'
       category: Award
       url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
     - brief: Commencement Speaker
       title: Commencement speaker.
       description: >
-        Selected to deliver a brief address at my graduation ceremony.
+        Selected to deliver an address at my graduation ceremony.
       date: '2013-05-28'
       category: Honour / Distinction
       url: https://www.youtube.com/watch?v=iLnZbU8WB9Y
     - brief: UBC 4YF
       title: UBC 4 Year Doctoral Fellowship.
+      highlight: true
       description: $72 000. PhD research stipend award.
       date: '2013-09-01'
       category: Research Scholarship / Grant
@@ -189,8 +224,9 @@ sections:
       category: Award
       title: Best of SLC Prize.
       description: >
-        Top workshop presenter award at UBC Student Leadership 
-        Conference.
+        Top collaborative workshop award at UBC Student Leadership 
+        Conference. Chosen on the basis of attendee ratings
+        from over 80 workshops.
       url: https://students.ubc.ca/slc
     - brief: FoM Graduate Scholarship
       date: '2014-02-11'
@@ -205,22 +241,25 @@ sections:
         $1850. Awarded annually to two students who have demonstrated
         strong leadership at UBC and within Greater Vancouver.
     - brief: CIHR - CGS-M
+      highlight: true
       date: '2014-04-01'
       category: Research Scholarship / Grant
       title: CIHR Canada Graduate Scholarship - Master's.
       description: >
-        $17 500. Research stipend for 1 year of a master's or
-        PhD program, awarded in a national competition by the
-        Canadian Institutes for Health Research.
+        $17 500. Research grant to support 1 year of a master's or
+        PhD program stipend. Awarded by the Canadian Institutes of Health
+        Research in a national competition.
       url: http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
     - brief: Vanier Scholar
       date: '2015-05-15'
       category: Research Scholarship / Grant
+      highlight: true
       title: Vanier Canada Graduate Scholarship.
       description: >
         $150 000. Three-year scholarship to attract & retain
         world class graduate students who demonstrate leadership,
-        research potential, and academic excellence.
+        research potential, and academic excellence. Awarded by the
+        Tri-agency as part of a national competition.
       url: http://www.vanier.gc.ca/en/home-accueil.html
     - brief: Commencement Address
       date: '2015-06-20'
@@ -234,61 +273,76 @@ sections:
       category: Award
       title: Faces of Today Award - Student Leadership Conference.
       description: >
-        Awarded annual to 8 outstanding UBC leaders to share their
-        experiences and invoke inspiration via a 3-minute video feature.
+        Awarded annually to 8 outstanding UBC leaders to showcase their
+        accomplishments and inspire others via a 3-minute video feature.
       url: https://www.youtube.com/watch?v=VOXzGpAMZIU
     - brief: John Bosdet Travel Award
       date: '2017-02-24'
       category: Award
       title: John Bosdet Travel Award.
-      description: $1500. Award to support trainee conference travel.
+      description: $1500. Competitive award to support trainee conference travel.
     - brief: TGC Travel Award
       date: '2018-03-28'
       category: Award
       title: Translational Genomics Cluster (TGC) Trainee Collaboration & Travel Award.
       description: >
-        $2500. Travel award to enable development and/or expansion of collaborations with
+        $2500. Competitive travel award to enable development and/or expansion of collaborations with
         national and international researchers.
       url: https://research.ubc.ca/about-vpri/initiatives/research-excellence-clusters/translational-cancer-genomics-tcg-cluster
     - brief: Skarsgard Research Excellence Award
       date: '2018-05-01'
       category: Award
       title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
+      highlight: true
       description: >
-        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
+        $1000. Competitive award to honour the top PhD dissertation at 
+        BC Cancer each year
+        and to honour exceptional leadership pursuits. The recipient gives an
+        invited talk at the BC Cancer Research Centre weekly lecture series.
     - brief: CCSRI Travel Award
       date: '2018-08-01'
       category: Award
       title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
       description: >
-        $1000. Travel award to support attendance at a cancer research conference.
+        $1000. Competitive travel award to support attendance at a cancer-related
+        research conference.
       url: http://www.cancer.ca/en/research/funding-results/recent-competition-results/may-2018-trv-results/
-    - brief: Cdn Medical Hall of Fame Award
+    - brief: Canadian Medical Hall of Fame Award
       date: '2018-09-05'
       category: Award
+      highlight: true
       title: Canadian Medical Hall of Fame Award.
       description: >
-         $5000. Award for outstanding potential healthcare leaders and innovators who show perseverance, collaboration, and an entrepreneurial spirit. Awarded to one student per medical school. Details at http://www.cdnmedhall.org/2018awardrecipients.
+         $5000. Competitive award for outstanding potential healthcare leaders
+         and innovators who show perseverance, collaboration, and an
+         entrepreneurial spirit. Awarded to one student per medical school. 
+         Details at http://www.cdnmedhall.org/2018awardrecipients.
       url: https://www.med.ubc.ca/md-phd-student-eric-zhao-awarded-the-2018-canadian-medical-hall-of-fame-award/
     - brief: John Bosdet Travel Award
       date: '2019-03-12'
       category: Award
     - brief: Finalist, Governor General's Gold Medal
+      display:
+        pagebreak: true
       date: '2019-04-01'
       category: Award
       title: Finalist, Governor General's Gold Medal.
       description: >
         Finalist (top 6) among 500 doctoral students across all UBC Faculties.
-        Chosen as the top graduate student within the Faculty of Medicine.
-        One gold medal is awarded annually to the student who has achieved the most outstanding
-        academic record as a doctoral student.
+        Chosen as the top PhD student within the Faculty of Medicine.
+        One gold medal is awarded annually to the student who has achieved
+        the most outstanding academic record as a doctoral student.
       url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
-    - brief: Med Alumni Association Award
+    - brief: Medical Alumni Association Award
       date: '2019-05-09'
       category: Award
       title: UBC Medical Alumni Association Award
       description: >
-        $500. This inaugural award honours two medical students (one in year 1 or 2 and one in year 3 or 4) who demonstrate excellence in leadership by engaging and guiding others in promoting a responsible and evolving medical student community and/or health care system.
+        $500. This inaugural award honours two medical students
+        (one in year 1 or 2 and one in year 3 or 4) who demonstrate
+        excellence in leadership by engaging and guiding others in 
+        promoting a responsible and evolving medical student community 
+        and/or health care system.
       url: https://alumni.med.ubc.ca/maa/maa-awards/
 
 
@@ -302,7 +356,7 @@ sections:
       category: Co-author
       title: >
         Frequent mutation of histone-modifying genes in
-        Non-Hodgkin’s lymphoma.
+        Non-Hodgkin's lymphoma.
       description: >
         <strong>Nature</strong>. Ryan D. Morin, Maria Mendez-Lago, Andrew J. Mungall,
         ... <u>Eric Y. Zhao</u>, ...
@@ -323,6 +377,7 @@ sections:
     - brief: Laskin et al. MCS
       date: '2015-10-10'
       category: Co-author
+      highlight: true
       title: >
         Lessons learned from the application of whole genome
         analysis to the treatment of patients with advanced cancers
@@ -399,9 +454,12 @@ sections:
         <strong>UBC Medical Journal</strong>. Meghan Smith, <u>Eric Zhao</u>,
         Connor Hawkins, Megan Lucey, Jordan Yeo, Kelly Zerr
       url: https://med-fom-ubcmj.sites.olt.ubc.ca/files/2018/02/Smith-et-al-PROOF.pdf
+      display:
+        pagebreak: true
     - brief: Zhao et al. Clin Cancer Res
       date: '2017-12-15'
       category: Primary Author
+      highlight: true
       title: >
         Homologous Recombination Deficiency and Platinum-based
         Therapy Outcomes in Advanced Breast Cancer.
@@ -458,6 +516,7 @@ sections:
     - brief: Wong, Zhao, et al. JCO PO
       date: '2018-10-19'
       category: Primary Author
+      highlight: true
       title: >
         Temporal dynamics of genomic alterations in a BRCA1
         germline mutated pancreatic cancer with low genomic
@@ -508,6 +567,7 @@ sections:
     - brief: Lever et al. Nat Methods
       date: '2019-05-20'
       category: Co-author
+      highlight: true
       title: >
         CancerMine, A literature-mined resource for drivers, oncogenes and tumor suppressors in cancer
       description: >
@@ -528,6 +588,7 @@ sections:
     - brief: Feng, Pleasance, Zhao, Ng et al. JCO PO
       date: '2019-06-13'
       category: Primary Author
+      highlight: true
       title: >
         Therapeutic Implication of Genomic Landscape of Adult Metastatic Sarcoma
       description: >
@@ -550,11 +611,10 @@ sections:
         <u>Eric Y. Zhao</u>, ... David R. Kaplan, J. Gregory Cairncross, Marco A. Marra,
         and Steven J. M. Jones
       url: https://www.pnas.org/content/early/2019/08/29/1813495116
-      display:
-        pagebreak: true
     - brief: Zhao et al. Front Phys
       date: 'present'
       category: Primary Author
+      highlight: true
       title: >
         Myelin water imaging and transcranial magnetic stimulation suggest
         structure-function relationships in multiple sclerosis.
@@ -570,11 +630,11 @@ sections:
     display:
       type: events
       year_labels: true
-      pagebreak: true
     entries:
     - brief: Zhao et al. In Review
       date: 'present'
       category: Primary Author
+      highlight: true
       title: >
         SignIT: Inferring Mutation Signatures and their Clonal
         Evolution in Individual Tumours.
@@ -586,6 +646,7 @@ sections:
     - brief: Pleasance et al. In Review
       date: 'present'
       category: Co-author
+      highlight: true
       title: >
         Pan-cancer analysis of advanced patient tumors reveals interactions between therapy and genomic landscapes
       description: >
@@ -606,6 +667,7 @@ sections:
     display:
       type: events
       year_labels: true
+      pagebreak: true
     entries:
     - brief: Keow et al. CIM
       date: '2015-08-09'
@@ -633,6 +695,7 @@ sections:
     - brief: Zhao et al. CSH Perspectives
       date: '2019-03-01'
       category: Primary Author
+      highlight: true
       title: >
         Whole Genome Sequencing of Cancer.
       description: >
@@ -714,6 +777,7 @@ sections:
       - brief: ISMRM, Salt Lake City
         date: '2013-04-22'
         category: Oral Presentation
+        highlight: true
         title: >
           Corpus callosal myelin water fraction and transcallosal
           inhibition in multiple sclerosis patients and controls.
@@ -729,6 +793,7 @@ sections:
       - brief: AGBT, Orlando
         date: '2016-02-13'
         category: Oral Presentation
+        highlight: true
         title: >
           BRCA-Related Genomic Signature Predicts Clinical
           Improvement with Cisplatin
@@ -780,6 +845,7 @@ sections:
       - brief: ASCO, Chicago IL
         date: '2018-06-05'
         category: Oral Presentation
+        highlight: true
         title: >
           The Evolution of Genomic Instability in Metastatic Cancer
         description: >
@@ -798,7 +864,7 @@ sections:
           <u>Eric Y. Zhao</u>, Xiaolan Feng, Erin Pleasance, Tony Ng, Jasleen Grewal,
           Nisreen Mohammad, Sara K. Taylor, Christine Simmons (designated presenter)*,
           ... Karen Gelmon, Stephen Yip, Steven J.M. Jones, Marco Marra
-          and Janessa Laskin. * A designated presenter was chosen because of scheduling conflicts.
+          and Janessa Laskin. * A designated presenter was chosen because of a scheduling conflict.
         url: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.3137
 
   - title: Conference Prizes
@@ -820,13 +886,12 @@ sections:
   - title: Media Features
     display:
       type: events
-      pagebreak: true
     entries:
     - brief: MD/PhD Program
       date: '2018-07-03'
       category: Video Feature
       title: The UBC MD/PhD Program
-      description: A video showcasing and promoting the UBC MD/PhD program.
+      description: Featured student in a video showcasing and promoting the UBC MD/PhD program.
       url: https://youtu.be/zQnzy_qqM-M
     - brief: AACR Featured Article
       date: '2017-12-18'
@@ -859,6 +924,7 @@ sections:
     - brief: UBC Vancouver Student Senator
       start: '2014-05-15'
       end: '2016-05-15'
+      highlight: true
       title: Vice Chair, UBC Vancouver Senate.
       description: >
         The Senate is the highest academic decision
@@ -877,34 +943,40 @@ sections:
         of Canada (CITAC).
       description: >
         CITAC is Canada's national student body
-        representing the interests of MD+ and clinician-
-        investigator trainees. My major accomplishments
+        representing the interests of MD+ and
+        clinician-investigator trainees. Major accomplishments
         included:
         (1) Helping to coordinate collaborative efforts to
         publish Canadian MD/PhD alumni outcomes
         (CMAJ 2017, vol. 5 no. 2).
         (2) Development and launch of new CITAC website
         and social media presence.
+        (3) Facilitating registration for annual CSCI/CITAC AGM.
+        (4) Publishing CSCI/CITAC AGM proceedings in
+        Clinical Investigative Medicine.
       url: http://www.citac-accfc.org/
     - brief: President, Med Student Soc.
       start: '2015-04-15'
       end: '2016-04-15'
+      highlight: true
       title: President, UBC Medical Undergraduate Society.
       description: >
-        I served voice of the society representing the
+        Head of the society representing the
         over 1000 medical students enrolled in the
         MD Undergraduate Program at the University
         of British Columbia. Major accomplishments:
         (1) Establishment of a medical education committee
         to coordinate academic advocacy.
-        (2) Passed position paper on national pharmacare.
+        (2) Passed the society's first ever position paper
+        and help lead the second annual lobby day at the BC legislature.
         (3) Overhaul of member communication to improve
         accountability and reduce email burden.
         (4) Organized student representation at the
         2016 UBC Medical Program Accreditation Site Visit,
         which resulted in successful accreditation.
-        (5) Establishment of single transferrable vote
-        for elections.
+        (5) Election reform and establishment of single transferrable vote.
+        (6) Helped advance student-led professionalism training
+        during 1st year orientation.
       url: https://mus.med.ubc.ca
     - brief: Vice Chair, UBC Vancouver Senate
       start: '2015-05-15'
@@ -912,24 +984,87 @@ sections:
     - brief: Co-chair, Student Senate Caucus
       start: '2015-05-15'
       end: '2016-05-15'
-      title: Chair, Student Senate Caucus
+      title: Co-Chair, Student Senate Caucus
       description: >
         I was elected by student senators to serve
         as co-chair of the UBC Vancouver Student
-        Senate Caucus, which deliberated prior to
-        senate meetings to coordinate student
-        academic advocacy efforts.
+        Senate Caucus. Led collaborative dialogue
+        to coordinate student
+        academic advocacy efforts across Faculties.
     - brief: Past President, Med Soc.
       start: '2016-04-15'
       end: '2017-04-15'
       title: Past President, Medical Undergraduate Society.
       description: >
-        Provided strategic support and helped oversee launch
-        of first ever MUS strategic plan.
+        Attended MUS meetings, and chaired meetings when the president was absent.
+        Provided strategic support and helped oversee launch of first ever
+        MUS strategic plan. Participated in constitution and bylaw review.
+
+  - title: Health Advocacy Events
+    display:
+      type: events
+    entries:
+    - brief: BC Lobby Day
+      date: '2014-04-15'
+      category: Provincial
+      title: BC Medical Student Provincial Lobby Day.
+      highlight: true
+      description: >
+        The Medical Undergraduate Society initiated the annual
+        BC Lobby Day event in 2014. I attended three times, each
+        time meeting with elected officials to lobby on a health
+        policy position written by medical students. This included
+        meetings with Provincial Ministers of Health and Advanced Education.
+      url: https://mus.med.ubc.ca/political-advocacy-committee/major-events/
+    - brief: BC Lobby Day
+      date: '2015-04-15'
+      category: Provincial
+    - brief: BC Lobby Day
+      date: '2016-04-15'
+      category: Provincial
+    - brief: CFMS AGM, Kingston
+      date: '2014-09-25'
+      category: National
+      title: CFMS Meetings
+      description: >
+        There are two annual meetings of the Canadian Federation
+        of Medical Students (CFMS), the AGM and SGM.
+        I led UBC medical student delegations in my capacity as
+        medical society president, contributing to national
+        dialogues on issues in medical education and global health.
+      url: https://www.cfms.org/
+    - brief: CFMS SGM, Vancouver
+      date: '2015-04-01'
+      category: National
+    - brief: CFMS AGM, Windsor
+      date: '2015-09-25'
+      category: National
+    - brief: CFMS SGM, Montreal
+      date: '2016-04-01'
+      category: National
+    - brief: CFMS AGM, Edmonton
+      date: '2016-09-25'
+      category: National
+    - brief: CMA General Council
+      date: '2016-08-20'
+      category: National
+      highlight: true
+      title: Canadian Medical Association Meeting and General Council.
+      description: >
+        I was invited to join the Doctors of BC delegation to this
+        CMAGC and AGM.
+        I represented medical students interests,
+        speaking on issues related to student mental health and
+        clinician-scientist training, including a discussion with
+        Federal Health Minister Hon. Dr. Jane Philpott.
+      url: https://www.cma.ca/
+
+
 
   - title: Committee Memberships
     display:
       type: overlapping
+      pagebreak: true
     entries:
     - brief: Vice Chair, Senate Teaching & Learning
       start: '2014-05-15'
@@ -984,23 +1119,32 @@ sections:
     - brief: CIHR Working Group
       start: '2015-06-08'
       end: 'present'
+      highlight: true
       title: >
-        Member, CIHR Working Group on Graduate Health Training.
+        Member, CIHR Working Group on Health Research Training.
       description: >
-        This working group is tasked with providing feedback and
-        guidance throughout the implementation of CIHR's Strategic
-        Action Plan on Training.
+        Participated as the student representative on a national
+        working group consisting of Canadian experts on health research
+        training. We provided input and guidance throughout the
+        implementation of CIHR's new Strategic Action Plan on Training.
       url: http://www.cihr-irsc.gc.ca/e/50522.html
     - brief: Education Pillar Advisory Group
       start: '2016-11-01'
-      end: 'present'
+      end: '2019-05-01'
+      highlight: true
       title: >
         Objective 2 Co-lead, Education Pillar Advisory Group.
       description: >
-        Working group tasked with implementating the Education
+        Working group tasked with implementing the Education
         Pillar of the Faculty of Medicine Strategic Plan.
         Objective 2 involves leveraging disruptive technologies
         to improve the education experience and access.
+        Examples of such technologies include immersive media 
+        such as virtual/augmented reality, interactive applications,
+        video-based flipped classrooms, and 3D printing.
+        The committee's work resulted in an investment of $400,000
+        towards an innovation platform leveraging resources from
+        MedIT and the Hackspace for Immersive Virtual Experiences (HIVE).
       url: https://stratplan.med.ubc.ca/
     - brief: CaRMS Awards Committee
       start: '2017-01-15'
@@ -1008,63 +1152,10 @@ sections:
       title: >
         Member, Awards Committee of the Canadian Resident Matching Service (CaRMS).
       description: >
-        Student representative on the committee tasked with the selection of recipients
-        of the CaRMS Sandra Banner Student Award for Leadership.
+        Student representative on the committee tasked with the
+        selection of recipients of the annual CaRMS Sandra Banner
+        Student Award for Leadership.
       url: https://www.carms.ca/events-awards/sandra-banner-student-award-for-leadership/
-
-
-  - title: Health Advocacy Events
-    display:
-      type: events
-    entries:
-    - brief: BC Lobby Day
-      date: '2014-04-15'
-      category: Provincial
-      title: BC Medical Student Provincial Lobby Day.
-      description: >
-        The Medical Undergraduate Society initiated the annual
-        BC Lobby Day event in 2014. I attended three times, each
-        time meeting with elected officials to lobby on a health
-        policy position written by medical students.
-      url: https://mus.med.ubc.ca/political-advocacy-committee/major-events/
-    - brief: BC Lobby Day
-      date: '2015-04-15'
-      category: Provincial
-    - brief: BC Lobby Day
-      date: '2016-04-15'
-      category: Provincial
-    - brief: CFMS AGM, Kingston
-      date: '2014-09-25'
-      category: National
-      title: CFMS Meetings
-      description: >
-        There are two annual meetings of the Canadian Federation
-        of Medical Students (CFMS), the AGM and SGM.
-        I led UBC medical student delegations in my capacity as
-        medical society president, contributing to national
-        dialogues on issues in medical education and global health.
-      url: https://www.cfms.org/
-    - brief: CFMS SGM, Vancouver
-      date: '2015-04-01'
-      category: National
-    - brief: CFMS AGM, Windsor
-      date: '2015-09-25'
-      category: National
-    - brief: CFMS SGM, Montreal
-      date: '2016-04-01'
-      category: National
-    - brief: CFMS AGM, Edmonton
-      date: '2016-09-25'
-      category: National
-    - brief: CMA General Council
-      date: '2016-08-20'
-      category: National
-      title: Canadian Medical Association Meeting and General Council.
-      description: >
-        I represented medical students at the meeting of the CMA,
-        speaking on issues related to student mental health and
-        MD/PhD program funding.
-      url: https://www.cma.ca/
 
   - title: 'Combatting Mental Health Stigma'
     display:
@@ -1072,17 +1163,21 @@ sections:
     entries:
     - brief: SSC Mental Health Chair
       title: Chair, Student Senate Caucus Mental Health Working Group.
-      description: Championed student academic advocacy surrounding mental health topics.
+      description: Worked with student representatives across Faculties
+        to collaboratively formulate academic advocacy strategies and
+        initiatives on topics surrounding student mental health.
       start: '2014-05-15'
       end: '2015-05-15'
     - brief: Senate Mental Health Committee
       title: Senate Committee Member.
-      description: UBC Vancouver Senate Ad-Hoc Committee on Mental Health & Wellbeing.
+      description: Participated on the UBC Vancouver Senate Ad-Hoc
+        Committee on Mental Health & Wellbeing.
       start: '2014-12-01'
       end: '2015-05-15'
     - brief: UBC Med MIND
       title: Founding Member of MIND Speaks Up.
-      description: www.MINDSpeaksUp.com is a social video-based platform for mental health awareness & destigmatization.
+      description: Helped to create www.MINDSpeaksUp.com, a
+        video-based platform for mental health awareness & destigmatization.
       start: '2014-12-01'
       end: '2016-12-01'
       url: http://mindspeaksup.com/
@@ -1091,7 +1186,8 @@ sections:
       end: '2017-03-09'
       title: Selection Committee Member, Laura Taylor Memorial Award.
       description: >
-        I was involved in organizing the inaugural Laura Taylor
+        I was involved in establishing and selecting recipients of
+        the inaugural Laura Taylor
         Memorial Award, generously donated by the Taylor family
         in memory of UBC Medical Student Laura Taylor.
       url: https://memorial.support.ubc.ca/laura-taylor/
@@ -1128,42 +1224,6 @@ sections:
         1 peer-reviewed academic article.
       url: https://www.uroubc.com/
 
-  - title: 'Healthcare Innovation'
-    display:
-      type: overlapping
-    entries:
-      - brief: Health Technology Forum
-        start: '2012-11-01'
-        end: '2013-05-01'
-        title: Health Technology Forum, Vancouver Chapter.
-        description: >
-          Co-founded and co-organized this group to facilitate
-          cross-pollination of technologists, entrepreneurs,
-          and healthcare professionals via seminars and socials.
-        url: http://healthtechnologyforum.com/htf-vancouver/
-      - brief: INTERFACE Summit (volunteer)
-        start: '2014-07-01'
-        end: '2014-08-30'
-        title: INTERFACE Health Tech Summit
-        description: >
-          Organized the health tech marketplace, which facilitates
-          meetings between investors at established businesses and
-          founders of start-ups.
-        url: https://interfacesummit.com/
-      - brief: Co-founder, Intelligent Medicine
-        start: '2015-08-01'
-        end: '2017-08-01'
-        title: Co-founder of Intelligent Medicine
-        description: >
-          Intelligent Medicine aimed to deliver software to support
-          personalized care plan creation, with a focus on pharmacy
-          medication reviews. We developed a prototype and secured
-          $75 000 in angel investment, but decided to discontinue
-          the venture in 2017 due to competing demands on our time.
-      - brief: INTERFACE Summit (attendee)
-        start: '2016-08-20'
-        end: '2016-08-24'
-
   - title: 'Palliative Care Volunteering'
     display:
       type: overlapping
@@ -1173,16 +1233,60 @@ sections:
         start: '2012-03-16'
         end: '2014-06-01'
         title: Bedside Volunteer, Vancouver General Hospital Palliative Care Unit.
+        highlight: true
         description: >
+          Weekly volunteer, enaging in patient visits for patients with
+          life-limiting diseases and short prognoses.
           Provided companionship and emotional support to patients
-          and their families at the end of life.
+          and their families at the end of life through active listening
+          and empathetic communication.
       - brief: Vancouver Hospice Society
         start: '2014-05-01'
         end: '2015-06-01'
         title: Bedside Volunteer, Vancouver Hospice Society.
         description: >
-          Providing companionship to patients at the newly established VHS hospice
-          in accordance with hospice principles of death with dignity.
+          Providing weekly visits with patients at the newly established VHS 
+          Granville Vancouver Hospice.
+
+  - title: 'Healthcare Innovation'
+    display:
+      type: overlapping
+    entries:
+      - brief: Health Technology Forum
+        start: '2012-11-01'
+        end: '2013-05-01'
+        title: Health Technology Forum, Vancouver Chapter.
+        description: >
+          Co-founded and co-organized this group to create a
+          space for entrepreneurial collaboration within the
+          health technology sector.
+          Organized numerous well-attended events on topics such
+          as attracting venture capital, developing a minimal viable
+          product, and obtaining regulatory approval.
+        url: http://healthtechnologyforum.com/htf-vancouver/
+      - brief: INTERFACE Summit (volunteer)
+        start: '2014-07-01'
+        end: '2014-08-30'
+        title: INTERFACE Health Tech Summit
+        description: >
+          Organized the health tech marketplace, which facilitated
+          meetings between start-up founders and investors at
+          established businesses/venture firms.
+        url: https://interfacesummit.com/
+      - brief: Co-founder, Intelligent Medicine
+        start: '2015-08-01'
+        end: '2017-08-01'
+        title: Co-founder of Intelligent Medicine
+        description: >
+          Intelligent Medicine aimed to deliver software to support
+          personalized care plan creation, with a focus on pharmacy
+          medication reviews. We developed a prototype and secured
+          $75 000 in angel investment, but ultimately decided to discontinue
+          the venture in 2017 due to competing demands on our time.
+      - brief: INTERFACE Summit (attendee)
+        start: '2016-08-20'
+        end: '2016-08-24'
+
 
 - title: Artist
   display:

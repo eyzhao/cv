@@ -1,3 +1,5 @@
+const HIGHLIGHT_COLOR = '#FFF999'
+
 function sanitizeString(str){
     str = str.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"");
     return str.trim();
@@ -40,6 +42,38 @@ populate_contact_data = function(contact_data) {
         .append(`
             Eric Y. Zhao - Curriculum Vitae
         `)
+}
+
+function draw_highlights(entries, svg_container, highlights_group) {
+    var highlights = []
+    var entries_highlight_idx = entries.map((entry, i) => {
+        if (entry.highlight) { return(i) }
+    }).filter(entry => {
+        return(entry != null)
+    })
+
+    console.log(entries_highlight_idx)
+    console.log(svg_container.selectAll('.timeline-brief')._groups[0])
+    svg_container.selectAll('.timeline-brief')._groups[0].forEach((tb, i) => {
+        if (entries_highlight_idx.includes(i)) {
+            console.log(i)
+            highlights.push(tb.getBBox())
+        }
+    })
+
+    padding = {top: 0, bottom: 5, left: 3, right: 0}
+    console.log(highlights)
+    highlights_group.selectAll('.timeline-highlight')
+        .data(highlights)
+        .enter().append('rect')
+            .attr('class', 'timeline-highlight')
+            .attr('x', (d, i) => d['x'] - padding.left)
+            .attr('y', (d, i) => d['y'] - padding.top)
+            .attr('rx', 6)
+            .attr('ry', 6)
+            .attr('height', (d, i) => d['height'] + padding.left + padding.right)
+            .attr('width', (d, i) => d['width'] + padding.top + padding.bottom)
+            .attr('fill', HIGHLIGHT_COLOR)
 }
 
 write_section = function(section_data, index) {
@@ -140,7 +174,7 @@ write_subsection = function(subsection_data, section_id) {
 }
 
 fill_details = function(entries, element_id, year_labels) {
-    for (let entry_data of entries) {
+    for (const [index, entry_data] of entries.entries()) {
         if ('new_year' in entry_data) {
             if (entry_data['new_year'] && year_labels) {
                 year = entry_data['date'].getFullYear()
@@ -153,22 +187,39 @@ fill_details = function(entries, element_id, year_labels) {
             }
         }
         if ('description' in entry_data && 'title' in entry_data) {
+            if (entry_data['url']) {
+                while (entry_data['title'].charAt(entry_data['title'].length - 1) == '.') {
+                    entry_data['title'] = entry_data['title'].substring(0, entry_data['title'].length - 1);
+                }
+            }
             $(`#${element_id}`)
                 .append(`
                     <div class="entry">
 
-                        <${entry_data['url'] ? 'a' : 'span'}
-                            href="${entry_data['url'] ? entry_data['url'] : '#'}"
-                            class="${entry_data['url'] ? 'entry-title-link' : 'entry-title-nolink'}">
+                        <div class="entry-text ${entry_data['highlight'] ? 'highlight' : 'nohighlight'}">
+                            <${entry_data['url'] ? 'a' : 'span'}
+                                href="${entry_data['url'] ? entry_data['url'] : '#'}"
+                                class="${entry_data['url'] ? 'entry-title-link' : 'entry-title-nolink'}">
 
-                            <span class="entry-title">
-                                ${entry_data['title']}
-                            </span>
-                        </a>
-                        ${entry_data['description']}
+                                <span class="entry-title" id="${element_id}_${index}_title">
+                                    ${entry_data['title']}
+                                </span>
+                            </a>
+                            ${entry_data['description']}
+                        </div>
                     </div>
                 `)
         }
+
+        if (entry_data['url']) {
+            $(`#${element_id}_${index}_title`)
+                .append(`
+                    <span class='entry-link'>
+                        <img src='images/link_icon.svg' width='11px' />
+                    </span>
+                `)
+        }
+
     }
 }
 
@@ -233,9 +284,13 @@ overlapping_timeline = function(data, element_id) {
             })
             .attr('fill', '#387EB9')
 
+    highlights_group = svg_container.append('g')
+        .attr('class', 'highlights')
+
     svg_container.selectAll('.timeline-brief')
         .data(data['entries'])
-        .enter().append('text')
+        .enter()
+        .append('text')
             .attr('class', 'timeline-brief')
             .attr('x', 100)
             .attr('y', (d, i) => {
@@ -244,6 +299,8 @@ overlapping_timeline = function(data, element_id) {
             .attr('alignment-baseline', 'hanging')
             .text((d) => { return(d['brief']) })
             .call(wrap, 180)
+
+    draw_highlights(data['entries'], svg_container, highlights_group)
 
     svg_container.selectAll('.timeline-label-lines')
         .data(data['entries'])
@@ -317,6 +374,9 @@ nonoverlapping_timeline = function(data, element_id) {
             .attr('height', 60)
             .attr('fill', '#387EB9')
 
+    highlights_group = svg_container.append('g')
+        .attr('class', 'highlights')
+
     svg_container.selectAll('.timeline-brief')
         .data(data['entries'])
         .enter().append('text')
@@ -328,6 +388,8 @@ nonoverlapping_timeline = function(data, element_id) {
             })
             .attr('alignment-baseline', 'hanging')
             .text((d) => { return(d['brief']) })
+
+    draw_highlights(data['entries'], svg_container, highlights_group)
 
     svg_container.selectAll('.timeline-years')
         .data(data['entries'])
@@ -462,6 +524,9 @@ events_timeline = function(data, element_id, legend_id) {
                     return(color(d['category']))
                 })
 
+        highlights_group = svg_container.append('g')
+            .attr('class', 'highlights')
+
         svg_container.selectAll('.timeline-brief')
             .data(entries_slice)
             .enter().append('text')
@@ -474,6 +539,8 @@ events_timeline = function(data, element_id, legend_id) {
                 .attr('alignment-baseline', 'hanging')
                 .text((d) => { return(d['brief']) })
                 .call(wrap, 200)
+
+        draw_highlights(entries_slice, svg_container, highlights_group)
 
         svg_container.selectAll('.timeline-years')
             .data(entries_slice)

@@ -8,7 +8,8 @@
 
 body {
     margin: 0px;
-    font-family: georgia;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 14
 }
 
 div .year-label {
@@ -41,21 +42,21 @@ div #contactbox {
 
 div #name {
     font-size: 32pt;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 700;
     text-transform: uppercase
 }
 
 div #title {
     font-size: 24pt;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 200;
 }
 
 div #contentsbox {
     margin: 15px 0px;
     font-size: 16pt;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 200;
 }
 
@@ -81,12 +82,32 @@ div .timeline-block {
 }
 
 .entry {
-    margin: 0px 0px 0.5em;
+    margin: 0px 0px 1em;
+}
+
+.entry-link {
+    margin: 0px 5px 0px 1px;
+}
+
+.entry-text {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
 }
 
 .entry-title {
     font-weight: bold;
     /* color: #ED1B2F; */
+}
+
+.highlight {
+    background-color: #FFF999;
+    margin: -0.2em -0.2em 0.3em -0.3em;
+    padding: 0.2em 0.2em 0.2em 0.3em;
+    position: relative;
+    border-radius: 6px;
 }
 
 a.entry-title-link:link, a.entry-title-link:visited {
@@ -104,9 +125,10 @@ span.entry-title-nolink {
 }
 
 .subsection-title {
-    font-size: 18pt;
+    font-size: 20pt;
     font-weight: bold;
     margin: 10px 20px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .subsection-continue {
@@ -117,13 +139,13 @@ span.entry-title-nolink {
 }
 
 .timeline-brief {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 400;
     font-size: 13pt;
 }
 
 .timeline-years {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 300;
     font-size: 13pt;
 }
@@ -147,7 +169,7 @@ div.legend {
 
 div.section-header {
     padding: 20;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
     font-size: 36;
     font-weight: 300;
     text-transform: uppercase;
@@ -162,4 +184,8 @@ div.section-title-underline {
     padding-bottom: 8;
     border-top-style: solid;
     border-top-width: 6px;
+}
+
+@page {
+    @bottom-center { content: element(footer) }
 }
