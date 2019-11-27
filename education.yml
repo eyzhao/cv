@@ -2,7 +2,7 @@
 contact:
   name: Eric Zhao
   title: MD/PhD Candidate
-  lastupdate: September 10, 2019
+  lastupdate: Nov 20, 2019
 sections:
 - title: Scholar
   display:
@@ -10,7 +10,6 @@ sections:
     background-color: '#002859'
     color: '#FFFFFF'
   subsections:
-
   - title: Education
     display:
       type: nonoverlapping
@@ -39,57 +38,12 @@ sections:
       start: '2013-08-20'
       url: https://mdprogram.med.ubc.ca/mdphd/
 
-  - title: Academic Positions
-    display:
-      type: overlapping
-    entries:
-    - brief: Summer Intern, Marra Lab
-      title: Summer Research Intern with Dr. Marco Marra.
-      description: >
-        Developed Mutation Browser, a web-browser based application
-        for integrative exploration of cancer genomics data, which
-        contributed directly to research publications.
-      start: '2010-05-01'
-      end: '2010-09-15'
-      url: http://www.bcgsc.ca/faculty/mmarra
-    - brief: Research Student, Friedman Lab
-      title: Research & Workstudy Student with Dr. Jan Friedman.
-      description: >
-        Developed PhenoKeeper, an application which leverages the
-        human phenotype ontology and semantic web technologies to
-        store and retrieve phenotypic data to support medical
-        genetics research.
-      start: '2011-05-01'
-      end: '2012-09-15'
-      url: http://www.friedmanlab.org/
-    - brief: Research Student, MacKay Lab
-      title: Honours Thesis & Summer Intern with Dr. Alex MacKay.
-      description: >
-        Investigated the neurophysiological impacts of demyelination
-        in multiple sclerosis by pairing advanced magnetic resonance
-        imaging techniques with transcranial magnetic stimulation.
-      start: '2012-09-15'
-      end: '2013-09-01'
-      url: https://mriresearch.med.ubc.ca/
-    - brief: PhD Student, Jones Lab
-      title: PhD Student with Dr. Steven Jones
-      description: >
-        Assessed the clinical actionability of a new class of cancer biomarkers
-        related to genome instability. Developed mathematical models to infer
-        changes in mutation signatures over time and applied these approaches
-        to map the mutagenic landscape of metastatic cancers. Discovered signatures
-        associated with chemotherapy sensitivity as well as signatures induced
-        by chemotherapy.
-      start: '2013-08-01'
-      end: '2018-06-11'
-      url: http://www.bcgsc.ca/faculty/sjones
-      
-  - title: Awards
+  - title: Academic Awards
     display:
       type: events
-      year_labels: true
     entries:
     - brief: President's Entry
+      hidden: true
       title: UBC President's Entry Award.
       description: $2000, GPA-based.
       date: '2009-06-01'
@@ -100,25 +54,98 @@ sections:
       date: '2010-07-01'
       category: Award
       url: https://students.ubc.ca/enrolment/finances/awards-scholarships-bursaries/trek-excellence-scholarship
-    - brief: GSAT Scholarship
-      title: GSAT-Funded Summer Research Award.
-      description: $3600. Supports summer research internship in genome science.
-      date: '2010-05-01'
-      category: Research Scholarship / Grant
-      url: https://www.gsat.ubc.ca/
     - brief: Dean of Science Scholarship
+      hidden: true
       title: Dean of Science Scholarship.
       description: $500. GPA-based.
       date: '2011-01-10'
       category: Award
+    - brief: Physiology Prize
+      title: Physiology Prize.
+      description: $150. For best undergraduate thesis.
+      date: '2013-05-15'
+      category: Award
+      url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
+    - brief: Skarsgard Research Excellence Award
+      date: '2018-05-01'
+      category: Award
+      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
+      description: >
+        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
+    - brief: Finalist, Governor General's Gold Medal
+      date: '2019-04-01'
+      category: Award
+      title: Finalist, Governor General's Gold Medal.
+      description: >
+        Finalist (top 6) among 500 doctoral students across all UBC Faculties.
+        Chosen as the top graduate student within the Faculty of Medicine.
+        One gold medal is awarded annually to the student who has achieved the most outstanding
+        academic record as a doctoral student.
+      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
+
+  - title: Research Awards
+    display:
+      type: events
+    entries:
+    - brief: GSAT Scholarship
+      title: GSAT-Funded Summer Research Award.
+      description: $3600. Supports summer research internship in genome science.
+      date: '2010-05-01'
+      category: Institutional Award
+      url: https://www.gsat.ubc.ca/
     - brief: BCCGN Award
       title: BC Clinical Genomics Network Summer Research Scholarship.
       description: $3750.
       date: '2011-05-01'
-      category: Research Scholarship / Grant
+      category: Institutional Award
       url: https://bccgn.med.ubc.ca/resources/awards/training-awards/
-      display:
-        pagebreak: true
+    - brief: BCCHRI Scholarship
+      title: BC Children's Hospital Research Institute (BCCHRI) Summer Research Scholarship.
+      description: >
+        $3750. To support a summer research internship at the BCCHRI.
+      date: '2012-03-30'
+      category: Institutional Award
+      url: https://bcchr.ca/about-us/training-opportunities/undergraduate-medical-students/summer-student-research-program-4
+    - brief: Dean of Science Research Award
+      title: Dean of Science Research Award.
+      description: >
+        $2500. To support summer research at UBC.
+      date: '2013-04-15'
+      category: Institutional Award
+    - brief: UBC 4YF
+      title: UBC 4 Year Doctoral Fellowship.
+      description: $72 000. PhD research stipend award.
+      date: '2013-09-01'
+      category: Institutional Award
+      url: https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf
+    - brief: FoM Graduate Scholarship
+      date: '2014-02-11'
+      category: Institutional Award
+      title: Faculty of Medicine Graduate Scholarship.
+      description: $3700.
+    - brief: CIHR - CGS-M
+      date: '2014-04-01'
+      category: National Grant
+      title: CIHR Canada Graduate Scholarship - Master's.
+      description: >
+        $17 500. Research stipend for 1 year of a master's or
+        PhD program, awarded in a national competition by the
+        Canadian Institutes for Health Research.
+      url: http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
+    - brief: Vanier Scholar
+      date: '2015-05-15'
+      category: National Grant
+      title: Vanier Canada Graduate Scholarship.
+      description: >
+        $150 000. Three-year scholarship to attract & retain
+        world class graduate students who demonstrate leadership,
+        research potential, and academic excellence.
+      url: http://www.vanier.gc.ca/en/home-accueil.html
+
+  - title: Leadership Awards
+    display:
+      type: events
+    entries: 
     - brief: Science Excellence in Service Award
       title: Dean of Science Excellence in Service Award
       description: >
@@ -129,48 +156,16 @@ sections:
       date: '2011-05-15'
       category: Award
       url: https://science.ubc.ca/faculty/awards/service
-    - brief: BCCHRI Scholarship
-      title: BC Children's Hospital Research Institute (BCCHRI) Summer Research Scholarship.
-      description: >
-        $3750. To support a summer research internship at the BCCHRI.
-      date: '2012-03-30'
-      category: Research Scholarship / Grant
-      url: https://bcchr.ca/about-us/training-opportunities/undergraduate-medical-students/summer-student-research-program-4
-    - brief: UBC SUS Grant
-      title: UBC SUS Professional Development Grant.
-      description: $250. Supported conference travel.
-      date: '2013-01-10'
-      category: Research Scholarship / Grant
-      url: http://sus.ubc.ca/grants/
     - brief: Science Student Recognition Award
       title: Science Student Recognition Award
       description: >
-        $500. I was awarded the first ever SSRA, for students
-        ''who go above and beyond in their commitment to their clubs
-        and the UBC community at large.''
+        $500. I was awarded the inaugural SSRA by my peers,
+        an award for students
+        ''who go above and beyond in their commitment to ...
+        the UBC community at large.''
       date: '2013-02-30'
       category: Award
       url: http://sus.ubc.ca/grants/
-    - brief: ISMRM Travel Award
-      title: ISMRM Educational Stipend.
-      description: >
-        $440. Travel award to attend international
-        magnetic resonance imaging conference.
-      date: '2013-03-15'
-      category: Research Scholarship / Grant
-      url: https://www.ismrm.org/
-    - brief: Dean of Science Research Award
-      title: Dean of Science Research Award.
-      description: >
-        $2500. To support summer research at UBC.
-      date: '2013-04-15'
-      category: Research Scholarship / Grant
-    - brief: Physiology Prize
-      title: Physiology Prize.
-      description: $150. For best undergraduate thesis.
-      date: '2013-05-15'
-      category: Award
-      url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
     - brief: Commencement Speaker
       title: Commencement speaker.
       description: >
@@ -178,12 +173,6 @@ sections:
       date: '2013-05-28'
       category: Honour / Distinction
       url: https://www.youtube.com/watch?v=iLnZbU8WB9Y
-    - brief: UBC 4YF
-      title: UBC 4 Year Doctoral Fellowship.
-      description: $72 000. PhD research stipend award.
-      date: '2013-09-01'
-      category: Research Scholarship / Grant
-      url: https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf
     - brief: Best of SLC
       date: '2014-01-11'
       category: Award
@@ -192,11 +181,6 @@ sections:
         Top workshop presenter award at UBC Student Leadership 
         Conference.
       url: https://students.ubc.ca/slc
-    - brief: FoM Graduate Scholarship
-      date: '2014-02-11'
-      category: Research Scholarship / Grant
-      title: Faculty of Medicine Graduate Scholarship.
-      description: $3700.
     - brief: UBC Alumni Award
       date: '2014-03-20'
       category: Award
@@ -204,25 +188,8 @@ sections:
       description: >
         $1850. Awarded annually to two students who have demonstrated
         strong leadership at UBC and within Greater Vancouver.
-    - brief: CIHR - CGS-M
-      date: '2014-04-01'
-      category: Research Scholarship / Grant
-      title: CIHR Canada Graduate Scholarship - Master's.
-      description: >
-        $17 500. Research stipend for 1 year of a master's or
-        PhD program, awarded in a national competition by the
-        Canadian Institutes for Health Research.
-      url: http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
-    - brief: Vanier Scholar
-      date: '2015-05-15'
-      category: Research Scholarship / Grant
-      title: Vanier Canada Graduate Scholarship.
-      description: >
-        $150 000. Three-year scholarship to attract & retain
-        world class graduate students who demonstrate leadership,
-        research potential, and academic excellence.
-      url: http://www.vanier.gc.ca/en/home-accueil.html
     - brief: Commencement Address
+      hidden: true
       date: '2015-06-20'
       category: Honour / Distinction
       title: Commencement Address.
@@ -237,32 +204,6 @@ sections:
         Awarded annual to 8 outstanding UBC leaders to share their
         experiences and invoke inspiration via a 3-minute video feature.
       url: https://www.youtube.com/watch?v=VOXzGpAMZIU
-    - brief: John Bosdet Travel Award
-      date: '2017-02-24'
-      category: Award
-      title: John Bosdet Travel Award.
-      description: $1500. Award to support trainee conference travel.
-    - brief: TGC Travel Award
-      date: '2018-03-28'
-      category: Award
-      title: Translational Genomics Cluster (TGC) Trainee Collaboration & Travel Award.
-      description: >
-        $2500. Travel award to enable development and/or expansion of collaborations with
-        national and international researchers.
-      url: https://research.ubc.ca/about-vpri/initiatives/research-excellence-clusters/translational-cancer-genomics-tcg-cluster
-    - brief: Skarsgard Research Excellence Award
-      date: '2018-05-01'
-      category: Award
-      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
-      description: >
-        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
-    - brief: CCSRI Travel Award
-      date: '2018-08-01'
-      category: Award
-      title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
-      description: >
-        $1000. Travel award to support attendance at a cancer research conference.
-      url: http://www.cancer.ca/en/research/funding-results/recent-competition-results/may-2018-trv-results/
     - brief: Cdn Medical Hall of Fame Award
       date: '2018-09-05'
       category: Award
@@ -270,19 +211,6 @@ sections:
       description: >
          $5000. Award for outstanding potential healthcare leaders and innovators who show perseverance, collaboration, and an entrepreneurial spirit. Awarded to one student per medical school. Details at http://www.cdnmedhall.org/2018awardrecipients.
       url: https://www.med.ubc.ca/md-phd-student-eric-zhao-awarded-the-2018-canadian-medical-hall-of-fame-award/
-    - brief: John Bosdet Travel Award
-      date: '2019-03-12'
-      category: Award
-    - brief: Finalist, Governor General's Gold Medal
-      date: '2019-04-01'
-      category: Award
-      title: Finalist, Governor General's Gold Medal.
-      description: >
-        Finalist (top 6) among 500 doctoral students across all UBC Faculties.
-        Chosen as the top graduate student within the Faculty of Medicine.
-        One gold medal is awarded annually to the student who has achieved the most outstanding
-        academic record as a doctoral student.
-      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: Med Alumni Association Award
       date: '2019-05-09'
       category: Award
@@ -291,11 +219,66 @@ sections:
         $500. This inaugural award honours two medical students (one in year 1 or 2 and one in year 3 or 4) who demonstrate excellence in leadership by engaging and guiding others in promoting a responsible and evolving medical student community and/or health care system.
       url: https://alumni.med.ubc.ca/maa/maa-awards/
 
+  - title: Research Projects
+    display:
+      type: overlapping
+    entries:
+    - brief: Marra Lab, BC Cancer
+      title: Integrated Browser for Annotated Cancer Genome Data.
+      description: >
+        Summer student with Dr. Marco Marra at BC Cancer. Developed an
+        application to enable accessible, collaborative cancer genome analysis.
+        Contributed to a publication in Nature.
+      start: '2010-05-01'
+      end: '2010-09-15'
+      url: http://www.bcgsc.ca/faculty/mmarra
+    - brief: Friedman Lab, BCCHRI
+      title: PhenoKeeper - Systematically Querying Patient Phenotypes.
+      description: >
+        Summer/workstudy student with Dr. Jan Friedman at BCCHRI.
+        Developed software to store patient phenotypes using the Human Phenotype
+        Ontology to support medical genetics studies.
+      start: '2011-05-01'
+      end: '2012-09-15'
+      url: http://www.friedmanlab.org/
+    - brief: MacKay Lab, UBC MRI Centre
+      title: Structure-Function Relationships of Myelination in Multiple Sclerosis.
+      description:
+        Honours Thesis & Summer Intern with Dr. Alex MacKay at the UBC MRI Research Centre.
+        Correlated MRI myelin imaging with evoked potentials in central demyelinating disease.
+      start: '2012-09-15'
+      end: '2013-09-01'
+      url: https://mriresearch.med.ubc.ca/
+    - brief: Jones Lab, BC Cancer
+      title: Clinical Implications and Evolution of Mutational Processes in Cancer.
+      description: >
+        PhD Student with Dr. Steven Jones at BC Cancer. 
+        Validated novel DNA repair biomarkers of platinum sensitivity.
+        Developed novel bioinformatics methods and characterized the
+        evolution of mutational processes through tumorigenesis, metastasis,
+        treatment, and resistance.
+        Also participated in bioinformatics development for the Personalized
+        Oncogenomics Project (POG), performing whole genome and transcriptome
+        analysis of over 800 metastatic cancers to report actionable drug targets.
+      start: '2013-08-01'
+      end: '2018-06-11'
+      url: http://www.bcgsc.ca/faculty/sjones
+    - brief: Translational Genomic Lab, OICR
+      title: The Clinical Utility of Whole Exome Sequencing in Cancer.
+      description: >
+        Supervised by Dr. Trevor Pugh at OICR/PMH.
+        Whole exome/transcriptome sequencing of 100 cancer patients to
+        quantify the marginal benefit of extended sequencing as part of
+        the OCTANE project.
+      start: '2019-11-20'
+      end: '2019-12-22'
+      url: https://oicr.on.ca/research-portfolio/translational-genomics-laboratory/
 
   - title: Peer-Reviewed Journal Articles
     display:
       type: events
       year_labels: true 
+      pagebreak: true
     entries:
     - brief: Morin et al, Nature
       date: '2011-08-18'
@@ -309,17 +292,6 @@ sections:
         Steven J. M. Jones, Joseph M. Connors,
         Martin Hirst, Randy D. Gascoyne, Marco A. Marra.
       url: https://www.ncbi.nlm.nih.gov/pubmed/21796119
-    - brief: Oetting et al. Human Mutation
-      date: '2013-02-08'
-      category: Co-author
-      title: >
-        Getting Ready for the Human Phenome Project:
-        The 2012 Forum of the Human Variome Project.
-      description: >
-        <strong>Human Mutation</strong>. William S. Oetting, Peter N. Robinson,
-        Marc S. Greenblatt, Richard G Cotton, Tim Beck,
-        ... <u>Eric Y. Zhao</u>.
-      url: https://www.ncbi.nlm.nih.gov/pubmed/23401191
     - brief: Laskin et al. MCS
       date: '2015-10-10'
       category: Co-author
@@ -550,8 +522,6 @@ sections:
         <u>Eric Y. Zhao</u>, ... David R. Kaplan, J. Gregory Cairncross, Marco A. Marra,
         and Steven J. M. Jones
       url: https://www.pnas.org/content/early/2019/08/29/1813495116
-      display:
-        pagebreak: true
     - brief: Zhao et al. Front Phys
       date: '2019-10-09'
       category: Primary Author
@@ -569,8 +539,6 @@ sections:
   - title: Articles Submitted or In Review
     display:
       type: events
-      year_labels: true
-      pagebreak: true
     entries:
     - brief: Zhao et al. In Review
       date: 'present'
@@ -602,11 +570,23 @@ sections:
         Steven Jones, Sophie Sun, Aly Karsan, Marco Marra, Janessa Laskin,
         Howard Lim, and Kasmintan A. Schrader.
 
-  - title: Invited or Non-Peer Reviewed Articles
+  - title: Invited Articles
     display:
       type: events
       year_labels: true
+      pagebreak: true
     entries:
+    - brief: Oetting et al. Human Mutation
+      date: '2013-02-08'
+      category: Co-author
+      title: >
+        Getting Ready for the Human Phenome Project:
+        The 2012 Forum of the Human Variome Project.
+      description: >
+        <strong>Human Mutation</strong>. William S. Oetting, Peter N. Robinson,
+        Marc S. Greenblatt, Richard G Cotton, Tim Beck,
+        ... <u>Eric Y. Zhao</u>.
+      url: https://www.ncbi.nlm.nih.gov/pubmed/23401191
     - brief: Keow et al. CIM
       date: '2015-08-09'
       category: Co-author
@@ -641,56 +621,6 @@ sections:
         <u>Eric Y. Zhao</u>, Martin R. Jones,
         Steven J. M. Jones.
       url: https://www.ncbi.nlm.nih.gov/pubmed/29844223
-
-  - title: Invited Speaker
-    display:
-      type: events
-    entries:
-    - brief: Mental Health Workshop
-      date: '2017-03-09'
-      category: Workshop
-      title: >
-        Graduate Student Mental Health.
-      description: >
-        Bioinformatics, Integrative Oncology, and Genome Science &
-        Technology (BIG) Research Day.
-      url: https://www.bigresearchday.com/about/
-    - brief: Building Bridges Seminar
-      date: '2017-04-11'
-      category: Research Talk
-      title: >
-        Clinical Implications of Homologous Recombination in Cancer.
-      description: >
-        Building Bridges Seminar Series, hosted by the UBC MD/PhD
-        program.
-      url: https://mdprogram.med.ubc.ca/mdphd/seminars/
-    - brief: GrasPods R Workshop
-      date: '2018-02-15'
-      category: Workshop
-      title: >
-        How to analyze cancer mutation signatures using R,
-        Bioconductor, and the tidyverse.
-      description: >
-        R workshop organized by the BCCRC Graduate Student and
-        Postdoctoral Society.
-      url: http://www.graspods.com/
-    - brief: Genome Stability Group
-      date: '2018-02-26'
-      category: Research Talk
-      title: >
-        Mutational Processes and their Temporal Evolution in
-        Metastatic Cancer.
-      description: >
-        Meeting of the BC Cancer Agency Genome Stability group.
-    - brief: BC Cancer Seminar
-      date: '2018-10-22'
-      category: Research Talk
-      title: >
-        Clinical Implications and Temporal Evolution of Mutational Processes
-        in Metastatic Cancer.
-      description: >
-        2018 Lloyd Skarsgard Award talk at the BC Cancer Monday Seminar, a venue
-        for distinguished speakers and visiting scholars.
 
   - title: Selected Conference Talks
     display:
@@ -800,27 +730,113 @@ sections:
           ... Karen Gelmon, Stephen Yip, Steven J.M. Jones, Marco Marra
           and Janessa Laskin. * A designated presenter was chosen because of scheduling conflicts.
         url: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.3137
-
-  - title: Conference Prizes
+     
+  - title: Travel/Conference Awards
     display:
       type: events
     entries:
+    - brief: UBC SUS Grant
+      title: UBC SUS Professional Development Grant.
+      description: $250. Supported conference travel.
+      date: '2013-01-10'
+      category: Travel Award
+      url: http://sus.ubc.ca/grants/
+    - brief: ISMRM Travel Award
+      title: ISMRM Educational Stipend.
+      description: >
+        $440. Travel award to attend international
+        magnetic resonance imaging conference.
+      date: '2013-03-15'
+      category: Travel Award
+      url: https://www.ismrm.org/
+    - brief: John Bosdet Travel Award
+      date: '2017-02-24'
+      category: Travel Award
+      title: John Bosdet Travel Award.
+      description: $1500. Award to support trainee conference travel.
     - brief: BIG Research Day
       date: '2017-03-15'
-      category: University
+      category: Conference Prize
       title: Top Poster Prize.
       description: Bioinformatics, Integrated Oncology, Genome Science & Technology Research Day (BIG).
       url: https://www.bigresearchday.com/about/
     - brief: CITAC Young Investigator Forum
       date: '2017-11-24'
-      category: National
+      category: Conference Prize
       title: CSCI/CITAC Young Investigator Forum Poster Prize - Honourable Mention.
       description: $50 prize from the Banting Foundation.
-      
+    - brief: TGC Travel Award
+      date: '2018-03-28'
+      category: Travel Award
+      title: Translational Genomics Cluster (TGC) Trainee Collaboration & Travel Award.
+      description: >
+        $2500. Travel award to enable development and/or expansion of collaborations with
+        national and international researchers.
+      url: https://research.ubc.ca/about-vpri/initiatives/research-excellence-clusters/translational-cancer-genomics-tcg-cluster
+    - brief: CCSRI Travel Award
+      date: '2018-08-01'
+      category: Travel Award
+      title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
+      description: >
+        $1000. Travel award to support attendance at a cancer research conference.
+      url: http://www.cancer.ca/en/research/funding-results/recent-competition-results/may-2018-trv-results/
+    - brief: John Bosdet Travel Award
+      date: '2019-03-12'
+      category: Travel Award
+
+  - title: Invited Speaker
+    display:
+      type: events
+    entries:
+    - brief: Mental Health Workshop
+      date: '2017-03-09'
+      category: Workshop
+      title: >
+        Graduate Student Mental Health.
+      description: >
+        Bioinformatics, Integrative Oncology, and Genome Science &
+        Technology (BIG) Research Day.
+      url: https://www.bigresearchday.com/about/
+    - brief: Building Bridges Seminar
+      date: '2017-04-11'
+      category: Research Talk
+      title: >
+        Clinical Implications of Homologous Recombination in Cancer.
+      description: >
+        Building Bridges Seminar Series, hosted by the UBC MD/PhD
+        program.
+      url: https://mdprogram.med.ubc.ca/mdphd/seminars/
+    - brief: GrasPods R Workshop
+      date: '2018-02-15'
+      category: Workshop
+      title: >
+        How to analyze cancer mutation signatures using R,
+        Bioconductor, and the tidyverse.
+      description: >
+        R workshop organized by the BCCRC Graduate Student and
+        Postdoctoral Society.
+      url: http://www.graspods.com/
+    - brief: Genome Stability Group
+      date: '2018-02-26'
+      category: Research Talk
+      title: >
+        Mutational Processes and their Temporal Evolution in
+        Metastatic Cancer.
+      description: >
+        Meeting of the BC Cancer Agency Genome Stability group.
+    - brief: BC Cancer Seminar
+      date: '2018-10-22'
+      category: Research Talk
+      title: >
+        Clinical Implications and Temporal Evolution of Mutational Processes
+        in Metastatic Cancer.
+      description: >
+        2018 Lloyd Skarsgard Award talk at the BC Cancer Monday Seminar, a venue
+        for distinguished speakers and visiting scholars.
+
   - title: Media Features
     display:
       type: events
-      pagebreak: true
     entries:
     - brief: MD/PhD Program
       date: '2018-07-03'
