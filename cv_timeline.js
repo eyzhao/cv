@@ -444,7 +444,7 @@ events_timeline = function(data, element_id, legend_id) {
             .attr('x', 80)
             .attr('y', 0)
             .attr('width', 12)
-            .attr('height', (entries_slice.length-1) * 30 + entries_slice[entries_slice.length-1]['dy'] * 10 + 12 + bottom_pad)
+            .attr('height', (entries_slice.length-1) * 25 + entries_slice[entries_slice.length-1]['dy'] * 20 + 12 + bottom_pad)
             .attr('fill', '#B3CDE2')
 
         svg_container.selectAll('.timeline-block')
@@ -453,7 +453,7 @@ events_timeline = function(data, element_id, legend_id) {
                 .attr('class', 'timeline-block')
                 .attr('x', 80)
                 .attr('y', (d, i) => {
-                    position = i * 30 + d['dy'] * 10;
+                    position = i * 25 + d['dy'] * 20;
                     return(position)
                 })
                 .attr('width', 12)
@@ -468,7 +468,7 @@ events_timeline = function(data, element_id, legend_id) {
                 .attr('class', 'timeline-brief')
                 .attr('x', 100)
                 .attr('y', (d, i) => {
-                    position = i * 30 + d['dy'] * 10;
+                    position = i * 25 + d['dy'] * 20;
                     return(position)
                 })
                 .attr('alignment-baseline', 'hanging')
@@ -481,7 +481,7 @@ events_timeline = function(data, element_id, legend_id) {
                 .attr('class', 'timeline-years')
                 .attr('x', 70)
                 .attr('y', (d, i) => {
-                    position = i * 30 + d['dy'] * 10;
+                    position = i * 25 + d['dy'] * 20;
                     return(position)
                 })
                 .attr('alignment-baseline', 'hanging')
