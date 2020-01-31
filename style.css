@@ -8,8 +8,8 @@
 
 body {
     margin: 0px;
-    font-family: 'Libre Baskerville', Georgia, serif;
-    font-size: 14
+    font-family: Georgia, serif;
+    font-size: 15.5
 }
 
 div .year-label {
@@ -24,38 +24,58 @@ div .subsection {
     grid-template-areas:
         "timeline"
         "details"
+        "addsubsection"
+        "addentry"
+}
+
+div .subsection-bare {
+    display: grid;
+    grid-template-areas:
+        "details"
+}
+
+.subsection-bare .entry {
+    display: list-item;
+    margin: 0px 0px 5px 40px;
+    list-style-type: square;
+    color: rgb(55, 126, 184);
 }
 
 div #contact {
-    text-align: center;
     padding: 30px 0px 0px;
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: white;
 }
 
-div #contactbox {
+div #idbox {
     width: 300px;
-    margin: 0px auto;
-    padding: 20px;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    float: left;
+    font-size: 16pt;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    font-weight: 200;
+}
+
+div #contactbox {
+    float: right;
+    font-size: 16pt;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    font-weight: 200;
+    padding-top: 5px;
 }
 
 div #name {
-    font-size: 32pt;
+    font-size: 28pt;
     font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 700;
     text-transform: uppercase
 }
 
 div #title {
-    font-size: 24pt;
-    font-family: 'Titillium Web', 'Lato', sans-serif;
-    font-weight: 200;
-}
-
-div #contentsbox {
-    margin: 15px 0px;
-    font-size: 16pt;
+    font-size: 20pt;
     font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 200;
 }
@@ -68,11 +88,25 @@ div #contentsbox {
     .subsection {
         grid-template-columns: 300px 1fr !important;
         grid-template-areas:
-            "timeline details" !important;
+            "timeline details"
+            "addsubsection addentry" !important;
     }
 }
 
+div .addsubsection {
+    height: 30px
+}
+
+div .addentry {
+    height: 30px
+}
+
 div .details {
+    padding: 10px 30px 10px;
+    grid-area: details;
+}
+
+div .details-bare {
     padding: 10px 30px 10px;
     grid-area: details;
 }
@@ -91,6 +125,7 @@ div .timeline-block {
 
 .entry-text {
     overflow: hidden;
+    color: black;
 }
 
 .clear {
@@ -99,9 +134,11 @@ div .timeline-block {
 
 .entry-title {
     font-weight: bold;
+    color: #A41034;
     /* color: #ED1B2F; */
 }
 
+/*
 .highlight {
     background-color: #FFF999;
     margin: -0.2em -0.2em 0.3em -0.3em;
@@ -109,6 +146,7 @@ div .timeline-block {
     position: relative;
     border-radius: 6px;
 }
+*/
 
 a.entry-title-link:link, a.entry-title-link:visited {
     color: #A41034;
@@ -128,6 +166,13 @@ span.entry-title-nolink {
     font-size: 20pt;
     font-weight: bold;
     margin: 10px 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subsection-title-bare {
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 0px 0px 10px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -159,7 +204,7 @@ span.entry-title-nolink {
 }
 
 .timeline {
-    margin: 20px 0px 0px;
+    margin: 0px 0px 0px;
 }
 
 div.legend {
@@ -168,13 +213,14 @@ div.legend {
 
 
 div.section-header {
-    padding: 20;
+    padding-top: 10px;
     font-family: 'Titillium Web', 'Lato', sans-serif;
     font-size: 36;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
     color: black;
+    margin-bottom: -10px;
 }
 
 div.section-title-underline {

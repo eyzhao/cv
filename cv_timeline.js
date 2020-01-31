@@ -1,4 +1,5 @@
 const HIGHLIGHT_COLOR = '#FFF999'
+const TEXT_Y_OFFSET = -2.5
 
 function sanitizeString(str){
     str = str.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"");
@@ -15,16 +16,23 @@ plot_timeline = function(result) {
         section_id = write_section(section_data, index);
 
         for (let subsection_data of section_data['subsections']) {
+            if ('hidden' in subsection_data.display) {
+                if (subsection_data.display.hidden) {
+                    continue
+                }
+            }
             write_subsection(subsection_data, section_id)
         }
     })
 }
 
+// | last updated: ${contact_data['lastupdate']}
+
 populate_contact_data = function(contact_data) {
     $('#container')
         .append(`
             <div id='contact'>
-                <div id='contactbox'>
+                <div id='idbox'>
                     <div id='name'>
                         ${contact_data['name']}
                     </div>
@@ -32,8 +40,13 @@ populate_contact_data = function(contact_data) {
                         ${contact_data['title']}
                     </div>
                 </div>
-                <div id='contentsbox'>
-                    Curriculum Vitae, last updated: ${contact_data['lastupdate']}
+                <div id='contactbox'>
+                    <div id='email'>
+                        Email: ${contact_data['email']}
+                    </div>
+                    <div id='website'>
+                        Website: ${contact_data['website']}
+                    </div>
                 </div>
             </div>
         `)
@@ -45,6 +58,7 @@ populate_contact_data = function(contact_data) {
 }
 
 function draw_highlights(entries, svg_container, highlights_group) {
+    /*
     var highlights = []
     var entries_highlight_idx = entries.map((entry, i) => {
         if (entry.highlight) { return(i) }
@@ -74,17 +88,20 @@ function draw_highlights(entries, svg_container, highlights_group) {
             .attr('height', (d, i) => d['height'] + padding.left + padding.right)
             .attr('width', (d, i) => d['width'] + padding.top + padding.bottom)
             .attr('fill', HIGHLIGHT_COLOR)
+            */
 }
 
 write_section = function(section_data, index) {
     section_id = sanitizeString(section_data.title)
         .replace(/ /g, '-')
 
-    if (index > 0) {
-        $('#container')
-            .append(`
-                <div class="pagebreak"></div>
-            `)
+    if ('pagebreak' in section_data.display) {
+        if (section_data.display.pagebreak) {
+            $('#container')
+                .append(`
+                    <div class="pagebreak"></div>
+                `)
+        }
     }
 
     $('#container')
@@ -131,27 +148,44 @@ write_subsection = function(subsection_data, section_id) {
         }
     }
 
-    $(`#${section_id}`)
-        .append(`<div id="${subsection_id}" class="subsection"></div>`)
+    if (subsection_data['display']['type'] == 'bare') {
+        $(`#${section_id}`)
+            .append(`<div id="${subsection_id}" class="subsection-bare"></div>`)
 
-    $(`#${subsection_id}`)
-        .append(`
-            <div id="${subsection_id}-left" class="timeline"></div>
-        `)
-        .append(`
-            <div id="${subsection_id}-details" class='details' style='padding-top: 40px;'></div>
-        `)
+        $(`#${subsection_id}`)
+            .append(`
+                <div id="${subsection_id}-details" class='details-bare' style='padding-top: 0px;'></div>
+            `)
 
-    $(`#${subsection_id}-details`)
-        .append(`
-            <div id="${subsection_id}-legend" class="legend"></div>
-        `)
+        $(`#${subsection_id}-details`)
+            .append(`
+                <div class="subsection-title-bare ${subsection_data['display']['highlight'] ? 'highlight' : ''}">${subsection_data['title']}</div>
+                <div id="${subsection_id}-timeline" class="timeline"></div>
+            `)
+    } else {
+        $(`#${section_id}`)
+            .append(`<div id="${subsection_id}" class="subsection"></div>`)
 
-    $(`#${subsection_id}-left`)
-        .append(`
-            <div class="subsection-title">${subsection_data['title']}</div>
-            <div id="${subsection_id}-timeline" class="timeline"></div>
-        `)
+        $(`#${subsection_id}`)
+            .append(`
+                <div id="${subsection_id}-left" class="timeline"></div>
+            `)
+            .append(`
+                <div id="${subsection_id}-details" class='details' style='padding-top: 20px;'></div>
+            `)
+
+        $(`#${subsection_id}-details`)
+            .append(`
+                <div id="${subsection_id}-legend" class="legend"></div>
+            `)
+
+        $(`#${subsection_id}-left`)
+            .append(`
+                <div class="subsection-title ${subsection_data['display']['highlight'] ? 'highlight' : ''}">${subsection_data['title']}</div>
+                <div id="${subsection_id}-timeline" class="timeline"></div>
+            `)
+
+    }
 
     var subsection_title = document.createElement("span");
     subsection_title.innerHTML = subsection_data["title"];
@@ -162,6 +196,8 @@ write_subsection = function(subsection_data, section_id) {
         entries = events_timeline(subsection_data, subsection_id + '-timeline', subsection_id + '-legend')
     } else if (subsection_data['display']['type'] == 'overlapping') {
         entries = overlapping_timeline(subsection_data, subsection_id + '-timeline')
+    } else if (subsection_data['display']['type'] == 'bare') {
+        entries = subsection_data['entries'];
     }
 
     if ('year_labels' in subsection_data.display) {
@@ -186,12 +222,19 @@ fill_details = function(entries, element_id, year_labels) {
                     `)
             }
         }
-        if ('description' in entry_data && 'title' in entry_data) {
+        if ('description' in entry_data || 'title' in entry_data) {
             if (entry_data['url']) {
                 while (entry_data['title'].charAt(entry_data['title'].length - 1) == '.') {
                     entry_data['title'] = entry_data['title'].substring(0, entry_data['title'].length - 1);
                 }
             }
+
+            if (entry_data['description']) {
+                description_text = entry_data['description']
+            } else {
+                description_text = ''
+            }
+
             $(`#${element_id}`)
                 .append(`
                     <div class="entry">
@@ -205,7 +248,7 @@ fill_details = function(entries, element_id, year_labels) {
                                     ${entry_data['title']}
                                 </span>
                             </a>
-                            ${entry_data['description']}
+                            ${description_text}
                         </div>
                     </div>
                 `)
@@ -294,7 +337,7 @@ overlapping_timeline = function(data, element_id) {
             .attr('class', 'timeline-brief')
             .attr('x', 100)
             .attr('y', (d, i) => {
-                return(i * 50);
+                return(i * 50 + TEXT_Y_OFFSET);
             })
             .attr('alignment-baseline', 'hanging')
             .text((d) => { return(d['brief']) })
@@ -367,11 +410,11 @@ nonoverlapping_timeline = function(data, element_id) {
             .attr('class', 'timeline-block')
             .attr('x', 80)
             .attr('y', (d, i) => {
-                position = i * 80;
+                position = i * 50;
                 return(position)
             })
             .attr('width', 12)
-            .attr('height', 60)
+            .attr('height', 40)
             .attr('fill', '#387EB9')
 
     highlights_group = svg_container.append('g')
@@ -383,7 +426,7 @@ nonoverlapping_timeline = function(data, element_id) {
             .attr('class', 'timeline-brief')
             .attr('x', 100)
             .attr('y', (d, i) => {
-                position = i * 80;
+                position = i * 50 + TEXT_Y_OFFSET;
                 return(position)
             })
             .attr('alignment-baseline', 'hanging')
@@ -397,7 +440,7 @@ nonoverlapping_timeline = function(data, element_id) {
             .attr('class', 'timeline-years')
             .attr('x', 70)
             .attr('y', (d, i) => {
-                position = i * 80;
+                position = i * 50;
                 return(position)
             })
             .attr('alignment-baseline', 'hanging')
@@ -414,7 +457,10 @@ events_timeline = function(data, element_id, legend_id) {
     entries = data['entries'];
     entries = entries.map(parse_entry_dates)
         .map((entry, index) => {
-            if (index == 0) {
+            if (! entry['title'] && ! entry['description']) {
+                // If entry will not appear in text description, then no need for a new year label before it
+                entry['new_year'] = false
+            } else if (index == 0) {
                 entry['new_year'] = true
             } else if (entry.date.getFullYear() != entries[index - 1].date.getFullYear()) {
                 entry['new_year'] = true
@@ -437,9 +483,9 @@ events_timeline = function(data, element_id, legend_id) {
     pagebreak_indices = entries.map((entry, index) => {
         if (index == 0) {
             return(index)
-        } else if ('display' in entry) {
-            if ('pagebreak' in entry.display) {
-                if (entry.display.pagebreak) {
+        } else if ('pagebreak' in entry) {
+            if ('pagebreak' in entry) {
+                if (entry.pagebreak) {
                     return(index)
                 }
             }
@@ -533,7 +579,7 @@ events_timeline = function(data, element_id, legend_id) {
                 .attr('class', 'timeline-brief')
                 .attr('x', 100)
                 .attr('y', (d, i) => {
-                    position = i * 30 + d['dy'] * 20;
+                    position = i * 30 + d['dy'] * 20 + TEXT_Y_OFFSET;
                     return(position)
                 })
                 .attr('alignment-baseline', 'hanging')
