@@ -2,6 +2,8 @@ contact:
   name: Eric Zhao
   title: MD/PhD Candidate
   lastupdate: Nov 20, 2019
+  email: eyzhao@alumni.ubc.ca
+  website: http://eyzhao.com
 sections:
 - title: Scholar
   display:
@@ -37,6 +39,59 @@ sections:
       start: '2013-08-20'
       url: https://mdprogram.med.ubc.ca/mdphd/
 
+  - title: Highlighted Awards and Achievements
+    display:
+      type: bare
+      highlight: true
+    entries:
+    - brief: Vanier Scholar
+      date: '2015-05-15'
+      category: Research Scholarship / Grant
+      title: Vanier Canada Graduate Scholarship.
+      description: >
+        $150 000, May 2015. Canada's premier Three-year
+        national tri-agency research scholarship for
+        "<strong>world class graduate students</strong>
+        who demonstrate leadership, research potential, and academic excellence".
+      url: http://www.vanier.gc.ca/en/home-accueil.html
+    - brief: Canadian Medical Hall of Fame Award
+      date: '2018-09-05'
+      category: Award
+      title: Canadian Medical Hall of Fame Award.
+      description: >
+         $5000, Sep 2018. Given to one medical student per
+         school, for <strong>outstanding potential
+         healthcare leaders
+         and innovators</strong> who show perseverance, collaboration, and an
+         entrepreneurial spirit. 
+      url: https://www.med.ubc.ca/md-phd-student-eric-zhao-awarded-the-2018-canadian-medical-hall-of-fame-award/
+    - brief: Finalist, Governor General's Gold Medal
+      date: '2019-04-01'
+      category: Award
+      title: Finalist, Governor General's Gold Medal.
+      description: >
+        Apr 2019. Finalist (top 6) among 500 doctoral students across all
+        UBC Faculties.
+        Chosen as the top PhD student within the Faculty of Medicine.
+      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
+    - brief: Skarsgard Research Excellence Award
+      date: '2018-05-01'
+      category: Award
+      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
+      description: >
+        $1000, May 2018. Competitive award to honour the <strong>top PhD
+        dissertation at 
+        BC Cancer</strong> each year
+        and recognize exceptional leadership pursuits. 
+    - brief: President, MUS
+      date: '2015-04-01'
+      title: President, Medical Undergraduate Society.
+      description: Elected to represent medical students. Details in the <strong>Leadership</strong> section.
+    - brief: Senator
+      date: '2015-05-01'
+      title: Vice-chair, UBC Vancouver Senate.
+      description: Elected to UBC's highest academic decision-making body. See <strong>Leadership</strong> section.
+
   - title: Academic Awards
     display:
       type: events
@@ -48,6 +103,7 @@ sections:
       date: '2009-06-01'
       category: Award
     - brief: Trek Excellence
+      hidden: true
       title: UBC Trek Excellence Award.
       description: $1500. For top 5% of UBC students.
       date: '2010-07-01'
@@ -66,12 +122,14 @@ sections:
       category: Award
       url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
     - brief: Skarsgard Research Excellence Award
+      highlight: true
       date: '2018-05-01'
       category: Award
       title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
       description: >
         Award for the top PhD dissertation and to honour exceptional leadership pursuits.
     - brief: Finalist, Governor General's Gold Medal
+      highlight: true
       date: '2019-04-01'
       category: Award
       title: Finalist, Governor General's Gold Medal.
@@ -132,6 +190,7 @@ sections:
         Canadian Institutes for Health Research.
       url: http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
     - brief: Vanier Scholar
+      highlight: true
       date: '2015-05-15'
       category: National Grant
       title: Vanier Canada Graduate Scholarship.
@@ -204,6 +263,7 @@ sections:
         experiences and invoke inspiration via a 3-minute video feature.
       url: https://www.youtube.com/watch?v=VOXzGpAMZIU
     - brief: Cdn Medical Hall of Fame Award
+      highlight: true
       date: '2018-09-05'
       category: Award
       title: Canadian Medical Hall of Fame Award.
@@ -220,64 +280,64 @@ sections:
 
   - title: Research Projects
     display:
-      type: overlapping
+      type: bare
     entries:
-    - brief: Marra Lab, BC Cancer
-      title: Integrated Browser for Annotated Cancer Genome Data.
-      description: >
-        Summer student with Dr. Marco Marra at BC Cancer. Developed an
-        application to enable accessible, collaborative cancer genome analysis.
-        Contributed to a publication in Nature.
-      start: '2010-05-01'
-      end: '2010-09-15'
-      url: http://www.bcgsc.ca/faculty/mmarra
-    - brief: Friedman Lab, BCCHRI
-      title: PhenoKeeper - Systematically Querying Patient Phenotypes.
-      description: >
-        Summer/workstudy student with Dr. Jan Friedman at BCCHRI.
-        Developed software to store patient phenotypes using the Human Phenotype
-        Ontology to support medical genetics studies.
-      start: '2011-05-01'
-      end: '2012-09-15'
-      url: http://www.friedmanlab.org/
-    - brief: MacKay Lab, UBC MRI Centre
-      title: Structure-Function Relationships of Myelination in Multiple Sclerosis.
-      description:
-        Honours Thesis & Summer Intern with Dr. Alex MacKay at the UBC MRI Research Centre.
-        Correlated MRI myelin imaging with evoked potentials in central demyelinating disease.
-      start: '2012-09-15'
-      end: '2013-09-01'
-      url: https://mriresearch.med.ubc.ca/
-    - brief: Jones Lab, BC Cancer
-      title: Clinical Implications and Evolution of Mutational Processes in Cancer.
-      description: >
-        PhD Student with Dr. Steven Jones at BC Cancer. 
-        Validated novel DNA repair biomarkers of platinum sensitivity.
-        Developed novel bioinformatics methods and characterized the
-        evolution of mutational processes through tumorigenesis, metastasis,
-        treatment, and resistance.
-        Also participated in bioinformatics development for the Personalized
-        Oncogenomics Project (POG), performing whole genome and transcriptome
-        analysis of over 800 metastatic cancers to report actionable drug targets.
-      start: '2013-08-01'
-      end: '2018-06-11'
-      url: http://www.bcgsc.ca/faculty/sjones
-    - brief: Translational Genomics Lab, OICR
-      title: The Clinical Utility of Whole Exome Sequencing in Cancer.
-      description: >
-        Supervised by Dr. Trevor Pugh at OICR/PMH.
-        Whole exome/transcriptome sequencing of 100 cancer patients to
-        quantify the marginal benefit of extended sequencing as part of
-        the OCTANE project.
-      start: '2019-11-20'
-      end: '2019-12-22'
-      url: https://oicr.on.ca/research-portfolio/translational-genomics-laboratory/
+      - brief: Marra Lab
+        title: Integrated Browser for Annotated Cancer Genome Data.
+        description: Supervised by Dr. Marco Marra at BC Cancer.
+          Developed an application to enable accessible, collaborative cancer genome
+          analysis. Contributed to a publication in Nature.
+        start: '2010-05-01'
+        end: '2010-09-01'
+      - brief: Friedman Lab, VVaP
+        title: An Analysis Platform for Prioritization of Germline Variants.
+        description: Supervised by Dr. Jan Friedman at UBC Dept. of Medical Genetics.
+          Developed a germline variant viewer to support genome analysis
+          in patients with inherited genetic disorders.
+        start: '2011-05-01'
+        end: '2011-09-01'
+      - brief: Friedman Lab, Phenokeeper
+        title: PhenoKeeper - Systematically Querying Patient Phenotypes.
+        description: Supervised by Dr. Jan Friedman at UBC Dept. of Medical Genetics.
+          Software to store patient phenotypes using the Human
+          Phenotype Ontology to support medical genetics studies.
+        start: '2011-09-01'
+        end: '2012-09-01'
+      - brief: MacKay Lab
+        title: Structure-Function Relationships of Myelination in Multiple Sclerosis.
+        description: Supervised by Dr. Alex MacKay at UBC MRI Research Centre.
+          Correlated MRI myelin imaging with evoked potentials
+          in central demyelinating disease.
+        start: '2012-09-01'
+        end: '2013-09-01'
+      - brief: Jones Lab
+        title: Clinical Implications and Evolution of Mutational Processes in Cancer.
+        description: Supervised by Dr. Steven Jones at BC Cancer.
+          Validated novel DNA repair
+          biomarkers of platinum sensitivity. Developed novel bioinformatics methods
+          and characterized the evolution of
+          mutational processes through tumorigenesis, metastasis, treatment,
+          and resistance.
+        start: '2013-09-01'
+        end: '2018-05-01'
+      - brief: POG
+        title: Bioinformatics for the Personalized Oncogenomics Project.
+        description: Supervised by Dr. Steven Jones at BC Cancer.
+          Clinical whole genome and transcriptome analysis of over 800 metastatic
+          cancers to report actionable drug targets.
+        start: '2013-09-01'
+        end: '2018-05-01'
+      - brief: Pugh Lab
+        title: The Clinical Utility of Whole Exome Sequencing in Cancer.
+        description: Supervised by Dr. Trevor Pugh at OICR/PMH.
+          Targeted whole exome/transcriptome sequencing of 100 cancer
+          patients to quantify the marginal benefit of extended sequencing.
+
 
   - title: Peer-Reviewed Journal Articles
     display:
       type: events
       year_labels: true 
-      pagebreak: true
     entries:
     - brief: Morin et al, Nature
       date: '2011-08-18'
@@ -382,6 +442,7 @@ sections:
         Janessa Laskin, Marco A. Marra, Steven J. M. Jones.
       url: https://www.ncbi.nlm.nih.gov/pubmed/29246904
     - brief: Wong et al. MCS
+      pagebreak: true
       date: '2018-02-01'
       category: Co-author
       title: >
@@ -574,7 +635,6 @@ sections:
     display:
       type: events
       year_labels: true
-      pagebreak: true
     entries:
     - brief: Oetting et al. Human Mutation
       date: '2013-02-08'
@@ -850,6 +910,11 @@ sections:
       title: Mutational Signatures May Identify Patients with Breast Cancer Most Likely to Benefit from Platinum-based Chemotherapy.
       description: Our paper selected for an AACR news feature, as well as being a Clinical Cancer Research highlighted article.
       url: https://www.aacr.org/Newsroom/Pages/News-Release-Detail.aspx?ItemID=1138
+    - brief: Vision - Transforming Health
+      date: '2020-02-11'
+      category: Video Feature
+      title: Vision&colon; Transforming Health for Everyone.
+      description: UBC Faculty of Medicine video showcasing the Dean's vision for healthcare in BC, and featuring BC health leaders at all stages of training.
   
 - title: Leader
   display:
@@ -903,6 +968,7 @@ sections:
         and social media presence.
       url: http://www.citac-accfc.org/
     - brief: President, Med Student Soc.
+      highlight: true
       start: '2015-04-15'
       end: '2016-04-15'
       title: President, UBC Medical Undergraduate Society.
@@ -923,6 +989,7 @@ sections:
         for elections.
       url: https://mus.med.ubc.ca
     - brief: Vice Chair, UBC Vancouver Senate
+      highlight: true
       start: '2015-05-15'
       end: '2016-05-15'
     - brief: Co-chair, Student Senate Caucus
@@ -999,7 +1066,7 @@ sections:
       url: https://mednet.med.ubc.ca/AboutUs/AdminAndGoverningBodies/Committees/Pages/ARCHIVE-MD-Admissions-Policy-Advisory-Committee.aspx
     - brief: CIHR Working Group
       start: '2015-06-08'
-      end: 'present'
+      end: '2019-01-01'
       title: >
         Member, CIHR Working Group on Graduate Health Training.
       description: >
@@ -1009,7 +1076,7 @@ sections:
       url: http://www.cihr-irsc.gc.ca/e/50522.html
     - brief: Education Pillar Advisory Group
       start: '2016-11-01'
-      end: 'present'
+      end: '2020-01-01'
       title: >
         Objective 2 Co-lead, Education Pillar Advisory Group.
       description: >
@@ -1029,9 +1096,43 @@ sections:
       url: https://www.carms.ca/events-awards/sandra-banner-student-award-for-leadership/
 
 
+  - title: 'Mentorship'
+    display:
+      type: overlapping
+    entries:
+    - brief: UBC Orientations Squad Leader
+      hidden: true
+      start: '2010-04-01'
+      end: '2012-09-30'
+    - brief: Science Peer Academic Coaches
+      hidden: true
+      start: '2010-04-01'
+      end: '2012-05-30'
+    - brief: University Transition Program
+      start: '2010-11-01'
+      end: '2014-06-01'
+      title: Music Director, University Transition Program.
+      description: >
+        Taught music performance and choir at accelerated
+        secondary school program, and directed annual winter
+        performance.
+      url: http://universitytransition.altervista.org/leadership-in-transition-community.htm
+    - brief: URO Mentor
+      start: '2013-10-15'
+      end: '2015-06-01'
+      title: URO Research Experience Mentor.
+      description: >
+        Mentored 5 first year science students over
+        two years in bioinformatics research.
+        Produced 2 poster presentations and
+        1 peer-reviewed academic article.
+      url: https://www.uroubc.com/
+
+
   - title: Health Advocacy Events
     display:
       type: events
+      pagebreak: true
     entries:
     - brief: BC Lobby Day
       date: '2014-04-15'
@@ -1112,38 +1213,6 @@ sections:
         in memory of UBC Medical Student Laura Taylor.
       url: https://memorial.support.ubc.ca/laura-taylor/
 
-  - title: 'Mentorship'
-    display:
-      type: overlapping
-    entries:
-    - brief: UBC Orientations Squad Leader
-      hidden: true
-      start: '2010-04-01'
-      end: '2012-09-30'
-    - brief: Science Peer Academic Coaches
-      hidden: true
-      start: '2010-04-01'
-      end: '2012-05-30'
-    - brief: University Transition Program
-      start: '2010-11-01'
-      end: '2014-06-01'
-      title: Music Director, University Transition Program.
-      description: >
-        Taught music performance and choir at accelerated
-        secondary school program, and directed annual winter
-        performance.
-      url: http://universitytransition.altervista.org/leadership-in-transition-community.htm
-    - brief: URO Mentor
-      start: '2013-10-15'
-      end: '2015-06-01'
-      title: URO Research Experience Mentor.
-      description: >
-        Mentored 5 first year science students over
-        two years in bioinformatics research.
-        Produced 2 poster presentations and
-        1 peer-reviewed academic article.
-      url: https://www.uroubc.com/
-
   - title: 'Healthcare Innovation'
     display:
       type: overlapping
@@ -1183,7 +1252,6 @@ sections:
   - title: 'Palliative Care Volunteering'
     display:
       type: overlapping
-      pagebreak: true
     entries:
       - brief: VGH Palliative Care Unit
         start: '2012-03-16'
@@ -1205,6 +1273,7 @@ sections:
     background-image: 'images/gradspeech.png'
     background-color: '#002859'
     color: '#FFFFFF'
+    pagebreak: true
   subsections:
 
   - title: 'Digital Media'
@@ -1242,7 +1311,7 @@ sections:
         category: Performance
         date: '2014-03-01'
         title: UBC Medicine Spring Gala at the Chan Centre.
-        description: 2014, Tango by Piazzolla, "Oblivion". 2018, Liszt Etude S. 144 no. 1, "Un Sospiro". 2019, Poulenc Flute Sonata FP 164 mvt. 3.
+        description: 2014, Tango by Piazzolla, "Oblivion". 2018, Liszt Etude S. 144 no. 1, "Un Sospiro". 2019, Poulenc Flute Sonata FP 164 mvt. 3. 2020, Mendelssohn Piano Trio in D Minor mvt. 1 (with UBC President Dr. Santa Ono).
       - brief: Spring Gala
         category: Performance
         date: '2018-03-01'

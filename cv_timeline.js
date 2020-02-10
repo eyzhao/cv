@@ -58,7 +58,6 @@ populate_contact_data = function(contact_data) {
 }
 
 function draw_highlights(entries, svg_container, highlights_group) {
-    /*
     var highlights = []
     var entries_highlight_idx = entries.map((entry, i) => {
         if (entry.highlight) { return(i) }
@@ -88,7 +87,6 @@ function draw_highlights(entries, svg_container, highlights_group) {
             .attr('height', (d, i) => d['height'] + padding.left + padding.right)
             .attr('width', (d, i) => d['width'] + padding.top + padding.bottom)
             .attr('fill', HIGHLIGHT_COLOR)
-            */
 }
 
 write_section = function(section_data, index) {
