@@ -1,5 +1,5 @@
 const HIGHLIGHT_COLOR = '#FFF999'
-const TEXT_Y_OFFSET = -2.5
+const TEXT_Y_OFFSET = 0
 
 function sanitizeString(str){
     str = str.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"");
