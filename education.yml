@@ -15,7 +15,7 @@ sections:
     display:
       type: nonoverlapping
     entries:
-    - brief: B. Sc.
+    - brief: B. Sc. (UBC)
       title: Bachelor of Science.
       description: >
         Honours Physiology, Minor in Physics.
@@ -28,8 +28,9 @@ sections:
       start: '2009-09-01'
       end: '2013-06-01'
       url: 'https://cps.med.ubc.ca/undergraduate/'
-    - brief: MD PhD
+    - brief: MD PhD (UBC)
       title: Joint Doctor of Medicine & Doctor of Philosophy.
+        The University of British Columbia.
       description: >
         Bioinformatics. Seven-year program involving full training
         as a medical doctor (MD) as well as dedicated graduate health
@@ -37,7 +38,16 @@ sections:
         ''Clinical Actionability and Evolution
         of Mutational Processes in Metastatic Cancer.''
       start: '2013-08-20'
+      end: '2020-06-01'
       url: https://mdprogram.med.ubc.ca/mdphd/
+    - brief: Resident Physician (U of T)
+      title: Radiation Oncology Postgraduate Residency Training Program.
+        The University of Toronto.
+      description: >
+        5-year training program in radiation oncology at the
+        University of Toronto Department of Radiation Oncology.
+      start: '2020-07-01'
+      url: https://www.radonc.utoronto.ca/radiation-oncology-residency
 
   - title: Highlighted Awards and Achievements
     display:
@@ -789,6 +799,17 @@ sections:
           ... Karen Gelmon, Stephen Yip, Steven J.M. Jones, Marco Marra
           and Janessa Laskin. * A designated presenter was chosen because of scheduling conflicts.
         url: https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.3137
+      - brief: ASCO, Chicago IL
+        date: '2020-05-29'
+        category: Poster Presentation
+        title: >
+          Exomes and transcriptomes to reveal actionable findings in patients
+          with negative-targeted panel sequencing.
+        description: >
+          American Society of Clinical Oncology (ASCO).
+          <u>Eric Y. Zhao</u>, Jonathan Torchia, Alexander Fortuna, Dax Torti,
+          ... Lillian Siu, Philippe Bedard, Trevor J Pugh
+
      
   - title: Travel/Conference Awards
     display:
