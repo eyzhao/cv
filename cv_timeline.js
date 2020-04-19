@@ -40,9 +40,12 @@ populate_contact_data = function(contact_data) {
     $('#content')
         .append(`
             <div id='contact'>
+                <div id='photo'>
+                    <img src="${contact_data['photo']}">
+                </div>
                 <div id='idbox'>
                     <div id='name'>
-                        ${contact_data['name']}
+                        ${contact_data['name']}<span id='credentials'>, ${contact_data['credentials']}</span>
                     </div>
                     <div id='title'>
                         ${contact_data['title']}

@@ -1,5 +1,6 @@
 contact:
   name: Eric Zhao
+  credentials: MD, PhD
   title: Physician, Data Scientist, Researcher
   email: eyzhao@alumni.ubc.ca
   website: http://eyzhao.com
@@ -7,6 +8,7 @@ contact:
   blurb: >
     I apply data science principles to solve health research problems
     with an emphasis on cancer, genomics, and precision medicine.
+  photo: images/eric-zhao-portrait.jpg
 sections:
 - title: Scholar
   display:
