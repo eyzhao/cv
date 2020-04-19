@@ -1,9 +1,12 @@
 contact:
   name: Eric Zhao
-  title: MD/PhD Candidate
-  lastupdate: Nov 20, 2019
+  title: Physician, Data Scientist, Researcher
   email: eyzhao@alumni.ubc.ca
   website: http://eyzhao.com
+  lastupdate: Nov 20, 2019
+  blurb: >
+    I apply data science principles to solve health research problems
+    with an emphasis on cancer, genomics, and precision medicine.
 sections:
 - title: Scholar
   display:
@@ -52,9 +55,9 @@ sections:
   - title: Highlighted Awards and Achievements
     display:
       type: bare
-      highlight: true
     entries:
     - brief: Vanier Scholar
+      highlight: true
       date: '2015-05-15'
       category: Research Scholarship / Grant
       title: Vanier Canada Graduate Scholarship.
@@ -66,6 +69,7 @@ sections:
       url: http://www.vanier.gc.ca/en/home-accueil.html
     - brief: Canadian Medical Hall of Fame Award
       date: '2018-09-05'
+      highlight: true
       category: Award
       title: Canadian Medical Hall of Fame Award.
       description: >
@@ -77,6 +81,7 @@ sections:
       url: https://www.med.ubc.ca/md-phd-student-eric-zhao-awarded-the-2018-canadian-medical-hall-of-fame-award/
     - brief: Finalist, Governor General's Gold Medal
       date: '2019-04-01'
+      highlight: true
       category: Award
       title: Finalist, Governor General's Gold Medal.
       description: >
@@ -86,6 +91,7 @@ sections:
       url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: Skarsgard Research Excellence Award
       date: '2018-05-01'
+      highlight: true
       category: Award
       title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
       description: >
@@ -95,10 +101,12 @@ sections:
         and recognize exceptional leadership pursuits. 
     - brief: President, MUS
       date: '2015-04-01'
+      highlight: true
       title: President, Medical Undergraduate Society.
       description: Elected to represent medical students. Details in the <strong>Leadership</strong> section.
     - brief: Senator
       date: '2015-05-01'
+      highlight: true
       title: Vice-chair, UBC Vancouver Senate.
       description: Elected to UBC's highest academic decision-making body. See <strong>Leadership</strong> section.
 
@@ -451,7 +459,6 @@ sections:
         Janessa Laskin, Marco A. Marra, Steven J. M. Jones.
       url: https://www.ncbi.nlm.nih.gov/pubmed/29246904
     - brief: Wong et al. MCS
-      pagebreak: true
       date: '2018-02-01'
       category: Co-author
       title: >
@@ -961,16 +968,6 @@ sections:
     - brief: UBC Vancouver Student Senator
       start: '2014-05-15'
       end: '2016-05-15'
-      title: Vice Chair, UBC Vancouver Senate.
-      description: >
-        The Senate is the highest academic decision
-        making body at UBC Vancouver. Student
-        senators at large are chosen annually by a
-        campus-wide election process. I was further
-        elected by Senate to serve as vice chair, and
-        chair Senate meetings in the absence of the
-        UBC President.
-      url: https://senate.ubc.ca/vancouver
     - brief: VP Internal, CITAC
       start: '2014-11-01'
       end: '2016-11-01'
@@ -1013,6 +1010,18 @@ sections:
       highlight: true
       start: '2015-05-15'
       end: '2016-05-15'
+      title: Vice Chair, UBC Vancouver Senate.
+      description: >
+        The Senate is the highest academic decision
+        making body at UBC Vancouver. Student
+        senators at large are chosen annually by a
+        campus-wide election process. I was further
+        elected by Senate to serve as vice chair, and
+        chair Senate meetings in the absence of the
+        UBC President.
+      url: https://senate.ubc.ca/vancouver
+
+
     - brief: Co-chair, Student Senate Caucus
       start: '2015-05-15'
       end: '2016-05-15'
@@ -1153,7 +1162,6 @@ sections:
   - title: Health Advocacy Events
     display:
       type: events
-      pagebreak: true
     entries:
     - brief: BC Lobby Day
       date: '2014-04-15'
@@ -1294,7 +1302,6 @@ sections:
     background-image: 'images/gradspeech.png'
     background-color: '#002859'
     color: '#FFFFFF'
-    pagebreak: true
   subsections:
 
   - title: 'Digital Media'

@@ -7,13 +7,14 @@ function sanitizeString(str){
 }
 
 plot_timeline = function(result) { 
+    console.log('starting')
     var data = jsyaml.load(result)
     console.log(data)
 
     populate_contact_data(data['contact']);
 
     data['sections'].map((section_data, index) => {
-        section_id = write_section(section_data, index);
+        var section_id = write_section(section_data, index);
 
         for (let subsection_data of section_data['subsections']) {
             if ('hidden' in subsection_data.display) {
@@ -21,15 +22,22 @@ plot_timeline = function(result) {
                     continue
                 }
             }
-            write_subsection(subsection_data, section_id)
+            
+            var subsection_id = write_subsection(subsection_data, section_id)
+            console.log(subsection_id)
         }
     })
+
+    console.log('finished, and writing toc')
+    $(function() {
+        $("#toc").tocify({
+            extendPage: false
+        })
+    });
 }
 
-// | last updated: ${contact_data['lastupdate']}
-
 populate_contact_data = function(contact_data) {
-    $('#container')
+    $('#content')
         .append(`
             <div id='contact'>
                 <div id='idbox'>
@@ -39,13 +47,11 @@ populate_contact_data = function(contact_data) {
                     <div id='title'>
                         ${contact_data['title']}
                     </div>
-                </div>
-                <div id='contactbox'>
-                    <div id='email'>
-                        Email: ${contact_data['email']}
+                    <div>
+                        ${contact_data['email']} <span class='emph'>/</span> ${contact_data['website']}
                     </div>
-                    <div id='website'>
-                        Website: ${contact_data['website']}
+                    <div id='blurb'>
+                        ${contact_data['blurb']}
                     </div>
                 </div>
             </div>
@@ -95,26 +101,21 @@ write_section = function(section_data, index) {
 
     if ('pagebreak' in section_data.display) {
         if (section_data.display.pagebreak) {
-            $('#container')
+            $('#content')
                 .append(`
                     <div class="pagebreak"></div>
                 `)
         }
     }
 
-    $('#container')
+    $('#content')
+        .append(`
+            <h1 class='section-title' id="${section_id}-title">${section_data.title.trim()}</h1>
+            <div class='section-title-underline' id='${section_id}-title-underline'>
+            </div>
+        `)
         .append(`
             <div class='section' id="${section_id}">
-                <div
-                    class='section-header'
-                    id='${section_id}-header'
-                >
-                    <span class='section-title' id="${section_id}-title">
-                        ${section_data.title}
-                    </span>
-                    <div class='section-title-underline' id='${section_id}-title-underline'>
-                    </div>
-                </div>
             </div>
         `)
 
@@ -136,7 +137,7 @@ write_subsection = function(subsection_data, section_id) {
         }
     })
 
-    subsection_id = sanitizeString(subsection_data['title'])
+    subsection_id = sanitizeString(subsection_data['title'].trim())
         .replace(/ /g, '-')
 
     if ('pagebreak' in subsection_data.display) {
@@ -152,12 +153,15 @@ write_subsection = function(subsection_data, section_id) {
 
         $(`#${subsection_id}`)
             .append(`
-                <div id="${subsection_id}-details" class='details-bare' style='padding-top: 0px;'></div>
+                <div
+                    id="${subsection_id}-details"
+                    class="details-bare ${subsection_data['display']['highlight'] ? 'highlight' : ''}" style='padding-top: 0px;'
+                ></div>
             `)
 
         $(`#${subsection_id}-details`)
             .append(`
-                <div class="subsection-title-bare ${subsection_data['display']['highlight'] ? 'highlight' : ''}">${subsection_data['title']}</div>
+                <h2 class="subsection-title-bare ${subsection_data['display']['highlight'] ? 'highlight' : ''}">${subsection_data['title'].trim()}</h2>
                 <div id="${subsection_id}-timeline" class="timeline"></div>
             `)
     } else {
@@ -179,7 +183,7 @@ write_subsection = function(subsection_data, section_id) {
 
         $(`#${subsection_id}-left`)
             .append(`
-                <div class="subsection-title ${subsection_data['display']['highlight'] ? 'highlight' : ''}">${subsection_data['title']}</div>
+                <h2 class="subsection-title ${subsection_data['display']['highlight'] ? 'highlight' : ''}">${subsection_data['title'].trim()}</h2>
                 <div id="${subsection_id}-timeline" class="timeline"></div>
             `)
 
@@ -205,6 +209,8 @@ write_subsection = function(subsection_data, section_id) {
     }
 
     fill_details(entries, subsection_id + '-details', year_labels = show_year_labels)
+
+    return(subsection_id);
 }
 
 fill_details = function(entries, element_id, year_labels) {
@@ -683,3 +689,4 @@ wrap = function(text, width) {
         }
     });
 }
+

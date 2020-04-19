@@ -2,26 +2,40 @@
     <head>
         <title>
         </title>
-        <link rel="stylesheet" href="style.css">
+
+        <!-- general JS scripts -->
         <script src='js/js-yaml/dist/js-yaml.min.js'></script>
 	<script src="js/jquery/jquery-3.3.1.min.js"></script>
         <script src='js/d3/d3.min.js'></script>
-        <script src='cv_timeline.js'></script>
+
+        <!-- tocify scripts -->
+        <script src="js/tocify/libs/jquery/jquery-1.8.3.min.js"></script>
+        <script src="js/tocify/libs/jqueryui/jquery-ui-1.9.1.custom.min.js"></script>
+        <script src="js/tocify/src/javascripts/jquery.tocify.min.js""></script>
+
+        <!-- Imported CSS -->
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Oswald|Titillium+Web&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="js/tocify/src/stylesheets/jquery.tocify.css" />
+
+        <!-- specific CV timeline scripts and CSS -->
+        <script src='cv_timeline.js'></script>
+        <link rel="stylesheet" href="style.css">
 
         <script>
-
 	    data_string = $.ajax({
 		url : "education.yml",
                 success : plot_timeline
 	    });
-
         </script>
     </head>
 
     <body>
         <div id='container'>
+            <div id='toc'>
+            </div>
+            <div id='content'>
+            </div>
         </div>
     </body>
 

@@ -4,12 +4,81 @@
         padding-bottom: 2cm; 
         padding-right: 2cm 
     }
+
+    #toc {
+        display: none !important;
+    }
+    #content {
+        margin-left: 0px !important; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #toc {
+        display: none !important;
+    }
+    #content {
+        margin-left: 0px !important; 
+    }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0px;
     font-family: Georgia, serif;
-    font-size: 15.5
+    font-size: 17;
+}
+
+
+.tocify-item.active {
+    background-color: rgb(55, 126, 184);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tocify-header {
+    font-family: Lato;
+    font-weight: 900;
+    margin-top: 1em;
+}
+
+.tocify-subheader {
+    font-family: Lato;
+    font-weight: 100;
+    margin-left: 1em;
+}
+
+#toc:hover #full-toc {
+    display: block;
+}
+
+#container {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+#toc {
+    width: 250px;
+    top: 30px;
+}
+
+#content {
+    max-width: 1200px;
+    padding: 0px 30px 50px;
+    margin-left: 300px;
+    background-color: white;
+}
+
+span.emph {
+    display: inline-block;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    color: #940720;
+    font-weight: bold;
+    margin: 0.25em;
 }
 
 div .year-label {
@@ -35,49 +104,45 @@ div .subsection-bare {
 }
 
 .subsection-bare .entry {
-    display: list-item;
-    margin: 0px 0px 5px 40px;
-    list-style-type: square;
     color: rgb(55, 126, 184);
 }
 
 div #contact {
     padding: 30px 0px 0px;
     width: 100%;
-    height: 100px;
     background-color: white;
 }
 
 div #idbox {
-    width: 300px;
-    margin: 0px;
+    margin: 0px auto;
+    text-align: center;
+    max-width: 650px;
     padding-bottom: 10px;
     padding-left: 20px;
-    float: left;
-    font-size: 16pt;
+    font-size: 14pt;
     font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 200;
-}
-
-div #contactbox {
-    float: right;
-    font-size: 16pt;
-    font-family: 'Titillium Web', 'Lato', sans-serif;
-    font-weight: 200;
-    padding-top: 5px;
 }
 
 div #name {
-    font-size: 28pt;
+    font-size: 35pt;
     font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 700;
     text-transform: uppercase
 }
 
 div #title {
-    font-size: 20pt;
+    font-size: 24pt;
     font-family: 'Titillium Web', 'Lato', sans-serif;
     font-weight: 200;
+}
+
+div #blurb {
+    font-size: 16pt;
+    padding: 5px;
+    margin: 20px 0px;
+    background-color: rgb(56, 126, 185);
+    color: white;
 }
 
 .pagebreak {
@@ -111,6 +176,19 @@ div .details-bare {
     grid-area: details;
 }
 
+.entry-text.highlight {
+    padding-left: 6px;
+    margin-left: -6px;
+}
+
+.entry-text.highlight .entry-title {
+    background-color: rgb(255, 249, 153);
+    border-radius: 6px;
+    padding: 0px 6px;
+    margin: 0px 6px 0px -6px;
+}
+
+
 div .timeline-block {
     grid-area: timeline;
 }
@@ -135,6 +213,7 @@ div .timeline-block {
 .entry-title {
     font-weight: bold;
     color: #A41034;
+    color: #940720;
     /* color: #ED1B2F; */
 }
 
@@ -162,22 +241,22 @@ span.entry-title-nolink {
     color: #000000;
 }
 
-.subsection-title {
+h2 {
     font-size: 20pt;
     font-weight: bold;
-    margin: 10px 20px;
     font-family: 'Oswald', sans-serif;
 }
 
-.subsection-title-bare {
-    font-size: 20pt;
-    font-weight: bold;
+h2.subsection-title {
+    margin: 10px 20px;
+}
+
+h2.subsection-title-bare {
     margin: 0px 0px 10px;
-    font-family: 'Oswald', sans-serif;
 }
 
 .subsection-continue {
-    font-size: 14pt;
+    font-size: 16pt;
     font-weight: bold;
     margin: 10px 20px;
     color: #999999;
@@ -212,21 +291,20 @@ div.legend {
 }
 
 
-div.section-header {
+h1 {
     padding-top: 10px;
     font-family: 'Titillium Web', 'Lato', sans-serif;
-    font-size: 36;
-    font-weight: 300;
     text-transform: uppercase;
     text-align: center;
     color: black;
-    margin-bottom: -10px;
+    font-size: 28pt;
+    font-weight: 300;
 }
 
 div.section-title-underline {
     width: 25px;
     height: 0px;
-    margin: 10px auto 0px;
+    margin: 10px auto -10px;
     padding-bottom: 8;
     border-top-style: solid;
     border-top-width: 6px;
