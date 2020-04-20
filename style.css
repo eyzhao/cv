@@ -13,6 +13,22 @@
     }
 }
 
+
+@media screen and (max-width: 1367px) {
+    div #photo {
+	float: none !important;
+	text-align: center !important;
+	margin: 0 auto !important;
+    }
+
+    div #idbox {
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center !important;;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
     #toc {
         display: none !important;
@@ -21,6 +37,7 @@
         margin-left: 0px !important; 
     }
 }
+
 
 html {
     scroll-behavior: smooth;
