@@ -2,7 +2,7 @@ contact:
   name: Eric Zhao
   credentials: MD, PhD
   title: Physician, Data Scientist, Researcher
-  email: eyzhao@alumni.ubc.ca
+  email: eric@zhao.science
   website: http://eyzhao.com
   lastupdate: Nov 20, 2019
   blurb: >
@@ -1159,6 +1159,38 @@ sections:
         Produced 2 poster presentations and
         1 peer-reviewed academic article.
       url: https://www.uroubc.com/
+    - brief: Clinician-Scientist Career Group
+      start: '2017-05-01'
+      end: '2018-07-01'
+      title: Executive Team Member, Clinician-Scientist Career Group.
+      description: >
+        Provided guidance and liaison with the MD/PhD program
+        for the organization of events and initiatives that
+        support career development and mentorship of aspiring
+        clinician-scientists amongst the general medical student
+        body.
+    - brief: LGHF MedEd Panelist
+      start: '2019-04-13'
+      end: '2019-04-13'
+      title: Lions Gate Hospital Foundation (LGHF) Med Ed Conference Panelist.
+      description: >
+        Panelist for career mentorship conference in healthcare.
+      url: https://lghfoundation.com/community_events/meded/
+    - brief: Operation Med School Panelist
+      start: '2020-03-08'
+      end: '2020-03-08'
+      title: Panelist, Operation Med School.
+      description: 300-person convention for students interested in
+        career pathways in medicine.
+      url: https://operationmedschool.com/
+    - brief: Speaker, Millenium STEM
+      hidden: true
+      start: 2020-06-27
+      end: 2020-06-27
+      title: Invited Speaker, Millenium STEM Webinar.
+      description: Webinar on career pathways within Science, Technology,
+        Engineering, and Mathematics fields.
+      url: https://millenniumstem.org/
 
 
   - title: Health Advocacy Events
