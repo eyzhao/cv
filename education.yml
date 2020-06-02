@@ -613,7 +613,7 @@ sections:
         David K. B. Li, Lara A. Boyd, Alex L. MacKay
       url: https://www.frontiersin.org/articles/10.3389/fphy.2019.00141/full
     - brief: Pleasance et al. Nat Cancer
-      date: 'present'
+      date: '2020-04-13'
       category: Co-author
       title: >
         Pan-cancer analysis of advanced patient tumors reveals interactions between therapy and genomic landscapes.
@@ -622,7 +622,23 @@ sections:
         Erin Pleasance, Emma Titmuss, Laura Williamson, Harwood Kwan, <u>Eric Zhao</u>, ...
         Howard Lim, Daniel Renouf, Steven Jones, Janessa Laskin, and Marco Marra.
       url: https://www.nature.com/articles/s43018-020-0050-6
-
+    - brief: Zhao et al. Clin Oncol
+      date: 'present'
+      category: Primary Author
+      title: Emerging Precision Oncology Applications of Liquid Biopsy using Circulating Tumor DNA and Methylome Profiling.
+      description: >
+        <em>Accepted</em>. <strong>Clinical Oncology</strong>. <u>Eric Y. Zhao</u>, Scott V. Bratman.
+    - brief: Dixon et al. JNCI Spectrum
+      date: 'present'
+      category: Co-author
+      title: >
+        Establishing a framework for the clinical translation of germline findings in precision oncology.
+      description: >
+        <em>Accepted</em>. <strong>JNCI Spectrum</strong>.
+        Katherine Dixon, Sean Young, Yaoqing Shen, My Linh Thibodeau,
+        Alexandra Fok, Erin Pleasance, <u>Eric Y. Zhao</u>,
+        Martin Jones, ..., Aly Karsan, Marco Marra,
+        Janessa Laskin, Howard Lim, Kasmintan A. Schrader.
 
   - title: Articles Submitted or In Review
     display:
@@ -639,16 +655,6 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Dixon et al. In Review
-      date: 'present'
-      category: Co-author
-      title: >
-        Establishing a framework for the clinical translation of germline findings in precision oncology.
-      description: >
-        <em>In Review</em>. Katherine Dixon, Sean Young, Yaoqing Shen,
-        My Linh Thibodeau, Alexandra Fok, Erin Pleasance, <u>Eric Zhao</u>, ...,
-        Steven Jones, Sophie Sun, Aly Karsan, Marco Marra, Janessa Laskin,
-        Howard Lim, and Kasmintan A. Schrader.
 
   - title: Invited Articles
     display:
