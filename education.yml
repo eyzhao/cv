@@ -304,6 +304,7 @@ sections:
     entries:
       - brief: Marra Lab
         title: Integrated Browser for Annotated Cancer Genome Data.
+        url: 'https://www.bcgsc.ca/people/marco-marra'
         description: Supervised by Dr. Marco Marra at BC Cancer.
           Developed an application to enable accessible, collaborative cancer genome
           analysis. Contributed to a publication in Nature.
@@ -311,6 +312,7 @@ sections:
         end: '2010-09-01'
       - brief: Friedman Lab, VVaP
         title: An Analysis Platform for Prioritization of Germline Variants.
+        url: 'http://www.friedmanlab.org/'
         description: Supervised by Dr. Jan Friedman at UBC Dept. of Medical Genetics.
           Developed a germline variant viewer to support genome analysis
           in patients with inherited genetic disorders.
@@ -318,6 +320,7 @@ sections:
         end: '2011-09-01'
       - brief: Friedman Lab, Phenokeeper
         title: PhenoKeeper - Systematically Querying Patient Phenotypes.
+        url: 'http://www.friedmanlab.org/'
         description: Supervised by Dr. Jan Friedman at UBC Dept. of Medical Genetics.
           Software to store patient phenotypes using the Human
           Phenotype Ontology to support medical genetics studies.
@@ -325,6 +328,7 @@ sections:
         end: '2012-09-01'
       - brief: MacKay Lab
         title: Structure-Function Relationships of Myelination in Multiple Sclerosis.
+        url: 'https://mriresearch.med.ubc.ca/'
         description: Supervised by Dr. Alex MacKay at UBC MRI Research Centre.
           Correlated MRI myelin imaging with evoked potentials
           in central demyelinating disease.
@@ -332,6 +336,7 @@ sections:
         end: '2013-09-01'
       - brief: Jones Lab
         title: Clinical Implications and Evolution of Mutational Processes in Cancer.
+        url: 'https://www.bcgsc.ca/people/steven-jones'
         description: Supervised by Dr. Steven Jones at BC Cancer.
           Validated novel DNA repair
           biomarkers of platinum sensitivity. Developed novel bioinformatics methods
@@ -342,6 +347,7 @@ sections:
         end: '2018-05-01'
       - brief: POG
         title: Bioinformatics for the Personalized Oncogenomics Project.
+        url: 'https://www.personalizedoncogenomics.org/'
         description: Supervised by Dr. Steven Jones at BC Cancer.
           Clinical whole genome and transcriptome analysis of over 800 metastatic
           cancers to report actionable drug targets.
@@ -349,9 +355,20 @@ sections:
         end: '2018-05-01'
       - brief: Pugh Lab
         title: The Clinical Utility of Whole Exome Sequencing in Cancer.
-        description: Supervised by Dr. Trevor Pugh at OICR/PMH.
+        description: Supervised by Dr. Trevor Pugh at PM-OICR Translational Genomics Lab.
           Targeted whole exome/transcriptome sequencing of 100 cancer
           patients to quantify the marginal benefit of extended sequencing.
+        url: 'https://labs.oicr.on.ca/translational-genomics-laboratory'
+        start: '2019-12-01'
+        end: '2020-08-01'
+      - brief: VCH IPAC Lit Review Team
+        url: 'http://ipac.vch.ca/'
+        title: COVID-19 Rapid Literature Review Team.
+        description: Supervised by Dr. Titus Wong at Vancouver Coastal Health Infection
+          Prevention and Control. Generated rapid reviews of the latest infection control
+          evidence on SARS-nCoV-2 to inform hospital policies.
+        start: '2020-03-15'
+        end: '2020-06-01'
 
   - title: Peer-Reviewed Journal Articles
     display:
@@ -1324,6 +1341,14 @@ sections:
       - brief: INTERFACE Summit (attendee)
         start: '2016-08-20'
         end: '2016-08-24'
+      - brief: COVID-19 811 Coordinator
+        start: '2020-03-15'
+        end: '2020-06-01'
+        title: Project Coordinator, 811 Mobilization.
+        description: >
+          During the COVID-19 pandemic, UBC medical students were
+          mobilized to staff HealthLinkBC 811 call centres to
+          field health-related concerns from the public.
 
   - title: 'Palliative Care Volunteering'
     display:
