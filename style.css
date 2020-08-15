@@ -8,8 +8,24 @@
     #toc {
         display: none !important;
     }
+    #photo {
+        display: none !important;
+    }
+    #title {
+        display: none !important;
+    }
+    #blurb {
+        display: none !important;
+    }
+
     #content {
         margin-left: 0px !important; 
+    }
+
+    div #idbox {
+        margin: 0 auto !important;
+        float: none !important;
+        text-align: center !important;;
     }
 }
 

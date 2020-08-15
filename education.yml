@@ -25,11 +25,6 @@ sections:
       description: >
         Honours Physiology, Minor in Physics.
         The University of British Columbia.
-        Honours thesis title: ''Correlations
-        between corpus callosal myelin water
-        fraction and measures of transcallosal
-        inhibition in multiple sclerosis patients
-        on glatiramer acetate treatment and controls''
       start: '2009-09-01'
       end: '2013-06-01'
       url: 'https://cps.med.ubc.ca/undergraduate/'
@@ -112,54 +107,6 @@ sections:
       title: Vice-chair, UBC Vancouver Senate.
       description: Elected to UBC's highest academic decision-making body. See <strong>Leadership</strong> section.
 
-  - title: Academic Awards
-    display:
-      type: events
-    entries:
-    - brief: President's Entry
-      hidden: true
-      title: UBC President's Entry Award.
-      description: $2000, GPA-based.
-      date: '2009-06-01'
-      category: Award
-    - brief: Trek Excellence
-      hidden: true
-      title: UBC Trek Excellence Award.
-      description: $1500. For top 5% of UBC students.
-      date: '2010-07-01'
-      category: Award
-      url: https://students.ubc.ca/enrolment/finances/awards-scholarships-bursaries/trek-excellence-scholarship
-    - brief: Dean of Science Scholarship
-      hidden: true
-      title: Dean of Science Scholarship.
-      description: $500. GPA-based.
-      date: '2011-01-10'
-      category: Award
-    - brief: Physiology Prize
-      title: Physiology Prize.
-      description: $150. For best undergraduate thesis.
-      date: '2013-05-15'
-      category: Award
-      url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
-    - brief: Skarsgard Research Excellence Award
-      highlight: true
-      date: '2018-05-01'
-      category: Award
-      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
-      description: >
-        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
-    - brief: Finalist, Governor General's Gold Medal
-      highlight: true
-      date: '2019-04-01'
-      category: Award
-      title: Finalist, Governor General's Gold Medal.
-      description: >
-        Finalist (top 6) among 500 doctoral students across all UBC Faculties.
-        Chosen as the top graduate student within the Faculty of Medicine.
-        One gold medal is awarded annually to the student who has achieved the most outstanding
-        academic record as a doctoral student.
-      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
-
   - title: Research Awards
     display:
       type: events
@@ -219,6 +166,63 @@ sections:
         world class graduate students who demonstrate leadership,
         research potential, and academic excellence.
       url: http://www.vanier.gc.ca/en/home-accueil.html
+
+  - title: Academic Awards
+    display:
+      type: events
+    entries:
+    - brief: President's Entry
+      hidden: true
+      title: UBC President's Entry Award.
+      description: GPA-based.
+      date: '2009-06-01'
+      category: Award
+    - brief: Trek Excellence
+      hidden: true
+      title: UBC Trek Excellence Award.
+      description: For top 5% of UBC students.
+      date: '2010-07-01'
+      category: Award
+      url: https://students.ubc.ca/enrolment/finances/awards-scholarships-bursaries/trek-excellence-scholarship
+    - brief: Dean of Science Scholarship
+      hidden: true
+      title: Dean of Science Scholarship.
+      description: GPA-based.
+      date: '2011-01-10'
+      category: Award
+    - brief: Physiology Prize
+      title: Physiology Prize.
+      description: For best undergraduate thesis.
+      date: '2013-05-15'
+      category: Award
+      url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
+    - brief: Skarsgard Research Excellence Award
+      highlight: true
+      date: '2018-05-01'
+      category: Award
+      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
+      description: >
+        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
+    - brief: Finalist, Governor General's Gold Medal
+      highlight: true
+      date: '2019-04-01'
+      category: Award
+      title: Finalist, Governor General's Gold Medal.
+      description: >
+        Finalist (top 6) among 500 doctoral students across all UBC Faculties.
+        Chosen as the top graduate student within the Faculty of Medicine.
+        One gold medal is awarded annually to the student who has achieved the most outstanding
+        academic record as a doctoral student.
+      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
+    - brief: Margaret Patterson Award
+      date: '2020-08-15'
+      category: Award
+      title: Margaret Patterson Memorial Award in Medicine.
+      description: >
+        Scholarship endowed by Captain C.Y. Wu and Dr. C.H. Wu and augmented through a bequest
+        by Irene R. Brown in memory of Margaret Patterson. Offered to a student exhibiting a
+        special interest in the study and treatment of cancer.
+
 
   - title: Leadership Awards
     display:
@@ -635,38 +639,36 @@ sections:
       title: >
         Pan-cancer analysis of advanced patient tumors reveals interactions between therapy and genomic landscapes.
       description: >
-        <em>Accepted</em>. <strong>Nature Cancer</strong>.
+        <strong>Nature Cancer</strong>.
         Erin Pleasance, Emma Titmuss, Laura Williamson, Harwood Kwan, <u>Eric Zhao</u>, ...
         Howard Lim, Daniel Renouf, Steven Jones, Janessa Laskin, and Marco Marra.
       url: https://www.nature.com/articles/s43018-020-0050-6
     - brief: Zhao et al. Clin Oncol
-      date: 'present'
+      date: '2020-05-29'
       category: Primary Author
       title: Emerging Precision Oncology Applications of Liquid Biopsy using Circulating Tumor DNA and Methylome Profiling.
       description: >
-        <em>Accepted</em>. <strong>Clinical Oncology</strong>. <u>Eric Y. Zhao</u>, Scott V. Bratman.
+        <strong>Clinical Oncology</strong>. <u>Eric Y. Zhao</u>, Scott V. Bratman.
+      url: https://www.clinicaloncologyonline.net/article/S0936-6555(20)30234-X/pdf
     - brief: Dixon et al. JNCI Spectrum
-      date: 'present'
+      date: '2020-05-29'
       category: Co-author
       title: >
         Establishing a framework for the clinical translation of germline findings in precision oncology.
       description: >
-        <em>Accepted</em>. <strong>JNCI Spectrum</strong>.
+        <strong>JNCI Spectrum</strong>.
         Katherine Dixon, Sean Young, Yaoqing Shen, My Linh Thibodeau,
         Alexandra Fok, Erin Pleasance, <u>Eric Y. Zhao</u>,
         Martin Jones, ..., Aly Karsan, Marco Marra,
         Janessa Laskin, Howard Lim, Kasmintan A. Schrader.
-
-  - title: Articles Submitted or In Review
-    display:
-      type: events
-    entries:
+      url: https://academic.oup.com/jncics/article/doi/10.1093/jncics/pkaa045/5848657
     - brief: Zhao et al. In Review
+      hidden: true
       date: 'present'
       category: Primary Author
       title: >
-        SignIT: Inferring Mutation Signatures and their Clonal
-        Evolution in Individual Tumours.
+        "SignIT: Inferring Mutation Signatures and their Clonal
+        Evolution in Individual Tumours."
       description: >
         <em>In Review</em>. <u>Eric Y. Zhao</u>,
         Erin D. Pleasance, Martin R. Jones, 
@@ -1019,17 +1021,12 @@ sections:
         I served voice of the society representing the
         over 1000 medical students enrolled in the
         MD Undergraduate Program at the University
-        of British Columbia. Major accomplishments:
+        of British Columbia. Major accomplishments include
         (1) Establishment of a medical education committee
         to coordinate academic advocacy.
-        (2) Passed position paper on national pharmacare.
-        (3) Overhaul of member communication to improve
-        accountability and reduce email burden.
-        (4) Organized student representation at the
-        2016 UBC Medical Program Accreditation Site Visit,
-        which resulted in successful accreditation.
-        (5) Establishment of single transferrable vote
-        for elections.
+        (2) Position paper on national pharmacare.
+        (3) Overhaul of member communication.
+        (4) Student role in 2016 UBC Medical Program Accreditation Site Visit.
       url: https://mus.med.ubc.ca
     - brief: Vice Chair, UBC Vancouver Senate
       highlight: true
@@ -1214,9 +1211,8 @@ sections:
         career pathways in medicine.
       url: https://operationmedschool.com/
     - brief: Speaker, Millenium STEM
-      hidden: true
-      start: 2020-06-27
-      end: 2020-06-27
+      start: '2020-06-27'
+      end: '2020-06-27'
       title: Invited Speaker, Millenium STEM Webinar.
       description: Webinar on career pathways within Science, Technology,
         Engineering, and Mathematics fields.
