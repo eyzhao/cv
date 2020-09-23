@@ -166,6 +166,14 @@ sections:
         world class graduate students who demonstrate leadership,
         research potential, and academic excellence.
       url: http://www.vanier.gc.ca/en/home-accueil.html
+    - brief: STARS21 Award
+      date: '2020-09-23'
+      category: Institutional Award
+      title: The Strategic Training in Transdisciplinary Radiation Science for the 21st Century (STARS21).
+      description: >
+        Award to recognize and support excellence in trans-disciplinary health
+        investigators. Supports workshop/conference expenses and travel.
+      url: https://www.radonc.utoronto.ca/stars21
 
   - title: Academic Awards
     display:
@@ -178,7 +186,6 @@ sections:
       date: '2009-06-01'
       category: Award
     - brief: Trek Excellence
-      hidden: true
       title: UBC Trek Excellence Award.
       description: For top 5% of UBC students.
       date: '2010-07-01'
@@ -271,7 +278,6 @@ sections:
         $1850. Awarded annually to two students who have demonstrated
         strong leadership at UBC and within Greater Vancouver.
     - brief: Commencement Address
-      hidden: true
       date: '2015-06-20'
       category: Honour / Distinction
       title: Commencement Address.
@@ -649,7 +655,7 @@ sections:
       title: Emerging Precision Oncology Applications of Liquid Biopsy using Circulating Tumor DNA and Methylome Profiling.
       description: >
         <strong>Clinical Oncology</strong>. <u>Eric Y. Zhao</u>, Scott V. Bratman.
-      url: https://www.clinicaloncologyonline.net/article/S0936-6555(20)30234-X/pdf
+      url: https://www.sciencedirect.com/science/article/pii/S093665552030234X?dgcid=coauthor
     - brief: Dixon et al. JNCI Spectrum
       date: '2020-05-29'
       category: Co-author
