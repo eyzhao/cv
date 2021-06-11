@@ -1,10 +1,10 @@
 contact:
   name: Eric Zhao
   credentials: MD, PhD
-  title: Physician, Data Scientist, Researcher
+  title: Resident Physician, Data Scientist, Researcher
   email: eric@zhao.science
   website: http://eyzhao.com
-  lastupdate: Nov 20, 2019
+  lastupdate: May 6, 2021
   blurb: >
     I apply data science principles to solve health research problems
     with an emphasis on cancer, genomics, and precision medicine.
@@ -32,9 +32,7 @@ sections:
       title: Joint Doctor of Medicine & Doctor of Philosophy.
         The University of British Columbia.
       description: >
-        Bioinformatics. Seven-year program involving full training
-        as a medical doctor (MD) as well as dedicated graduate health
-        research to complete a PhD. My dissertation was entitled
+        MD and PhD in Bioinformatics. Dissertation was entitled
         ''Clinical Actionability and Evolution
         of Mutational Processes in Metastatic Cancer.''
       start: '2013-08-20'
@@ -44,7 +42,7 @@ sections:
       title: Radiation Oncology Postgraduate Residency Training Program.
         The University of Toronto.
       description: >
-        5-year training program in radiation oncology at the
+        5-year clinical training program in the
         University of Toronto Department of Radiation Oncology.
       start: '2020-07-01'
       url: https://www.radonc.utoronto.ca/radiation-oncology-residency
@@ -53,6 +51,14 @@ sections:
     display:
       type: bare
     entries:
+    - brief: Int'l Clinician-Scientist Fellow
+      date: '2021-06-10'
+      category: Research Scholarship / Grant
+      title: DKFZ-PM International Clinician-Scientist Fellowship.
+      highlight: true
+      description: >
+        $130 000. Two-year fellowship for a collaborative research project between
+        UHN (Toronto) and DKFZ (Heidelberg).
     - brief: Vanier Scholar
       highlight: true
       date: '2015-05-15'
@@ -77,8 +83,8 @@ sections:
          entrepreneurial spirit. 
       url: https://www.med.ubc.ca/md-phd-student-eric-zhao-awarded-the-2018-canadian-medical-hall-of-fame-award/
     - brief: Finalist, Governor General's Gold Medal
-      date: '2019-04-01'
       highlight: true
+      date: '2019-04-01'
       category: Award
       title: Finalist, Governor General's Gold Medal.
       description: >
@@ -87,8 +93,8 @@ sections:
         Chosen as the top PhD student within the Faculty of Medicine.
       url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: Skarsgard Research Excellence Award
-      date: '2018-05-01'
       highlight: true
+      date: '2018-05-01'
       category: Award
       title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
       description: >
@@ -171,9 +177,18 @@ sections:
       category: Institutional Award
       title: The Strategic Training in Transdisciplinary Radiation Science for the 21st Century (STARS21).
       description: >
-        Award to recognize and support excellence in trans-disciplinary health
-        investigators. Supports workshop/conference expenses and travel.
+        $2000. Award to recognize and support trans-disciplinary research.
       url: https://www.radonc.utoronto.ca/stars21
+    - brief: Int'l Clinician-Scientist Fellow
+      date: '2021-06-10'
+      category: Institutional Award
+      title: DKFZ-PM International Clinician-Scientist Fellowship
+      highlight: true
+      description: >
+        $130 000. Two-year fellowship to promote transatlantic professional
+        training and translational research. Includes a 1-year site visit to
+        DKFZ (German Cancer Centre) to carry out a collaborative research project
+        between Dr. Trevor Pugh (UHN) and Dr. Stefan Pfister (DKFZ).
 
   - title: Academic Awards
     display:
@@ -186,6 +201,7 @@ sections:
       date: '2009-06-01'
       category: Award
     - brief: Trek Excellence
+      hidden: true
       title: UBC Trek Excellence Award.
       description: For top 5% of UBC students.
       date: '2010-07-01'
@@ -222,6 +238,7 @@ sections:
         academic record as a doctoral student.
       url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: Margaret Patterson Award
+      pagebreak: true
       date: '2020-08-15'
       category: Award
       title: Margaret Patterson Memorial Award in Medicine.
@@ -264,6 +281,7 @@ sections:
       url: https://www.youtube.com/watch?v=iLnZbU8WB9Y
     - brief: Best of SLC
       date: '2014-01-11'
+      hidden: true
       category: Award
       title: Best of SLC Prize.
       description: >
@@ -308,7 +326,7 @@ sections:
         $500. This inaugural award honours two medical students (one in year 1 or 2 and one in year 3 or 4) who demonstrate excellence in leadership by engaging and guiding others in promoting a responsible and evolving medical student community and/or health care system.
       url: https://alumni.med.ubc.ca/maa/maa-awards/
 
-  - title: Research Projects
+  - title: Past Research Projects
     display:
       type: bare
     entries:
@@ -680,6 +698,15 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
+    - brief: Sanz Garcia, Zhao et al. In Review
+      date: 'present'
+      category: Primary Author
+      title: >
+        Monitoring and Adapting Cancer Treatment Using Circulating Tumor
+        DNA Kinetics: Current Research and Challenges
+      description: >
+        <em>In Review</em>. Enrique Sanz Garcia,
+        <u>Eric Y. Zhao</u>, Scott V. Bratman, Lillian Siu.
 
   - title: Invited Articles
     display:
@@ -857,6 +884,7 @@ sections:
       type: events
     entries:
     - brief: UBC SUS Grant
+      hidden: true
       title: UBC SUS Professional Development Grant.
       description: $250. Supported conference travel.
       date: '2013-01-10'
@@ -1070,6 +1098,7 @@ sections:
 
   - title: Committee Memberships
     display:
+      pagebreak: true
       type: overlapping
     entries:
     - brief: Vice Chair, Senate Teaching & Learning
@@ -1227,6 +1256,7 @@ sections:
 
   - title: Health Advocacy Events
     display:
+      pagebreak: true
       type: events
     entries:
     - brief: BC Lobby Day
@@ -1278,7 +1308,7 @@ sections:
         MD/PhD program funding.
       url: https://www.cma.ca/
 
-  - title: 'Combatting Mental Health Stigma'
+  - title: 'Supporting Learner Mental Health'
     display:
       type: overlapping
     entries:
@@ -1307,6 +1337,11 @@ sections:
         Memorial Award, generously donated by the Taylor family
         in memory of UBC Medical Student Laura Taylor.
       url: https://memorial.support.ubc.ca/laura-taylor/
+    - brief: Wellness Committee
+      start: '2020-10-01'
+      end: present
+      title: Wellness Committee, Radiation Medicine Program, University of Toronto.
+      description: In charge of organizing initiatives to support the wellbeing of peers in my residency program.
 
   - title: 'Healthcare Innovation'
     display:
@@ -1354,6 +1389,7 @@ sections:
 
   - title: 'Palliative Care Volunteering'
     display:
+      hidden: true
       type: overlapping
     entries:
       - brief: VGH Palliative Care Unit
@@ -1373,6 +1409,7 @@ sections:
 
 - title: Artist
   display:
+    pagebreak: true
     background-image: 'images/gradspeech.png'
     background-color: '#002859'
     color: '#FFFFFF'
