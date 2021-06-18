@@ -4,7 +4,7 @@ contact:
   title: Resident Physician, Data Scientist, Researcher
   email: eric@zhao.science
   website: http://eyzhao.com
-  lastupdate: May 6, 2021
+  lastupdate: June 18, 2021
   blurb: >
     I apply data science principles to solve health research problems
     with an emphasis on cancer, genomics, and precision medicine.
@@ -18,7 +18,7 @@ sections:
   subsections:
   - title: Education
     display:
-      type: nonoverlapping
+      type: overlapping
     entries:
     - brief: B. Sc. (UBC)
       title: Bachelor of Science.
@@ -45,12 +45,34 @@ sections:
         5-year clinical training program in the
         University of Toronto Department of Radiation Oncology.
       start: '2020-07-01'
+      end: '2026-06-30'
       url: https://www.radonc.utoronto.ca/radiation-oncology-residency
+    - brief: Int'l Clinician-Scientist & Postdoc Fellow
+      title: International Clinician-Scientist / CRI-funded Postdoctoral Fellow.
+      description: >
+        Princess Margaret Hospital (Toronto) and DKFZ/German Cancer
+        Research Centre (Heidelberg). Supervised by Dr. Trevor Pugh,
+        Dr. Scott Bratman, and Dr. Stefan Pfister. Externally funded by
+        the Cancer Research Institute Irvington Postdoctoral Fellowship.
+        DKFZ exchange supported by the PMH International Clinician Scientist
+        Program.
+      start: '2021-07-01'
+      end: '2024-07-01'
+      url: https://www.uhn.ca/PrincessMargaret/Global_Cancer_Program/Documents/Clinician_Scientist_Fellowship_Program_Description_and_Application.pdf
 
   - title: Highlighted Awards and Achievements
     display:
       type: bare
+      hidden: true
     entries:
+    - brief: CRI Irvington Postdoc Fellowship
+      date: '2021-06-18'
+      category: Research Scholarship / Grant
+      title: Cancer Research Institute Irvington Postdoctoral Fellowship.
+      highlight: true
+      description: >
+        $175 000 USD. 2-3 year fellowship providing career training to the most promising
+        young scientists in basic and tumor immunology.
     - brief: Int'l Clinician-Scientist Fellow
       date: '2021-06-10'
       category: Research Scholarship / Grant
@@ -189,6 +211,14 @@ sections:
         training and translational research. Includes a 1-year site visit to
         DKFZ (German Cancer Centre) to carry out a collaborative research project
         between Dr. Trevor Pugh (UHN) and Dr. Stefan Pfister (DKFZ).
+    - brief: CRI Irvington Postdoc Fellowship
+      date: '2021-06-18'
+      category: Research Scholarship / Grant
+      title: Cancer Research Institute Irvington Postdoctoral Fellowship.
+      highlight: true
+      description: >
+        $175 000 USD. 2-3 year fellowship providing career training to the most promising
+        young scientists in basic and tumor immunology.
 
   - title: Academic Awards
     display:
@@ -238,7 +268,6 @@ sections:
         academic record as a doctoral student.
       url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: Margaret Patterson Award
-      pagebreak: true
       date: '2020-08-15'
       category: Award
       title: Margaret Patterson Memorial Award in Medicine.
@@ -1012,6 +1041,16 @@ sections:
     color: '#FFFFFF'
   subsections:
 
+  - title: Medical Education
+    display:
+      type: overlapping
+    entries:
+    - brief: Decrypting Clerkship
+      start: '2021-05-15'
+      end: 'present'
+      title: Junior Leader, Decrypting Clerkship
+      description: A resident-led program to facilitate transition to clinical medicine.
+
   - title: Elected Positions
     display:
       type: overlapping
@@ -1076,8 +1115,6 @@ sections:
         chair Senate meetings in the absence of the
         UBC President.
       url: https://senate.ubc.ca/vancouver
-
-
     - brief: Co-chair, Student Senate Caucus
       start: '2015-05-15'
       end: '2016-05-15'
@@ -1098,7 +1135,6 @@ sections:
 
   - title: Committee Memberships
     display:
-      pagebreak: true
       type: overlapping
     entries:
     - brief: Vice Chair, Senate Teaching & Learning
@@ -1256,7 +1292,6 @@ sections:
 
   - title: Health Advocacy Events
     display:
-      pagebreak: true
       type: events
     entries:
     - brief: BC Lobby Day
@@ -1409,7 +1444,6 @@ sections:
 
 - title: Artist
   display:
-    pagebreak: true
     background-image: 'images/gradspeech.png'
     background-color: '#002859'
     color: '#FFFFFF'

@@ -305,7 +305,8 @@ overlapping_timeline = function(data, element_id) {
     });
 
     var min_date = d3.min(entries.map(e => { return(e['start']) })),
-        max_date = d3.max(entries.map(e => { return(e['end']) }))
+        max_date = d3.max(entries.map(e => { return(e['end']) })),
+        year_range = max_date.getFullYear() - min_date.getFullYear()
 
     var svg_container = d3.select('div#' + element_id)
         .append('svg')
@@ -377,9 +378,10 @@ overlapping_timeline = function(data, element_id) {
             .attr('r', 2.5)
             .attr('fill', 'black')
 
+    console.log(Math.round(year_range / height * 35))
     var y_axis = d3.axisLeft()
         .scale(y_scale)
-        .ticks(d3.timeYear.every(1))
+        .ticks(d3.timeYear.every(Math.max(Math.round(year_range / height * 25), 1)))
 
     svg_container.append("g")
         .attr("class", "timeline-years")   // give it a class so it can be used to select only xaxis labels  below
