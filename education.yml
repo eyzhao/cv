@@ -1,7 +1,7 @@
 contact:
   name: Eric Zhao
   credentials: MD, PhD
-  title: Resident Physician, Data Scientist, Researcher
+  title: Resident Physician in Radiation Oncology, Postdoctoral Fellow, Data Scientist
   email: eric@zhao.science
   website: http://eyzhao.com
   lastupdate: June 18, 2021
@@ -219,6 +219,13 @@ sections:
       description: >
         $175 000 USD. 2-3 year fellowship providing career training to the most promising
         young scientists in basic and tumor immunology.
+    - brief: PMH Postdoctoral Fellowship
+      date: '2021-07-05'
+      category: Research Scholarship / Grant
+      title: Princess Margaret Postdoctoral Fellowship.
+      description: >
+        $50 000. Award offered but declined on account of having already accepted the CRI
+        postdoctoral fellowship.
 
   - title: Academic Awards
     display:
