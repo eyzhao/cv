@@ -1,13 +1,13 @@
 contact:
   name: Eric Zhao
   credentials: MD, PhD
-  title: Resident Physician in Radiation Oncology, Postdoctoral Fellow, Data Scientist
+  title: Radiation Oncology Resident, Data Scientist, and Postdoctoral Fellow in Immuno-oncology
   email: eric@zhao.science
   website: http://eyzhao.com
   lastupdate: June 18, 2021
   blurb: >
-    I apply data science principles to solve health research problems
-    with an emphasis on cancer, genomics, and precision medicine.
+    I apply data science principles to biomedical problems with an emphasis
+    on cancer immunology, genomics, and precision medicine.
   photo: images/eric-zhao-portrait.jpg
 sections:
 - title: Scholar
@@ -595,7 +595,7 @@ sections:
         instability burden but exceptional response to FOLFIRINOX.
       description: >
         <strong>JCO Precision Oncology</strong>. Hui-li Wong,
-        <u>Eric Y. Zhao</u> (co-primary), Martin R. Jones,
+        <u>Eric Y. Zhao</u>* (co-primary), Martin R. Jones,
         Caralyn R. Reisle, ...
         Steven J. M. Jones, Kasmintan Schrader,
         David F. Schaeffer, Daniel J. Renouf.
@@ -663,12 +663,13 @@ sections:
         Therapeutic Implication of Genomic Landscape of Adult Metastatic Sarcoma
       description: >
         <strong>JCO Precision Oncology</strong>.
-        Xiaolan Feng, Erin D. Pleasance (co-primary),
-        <u>Eric Y. Zhao (co-primary)</u>, Tony Ng (co-primary), Jasleen Grewal,
+        Xiaolan Feng, Erin D. Pleasance* (co-primary),
+        <u>Eric Y. Zhao</u>* (co-primary), Tony Ng* (co-primary), Jasleen Grewal,
         Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
         Marco A. Marra, and Janessa Laskin.
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
     - brief: Shen et al. PNAS
+      pagebreak: true
       date: '2019-09-17'
       category: Co-author
       title: >
@@ -734,15 +735,14 @@ sections:
         Erin D. Pleasance, Martin R. Jones, 
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
-    - brief: Sanz Garcia, Zhao et al. In Review
+    - brief: Sanz Garcia, Zhao et al. Science Advances
       date: 'present'
       category: Primary Author
       title: >
-        Monitoring and Adapting Cancer Treatment Using Circulating Tumor
-        DNA Kinetics: Current Research and Challenges
+        Monitoring and Adapting Cancer Treatment Using Circulating Tumor DNA Kinetics: Current Research and Challenges
       description: >
-        <em>In Review</em>. Enrique Sanz Garcia,
-        <u>Eric Y. Zhao</u>, Scott V. Bratman, Lillian Siu.
+        <em>Accepted</em> at <strong>Science Advances</strong>.
+        Enrique Sanz Garcia, <u>Eric Y. Zhao</u>* (co-primary), Scott V. Bratman, Lillian Siu.
 
   - title: Invited Articles
     display:
@@ -856,6 +856,7 @@ sections:
           <strong>Poster Presentation</strong>
         url: http://www.ashg.org/2016meeting/listing/PosterSessions.shtml
       - brief: AACR, Washington DC
+        pagebreak: true
         date: '2017-04-04'
         category: Poster Presentation
         title: >
@@ -966,6 +967,7 @@ sections:
         $1000. Travel award to support attendance at a cancer research conference.
       url: http://www.cancer.ca/en/research/funding-results/recent-competition-results/may-2018-trv-results/
     - brief: John Bosdet Travel Award
+      pagebreak: true
       date: '2019-03-12'
       category: Travel Award
 
@@ -1046,6 +1048,7 @@ sections:
     background-image: 'images/gradspeech.png'
     background-color: '#990000'
     color: '#FFFFFF'
+    pagebreak: true
   subsections:
 
   - title: Medical Education
