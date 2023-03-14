@@ -1,5 +1,5 @@
 contact:
-  name: Eric Zhao
+  name: Eric Stutheit-Zhao
   credentials: MD, PhD
   title: Radiation Oncology Resident, Data Scientist, and Postdoctoral Fellow in Immuno-oncology
   email: eric@zhao.science
@@ -47,95 +47,21 @@ sections:
       start: '2020-07-01'
       end: '2026-06-30'
       url: https://www.radonc.utoronto.ca/radiation-oncology-residency
-    - brief: Int'l Clinician-Scientist & Postdoc Fellow
-      title: International Clinician-Scientist / CRI-funded Postdoctoral Fellow.
+    - brief: Postdoctoral Fellow
+      title: Postdoctoral Fellow.
+      description: >
+        CRI Irvington Postdoctoral Fellowship in immuno-oncology research.
+      start: '2021-07-01'
+      end: '2024-07-01'
+    - brief: Int'l Clinician Scientist.
+      title: PMH/DKFZ International Clinician Scientist Award.
       description: >
         Princess Margaret Hospital (Toronto) and DKFZ/German Cancer
         Research Centre (Heidelberg). Supervised by Dr. Trevor Pugh,
-        Dr. Scott Bratman, and Dr. Stefan Pfister. Externally funded by
-        the Cancer Research Institute Irvington Postdoctoral Fellowship.
-        DKFZ exchange supported by the PMH International Clinician Scientist
-        Program.
-      start: '2021-07-01'
-      end: '2024-07-01'
+        Dr. Scott Bratman, and Dr. Stefan Pfister. 
       url: https://www.uhn.ca/PrincessMargaret/Global_Cancer_Program/Documents/Clinician_Scientist_Fellowship_Program_Description_and_Application.pdf
 
-  - title: Highlighted Awards and Achievements
-    display:
-      type: bare
-      hidden: true
-    entries:
-    - brief: CRI Irvington Postdoc Fellowship
-      date: '2021-06-18'
-      category: Research Scholarship / Grant
-      title: Cancer Research Institute Irvington Postdoctoral Fellowship.
-      highlight: true
-      description: >
-        $175 000 USD. 2-3 year fellowship providing career training to the most promising
-        young scientists in basic and tumor immunology.
-    - brief: Int'l Clinician-Scientist Fellow
-      date: '2021-06-10'
-      category: Research Scholarship / Grant
-      title: DKFZ-PM International Clinician-Scientist Fellowship.
-      highlight: true
-      description: >
-        $130 000. Two-year fellowship for a collaborative research project between
-        UHN (Toronto) and DKFZ (Heidelberg).
-    - brief: Vanier Scholar
-      highlight: true
-      date: '2015-05-15'
-      category: Research Scholarship / Grant
-      title: Vanier Canada Graduate Scholarship.
-      description: >
-        $150 000, May 2015. Canada's premier Three-year
-        national tri-agency research scholarship for
-        "<strong>world class graduate students</strong>
-        who demonstrate leadership, research potential, and academic excellence".
-      url: http://www.vanier.gc.ca/en/home-accueil.html
-    - brief: Canadian Medical Hall of Fame Award
-      date: '2018-09-05'
-      highlight: true
-      category: Award
-      title: Canadian Medical Hall of Fame Award.
-      description: >
-         $5000, Sep 2018. Given to one medical student per
-         school, for <strong>outstanding potential
-         healthcare leaders
-         and innovators</strong> who show perseverance, collaboration, and an
-         entrepreneurial spirit. 
-      url: https://www.med.ubc.ca/md-phd-student-eric-zhao-awarded-the-2018-canadian-medical-hall-of-fame-award/
-    - brief: Finalist, Governor General's Gold Medal
-      highlight: true
-      date: '2019-04-01'
-      category: Award
-      title: Finalist, Governor General's Gold Medal.
-      description: >
-        Apr 2019. Finalist (top 6) among 500 doctoral students across all
-        UBC Faculties.
-        Chosen as the top PhD student within the Faculty of Medicine.
-      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
-    - brief: Skarsgard Research Excellence Award
-      highlight: true
-      date: '2018-05-01'
-      category: Award
-      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
-      description: >
-        $1000, May 2018. Competitive award to honour the <strong>top PhD
-        dissertation at 
-        BC Cancer</strong> each year
-        and recognize exceptional leadership pursuits. 
-    - brief: President, MUS
-      date: '2015-04-01'
-      highlight: true
-      title: President, Medical Undergraduate Society.
-      description: Elected to represent medical students. Details in the <strong>Leadership</strong> section.
-    - brief: Senator
-      date: '2015-05-01'
-      highlight: true
-      title: Vice-chair, UBC Vancouver Senate.
-      description: Elected to UBC's highest academic decision-making body. See <strong>Leadership</strong> section.
-
-  - title: Research Awards
+  - title: Research Awards & Fellowships
     display:
       type: events
     entries:
@@ -143,41 +69,41 @@ sections:
       title: GSAT-Funded Summer Research Award.
       description: $3600. Supports summer research internship in genome science.
       date: '2010-05-01'
-      category: Institutional Award
+      category: Research Scholarship
       url: https://www.gsat.ubc.ca/
     - brief: BCCGN Award
       title: BC Clinical Genomics Network Summer Research Scholarship.
       description: $3750.
       date: '2011-05-01'
-      category: Institutional Award
+      category: Research Scholarship
       url: https://bccgn.med.ubc.ca/resources/awards/training-awards/
     - brief: BCCHRI Scholarship
       title: BC Children's Hospital Research Institute (BCCHRI) Summer Research Scholarship.
       description: >
         $3750. To support a summer research internship at the BCCHRI.
       date: '2012-03-30'
-      category: Institutional Award
+      category: Research Scholarship
       url: https://bcchr.ca/about-us/training-opportunities/undergraduate-medical-students/summer-student-research-program-4
     - brief: Dean of Science Research Award
       title: Dean of Science Research Award.
       description: >
         $2500. To support summer research at UBC.
       date: '2013-04-15'
-      category: Institutional Award
+      category: Research Scholarship
     - brief: UBC 4YF
       title: UBC 4 Year Doctoral Fellowship.
       description: $72 000. PhD research stipend award.
       date: '2013-09-01'
-      category: Institutional Award
+      category: Fellowship Grant
       url: https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf
     - brief: FoM Graduate Scholarship
       date: '2014-02-11'
-      category: Institutional Award
+      category: Research Scholarship
       title: Faculty of Medicine Graduate Scholarship.
       description: $3700.
     - brief: CIHR - CGS-M
       date: '2014-04-01'
-      category: National Grant
+      category: Fellowship Grant
       title: CIHR Canada Graduate Scholarship - Master's.
       description: >
         $17 500. Research stipend for 1 year of a master's or
@@ -185,9 +111,8 @@ sections:
         Canadian Institutes for Health Research.
       url: http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
     - brief: Vanier Scholar
-      highlight: true
       date: '2015-05-15'
-      category: National Grant
+      category: Fellowship Grant
       title: Vanier Canada Graduate Scholarship.
       description: >
         $150 000. Three-year scholarship to attract & retain
@@ -196,36 +121,58 @@ sections:
       url: http://www.vanier.gc.ca/en/home-accueil.html
     - brief: STARS21 Award
       date: '2020-09-23'
-      category: Institutional Award
+      category: Research Scholarship
       title: The Strategic Training in Transdisciplinary Radiation Science for the 21st Century (STARS21).
       description: >
         $2000. Award to recognize and support trans-disciplinary research.
       url: https://www.radonc.utoronto.ca/stars21
-    - brief: Int'l Clinician-Scientist Fellow
+    - brief: Int'l Clinician-Scientist
       date: '2021-06-10'
-      category: Institutional Award
-      title: DKFZ-PM International Clinician-Scientist Fellowship
-      highlight: true
+      category: Fellowship Grant
+      title: DKFZ-PM International Clinician-Scientist
       description: >
-        $130 000. Two-year fellowship to promote transatlantic professional
+        Award to promote transatlantic professional
         training and translational research. Includes a 1-year site visit to
         DKFZ (German Cancer Centre) to carry out a collaborative research project
         between Dr. Trevor Pugh (UHN) and Dr. Stefan Pfister (DKFZ).
     - brief: CRI Irvington Postdoc Fellowship
       date: '2021-06-18'
-      category: Research Scholarship / Grant
+      category: Fellowship Grant
       title: Cancer Research Institute Irvington Postdoctoral Fellowship.
-      highlight: true
       description: >
-        $175 000 USD. 2-3 year fellowship providing career training to the most promising
+        2-3 year fellowship providing career training to the most promising
         young scientists in basic and tumor immunology.
     - brief: PMH Postdoctoral Fellowship
       date: '2021-07-05'
-      category: Research Scholarship / Grant
+      category: Fellowship Grant
       title: Princess Margaret Postdoctoral Fellowship.
       description: >
-        $50 000. Award offered but declined on account of having already accepted the CRI
+        Award offered but declined on account of having already accepted the CRI
         postdoctoral fellowship.
+    - brief: U of T PGME Research Award
+      date: '2021-07-06'
+      category: Research Scholarship
+      title: Temerty Faculty of Medicine Postgraduate Medical Education Research Award.
+      description: >
+        Awards to provide financial assistance to postgraduate trainees engaged in medical research.
+    - brief: Discovery to Impact Grant
+      date: '2022-09-15'
+      category: Research Grant Co-investigator
+      title: Yamana Gold Discovery to Impact Grant.
+      description: >
+        $300,000. The Yamana Gold Discovery to Impact Grant provides seed funding
+        to Princess Margaret scientists for innovative cancer research projects.
+        The grant will be awarded annually, through a rigorous competitive process,
+        to projects with the greatest potential to improve patient outcomes.
+        I received this grant to fund my independently conceived research project as
+        a postdoctoral fellow under PI Dr. Trevor Pugh. Other co-investigators
+        included Dr. Gelareh Zadeh, Dr. Federico Gaiti, and Dr. Stefan Pfister.
+        The funded project spearheads the use of single cell methylation analysis
+        to facilitate immune analysis in brain tumours. We propose to leverage
+        immune inference for the analysis of large scale tumour methylation and
+        to develop novel liquid biopsy biomarkers.
+
+
 
   - title: Academic Awards
     display:
@@ -257,14 +204,12 @@ sections:
       category: Award
       url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
     - brief: Skarsgard Research Excellence Award
-      highlight: true
       date: '2018-05-01'
       category: Award
       title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
       description: >
         Award for the top PhD dissertation and to honour exceptional leadership pursuits.
     - brief: Finalist, Governor General's Gold Medal
-      highlight: true
       date: '2019-04-01'
       category: Award
       title: Finalist, Governor General's Gold Medal.
@@ -282,6 +227,15 @@ sections:
         Scholarship endowed by Captain C.Y. Wu and Dr. C.H. Wu and augmented through a bequest
         by Irene R. Brown in memory of Margaret Patterson. Offered to a student exhibiting a
         special interest in the study and treatment of cancer.
+    - brief: RMP Chair's Research Award
+      date: '2022-06-15'
+      category: Award
+      title: Chair's Award for Academic Excellence in Research
+      description: >
+        Award for topic academic research project presented at the annual
+        research day of the University of Toronto Department of Radiation
+        Oncology.
+
 
 
   - title: Leadership Awards
@@ -347,7 +301,6 @@ sections:
         experiences and invoke inspiration via a 3-minute video feature.
       url: https://www.youtube.com/watch?v=VOXzGpAMZIU
     - brief: Cdn Medical Hall of Fame Award
-      highlight: true
       date: '2018-09-05'
       category: Award
       title: Canadian Medical Hall of Fame Award.
@@ -365,6 +318,7 @@ sections:
   - title: Past Research Projects
     display:
       type: bare
+      hidden: true
     entries:
       - brief: Marra Lab
         title: Integrated Browser for Annotated Cancer Genome Data.
@@ -669,7 +623,6 @@ sections:
         Marco A. Marra, and Janessa Laskin.
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
     - brief: Shen et al. PNAS
-      pagebreak: true
       date: '2019-09-17'
       category: Co-author
       title: >
@@ -736,13 +689,19 @@ sections:
         ... Janessa Laskin, Marco A. Marra,
         Steven J. M. Jones.
     - brief: Sanz Garcia, Zhao et al. Science Advances
-      date: 'present'
+      date: '2022-01-26'
       category: Primary Author
       title: >
         Monitoring and Adapting Cancer Treatment Using Circulating Tumor DNA Kinetics: Current Research and Challenges
       description: >
-        <em>Accepted</em> at <strong>Science Advances</strong>.
+        <strong>Science Advances</strong>.
         Enrique Sanz Garcia, <u>Eric Y. Zhao</u>* (co-primary), Scott V. Bratman, Lillian Siu.
+      url: https://www.science.org/doi/10.1126/sciadv.abi8618
+    - brief: Wong et al.
+      date: '2023-01-28'
+      category: Co-author
+      title: "Integrated, Longitudinal Analysis of Cell-Free DNA in Uveal Melanoma"
+      description: 'Derek Wong, Ping Luo, Nadia Znassi, ... Eric Stutheit-Zhao, ... Marcus Butler, and Trevor Pugh'
 
   - title: Invited Articles
     display:
@@ -856,7 +815,6 @@ sections:
           <strong>Poster Presentation</strong>
         url: http://www.ashg.org/2016meeting/listing/PosterSessions.shtml
       - brief: AACR, Washington DC
-        pagebreak: true
         date: '2017-04-04'
         category: Poster Presentation
         title: >
@@ -914,7 +872,49 @@ sections:
           American Society of Clinical Oncology (ASCO).
           <u>Eric Y. Zhao</u>, Jonathan Torchia, Alexander Fortuna, Dax Torti,
           ... Lillian Siu, Philippe Bedard, Trevor J Pugh
-
+        url: https://ascopubs.org/doi/10.1200/JCO.2020.38.15_suppl.3562
+      - brief: ESMO, Paris
+        date: '2022-09-12'
+        category: Oral Presentation
+        title: >
+          Tumor-naïve methylomes and fragmentomes during pembrolizumab in metastatic cancer patients.
+        description: >
+          European Society for Medical Oncology (ESMO).
+          <u>Eric Y. Zhao</u>, E. Sanz Garcia, Zhihui Liu, ...
+          Bernard Lam, Trevor J. Pugh, Lillian L. Siu
+        url: https://www.annalsofoncology.org/article/S0923-7534(22)03595-5/fulltext
+      - brief: ASTRO, San Antonio
+        date: '2022-10-23'
+        category: Oral Presentation
+        title: >
+          Daily Assessment of On-Treatment Tumor Regression by Cone Beam CT as a
+          Prognostic Dynamic Biomarker in Nasopharyngeal Cancer
+        description: >
+          American Society for Radiation Oncology.
+          <u>Eric Y. Zhao</u>, Ahmad Bushehri, Biu Chan, ...
+          Tony Tadic, Andrea McNiven, Andrew Hope, Scott Bratman.
+        url: https://www.sciencedirect.com/science/article/abs/pii/S0360301622011993
+      - brief: ASTRO, San Antonio
+        date: '2022-10-23'
+        category: Oral Presentation
+        title: >
+          Circulating HPV DNA Kinetics and Clinical Outcomes in a Large Cohort of
+          Radiotherapy-Treated p16-Positive Oropharyngeal Cancers.
+        description: >
+          American Society for Radiation Oncology.
+          <u>Eric Y. Zhao</u>, Ariana Rostami, Zhen Zhao, ...
+          John Waldron, Scott V. Bratman.
+        url: https://www.sciencedirect.com/science/article/abs/pii/S036030162201094X
+      - brief: ECHNO, Lisbon
+        date: '2023-03-08'
+        category: Oral Presentation
+        title: >
+          Circulating HPV DNA is linked with disease burden, treatment,
+          and outcomes in a prospective cohort.
+        description: >
+          European Congress on Head & Neck Oncology.
+          <u>Eric Y. Stutheit-Zhao</u>, Ariana Rostami, Zhen Zhao, ...
+          John Waldron, Scott V. Bratman
      
   - title: Travel/Conference Awards
     display:
@@ -967,9 +967,30 @@ sections:
         $1000. Travel award to support attendance at a cancer research conference.
       url: http://www.cancer.ca/en/research/funding-results/recent-competition-results/may-2018-trv-results/
     - brief: John Bosdet Travel Award
-      pagebreak: true
       date: '2019-03-12'
       category: Travel Award
+    - brief: ESMO Merit Award
+      date: '2022-08-01'
+      category: Conference Prize
+      title: ESMO Congress Merit Award.
+      description: >
+        Conference award for submitting a top trainee abstract at the 2022 ESMO congress.
+    - brief: ASTRO Abstract Award
+      date: '2022-10-25'
+      category: Conference Prize
+      title: ASTRO Abstract Award.
+      description: >
+        Conference award for submitting a top trainee abstract at the 2022 ASTRO Conference.
+    - brief: ASTRO Physics Science Highlights
+      date: '2022-10-25'
+      category: Conference Prize
+      title: Physics Science Highlights.
+      description: >
+        Our 2022 ASTRO abstract "Daily Assessment of On-Treatment Tumor Regression by
+        Cone Beam CT as a Prognostic Dynamic Biomarker in Nasopharyngeal Cancer"
+        was one of five abstracts, selected from over 262 submitted abstracts and 54
+        oral presentations to be highlighted as an example of an impressive
+        scientific contribution.
 
   - title: Invited Speaker
     display:
@@ -1020,6 +1041,38 @@ sections:
       description: >
         2018 Lloyd Skarsgard Award talk at the BC Cancer Monday Seminar, a venue
         for distinguished speakers and visiting scholars.
+    - brief: MaLMIC Talk
+      date: '2022-06-17'
+      category: Research Talk
+      title: >
+        Monitoring radiotherapy response using liquid biopsy and imaging biomarkers in head & neck cancer.
+      description: >
+        Invited lecture for the Machine Learning in Medical Imaging Consortium.
+    - brief: Wharton Research Day
+      date: '2022-06-24'
+      category: Research Talk
+      title: >
+        Towards Clinical Translation of Dynamic Non-invasive
+        Biomarkers in Head and Neck Cancer.
+      description: >
+        Invited oral presentation at the 2022 Wharton Research Day on
+        head & neck oncology at Princess Margaret Hospital.
+
+  - title: Education and Teaching
+    display:
+      type: overlapping
+    entries:
+    - brief: Decrypting Clerkship
+      start: '2021-05-15'
+      end: '2022-08-01'
+      title: Co-lead, Decrypting Clerkship.
+      description: A resident-led program to facilitate transition to clinical medicine. I was involved in recruiting facilitators, teaching small groups, and updating educational content. in 2021-2022, we ran one two-hour session during the formal U of T transition-to-clerkship block, and six optional evening sessions covering a variety of topics such as assessing new consults, rounding, and outpatient medicine.
+    - brief: CARO-CROF Lecture
+      start: '2022-07-05'
+      end: '2022-07-05'
+      category: Med Student Teaching
+      title: CARO-CROF lecture on cancer epidemiology.
+      description: Teaching session for medical students on oncology research methods and critical appraisal. 
 
   - title: Media Features
     display:
@@ -1048,18 +1101,7 @@ sections:
     background-image: 'images/gradspeech.png'
     background-color: '#990000'
     color: '#FFFFFF'
-    pagebreak: true
   subsections:
-
-  - title: Medical Education
-    display:
-      type: overlapping
-    entries:
-    - brief: Decrypting Clerkship
-      start: '2021-05-15'
-      end: 'present'
-      title: Junior Leader, Decrypting Clerkship
-      description: A resident-led program to facilitate transition to clinical medicine.
 
   - title: Elected Positions
     display:
@@ -1096,7 +1138,6 @@ sections:
         and social media presence.
       url: http://www.citac-accfc.org/
     - brief: President, Med Student Soc.
-      highlight: true
       start: '2015-04-15'
       end: '2016-04-15'
       title: President, UBC Medical Undergraduate Society.
@@ -1112,7 +1153,6 @@ sections:
         (4) Student role in 2016 UBC Medical Program Accreditation Site Visit.
       url: https://mus.med.ubc.ca
     - brief: Vice Chair, UBC Vancouver Senate
-      highlight: true
       start: '2015-05-15'
       end: '2016-05-15'
       title: Vice Chair, UBC Vancouver Senate.
@@ -1227,6 +1267,18 @@ sections:
         Student representative on the committee tasked with the selection of recipients
         of the CaRMS Sandra Banner Student Award for Leadership.
       url: https://www.carms.ca/events-awards/sandra-banner-student-award-for-leadership/
+
+  - title: Leadership Training
+    display:
+      type: overlapping
+    entries:
+    - brief: GOLD Program
+      start: '2021-08-01'
+      end: '2022-06-01'
+      title: Global Oncology Leadership Development Program.
+      description: "The Princess Margaret Global Oncology Leadership Development Program is a series of lectures and interactive small group sessions designed to equip UHN Fellows with the skills, networks and opportunities to develop as leaders in cancer care at a local, regional and international level."
+      url: https://www.uhn.ca/PrincessMargaret/Education/Cancer_Campus/global_leadership_development
+
 
 
   - title: 'Mentorship'
@@ -1457,8 +1509,8 @@ sections:
     background-image: 'images/gradspeech.png'
     background-color: '#002859'
     color: '#FFFFFF'
-  subsections:
 
+  subsections:
   - title: 'Digital Media'
     display:
       type: overlapping
