@@ -1,13 +1,13 @@
 contact:
-  name: Eric Stutheit-Zhao
+  name: Eric Zhao
   credentials: MD, PhD
-  title: Radiation Oncology Resident, Data Scientist, and Postdoctoral Fellow in Immuno-oncology
+  title: Radiation Oncology Resident
   email: eric@zhao.science
   website: http://eyzhao.com
   lastupdate: June 18, 2021
   blurb: >
-    I apply data science principles to biomedical problems with an emphasis
-    on cancer immunology, genomics, and precision medicine.
+    Committed to high quality patient care, research
+    excellence, and supporting our educational programs.
   photo: images/eric-zhao-portrait.jpg
 sections:
 - title: Scholar
@@ -19,6 +19,7 @@ sections:
   - title: Education
     display:
       type: overlapping
+      year_labels: true 
     entries:
     - brief: B. Sc. (UBC)
       title: Bachelor of Science.
@@ -61,10 +62,52 @@ sections:
         Dr. Scott Bratman, and Dr. Stefan Pfister. 
       url: https://www.uhn.ca/PrincessMargaret/Global_Cancer_Program/Documents/Clinician_Scientist_Fellowship_Program_Description_and_Application.pdf
 
-  - title: Research Awards & Fellowships
+  - title: Research and Academic Awards
     display:
       type: events
+      year_labels: true 
     entries:
+    - brief: President's Entry
+      hidden: true
+      title: UBC President's Entry Award.
+      description: GPA-based.
+      date: '2009-06-01'
+      category: Award
+    - brief: Trek Excellence
+      hidden: true
+      title: UBC Trek Excellence Award.
+      description: For top 5% of UBC students.
+      date: '2010-07-01'
+      category: Award
+      url: https://students.ubc.ca/enrolment/finances/awards-scholarships-bursaries/trek-excellence-scholarship
+    - brief: Dean of Science Scholarship
+      hidden: true
+      title: Dean of Science Scholarship.
+      description: GPA-based.
+      date: '2011-01-10'
+      category: Award
+    - brief: Physiology Prize
+      title: Physiology Prize.
+      description: For best undergraduate thesis.
+      date: '2013-05-15'
+      category: Award
+      url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
+    - brief: Skarsgard Research Excellence Award
+      date: '2018-05-01'
+      category: Award
+      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
+      description: >
+        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
+    - brief: Finalist, Governor General's Gold Medal
+      date: '2019-04-01'
+      category: Award
+      title: Finalist, Governor General's Gold Medal.
+      description: >
+        Finalist (top 6) among 500 doctoral students across all UBC Faculties.
+        Chosen as the top graduate student within the Faculty of Medicine.
+        One gold medal is awarded annually to the student who has achieved the most outstanding
+        academic record as a doctoral student.
+      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: GSAT Scholarship
       title: GSAT-Funded Summer Research Award.
       description: $3600. Supports summer research internship in genome science.
@@ -119,6 +162,14 @@ sections:
         world class graduate students who demonstrate leadership,
         research potential, and academic excellence.
       url: http://www.vanier.gc.ca/en/home-accueil.html
+    - brief: Margaret Patterson Award
+      date: '2020-08-15'
+      category: Award
+      title: Margaret Patterson Memorial Award in Medicine.
+      description: >
+        Scholarship endowed by Captain C.Y. Wu and Dr. C.H. Wu and augmented through a bequest
+        by Irene R. Brown in memory of Margaret Patterson. Offered to a student exhibiting a
+        special interest in the study and treatment of cancer.
     - brief: STARS21 Award
       date: '2020-09-23'
       category: Research Scholarship
@@ -155,78 +206,6 @@ sections:
       title: Temerty Faculty of Medicine Postgraduate Medical Education Research Award.
       description: >
         Awards to provide financial assistance to postgraduate trainees engaged in medical research.
-    - brief: Discovery to Impact Grant
-      date: '2022-09-15'
-      category: Research Grant Co-investigator
-      title: Yamana Gold Discovery to Impact Grant.
-      description: >
-        $300,000. The Yamana Gold Discovery to Impact Grant provides seed funding
-        to Princess Margaret scientists for innovative cancer research projects.
-        The grant will be awarded annually, through a rigorous competitive process,
-        to projects with the greatest potential to improve patient outcomes.
-        I received this grant to fund my independently conceived research project as
-        a postdoctoral fellow under PI Dr. Trevor Pugh. Other co-investigators
-        included Dr. Gelareh Zadeh, Dr. Federico Gaiti, and Dr. Stefan Pfister.
-        The funded project spearheads the use of single cell methylation analysis
-        to facilitate immune analysis in brain tumours. We propose to leverage
-        immune inference for the analysis of large scale tumour methylation and
-        to develop novel liquid biopsy biomarkers.
-
-
-
-  - title: Academic Awards
-    display:
-      type: events
-    entries:
-    - brief: President's Entry
-      hidden: true
-      title: UBC President's Entry Award.
-      description: GPA-based.
-      date: '2009-06-01'
-      category: Award
-    - brief: Trek Excellence
-      hidden: true
-      title: UBC Trek Excellence Award.
-      description: For top 5% of UBC students.
-      date: '2010-07-01'
-      category: Award
-      url: https://students.ubc.ca/enrolment/finances/awards-scholarships-bursaries/trek-excellence-scholarship
-    - brief: Dean of Science Scholarship
-      hidden: true
-      title: Dean of Science Scholarship.
-      description: GPA-based.
-      date: '2011-01-10'
-      category: Award
-    - brief: Physiology Prize
-      title: Physiology Prize.
-      description: For best undergraduate thesis.
-      date: '2013-05-15'
-      category: Award
-      url: https://cps.med.ubc.ca/undergraduate/undergraduate-prizes/undergraduate-prizes-archives/
-    - brief: Skarsgard Research Excellence Award
-      date: '2018-05-01'
-      category: Award
-      title: BC Cancer Research Centre Lloyd Skarsgard Research Excellence Award.
-      description: >
-        Award for the top PhD dissertation and to honour exceptional leadership pursuits.
-    - brief: Finalist, Governor General's Gold Medal
-      date: '2019-04-01'
-      category: Award
-      title: Finalist, Governor General's Gold Medal.
-      description: >
-        Finalist (top 6) among 500 doctoral students across all UBC Faculties.
-        Chosen as the top graduate student within the Faculty of Medicine.
-        One gold medal is awarded annually to the student who has achieved the most outstanding
-        academic record as a doctoral student.
-      url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
-    - brief: Margaret Patterson Award
-      date: '2020-08-15'
-      category: Award
-      title: Margaret Patterson Memorial Award in Medicine.
-      description: >
-        Scholarship endowed by Captain C.Y. Wu and Dr. C.H. Wu and augmented through a bequest
-        by Irene R. Brown in memory of Margaret Patterson. Offered to a student exhibiting a
-        special interest in the study and treatment of cancer.
     - brief: RMP Chair's Research Award
       date: '2022-06-15'
       category: Award
@@ -235,12 +214,26 @@ sections:
         Award for topic academic research project presented at the annual
         research day of the University of Toronto Department of Radiation
         Oncology.
-
+    - brief: Cummings Research Award 
+      date: '2023-10-03'
+      category: Award
+      title: Bernard J. Cummings Award for Research Excellence.
+      description: >
+        Recognizes a UT-DRO trainee who demonstrates sustained excellence in research,
+        with potential for strong impact in the field of Radiation Medicine.
+    - brief: Postgrad Research Award
+      date: '2024-01-01'
+      category: Award
+      title: Joseph M. West Family Memorial Fund Award.
+      description: >
+        Recognizes research potential in a University of Toronto Resident and provides
+        scholarship funding to support research activities.
 
 
   - title: Leadership Awards
     display:
       type: events
+      year_labels: true
     entries: 
     - brief: Science Excellence in Service Award
       title: Dean of Science Excellence in Service Award
@@ -310,83 +303,47 @@ sections:
     - brief: Med Alumni Association Award
       date: '2019-05-09'
       category: Award
-      title: UBC Medical Alumni Association Award
+      title: UBC Medical Alumni Association Award.
       description: >
         $500. This inaugural award honours two medical students (one in year 1 or 2 and one in year 3 or 4) who demonstrate excellence in leadership by engaging and guiding others in promoting a responsible and evolving medical student community and/or health care system.
       url: https://alumni.med.ubc.ca/maa/maa-awards/
+    - brief: Rad Onc Advocacy & Mentorship Award
+      date: '2024-06-10'
+      category: Award
+      title: Radiation Oncology Residency Advocacy & Mentorship Award.
+      description: Recognizes excellence in mentorship of junior trainees and peers and
+        advocacy within the Radiation Oncology Residency Program at the University of Toronto.
 
-  - title: Past Research Projects
+  - title: Research Grant Funding
     display:
-      type: bare
-      hidden: true
+      type: events
+      year_labels: true 
     entries:
-      - brief: Marra Lab
-        title: Integrated Browser for Annotated Cancer Genome Data.
-        url: 'https://www.bcgsc.ca/people/marco-marra'
-        description: Supervised by Dr. Marco Marra at BC Cancer.
-          Developed an application to enable accessible, collaborative cancer genome
-          analysis. Contributed to a publication in Nature.
-        start: '2010-05-01'
-        end: '2010-09-01'
-      - brief: Friedman Lab, VVaP
-        title: An Analysis Platform for Prioritization of Germline Variants.
-        url: 'http://www.friedmanlab.org/'
-        description: Supervised by Dr. Jan Friedman at UBC Dept. of Medical Genetics.
-          Developed a germline variant viewer to support genome analysis
-          in patients with inherited genetic disorders.
-        start: '2011-05-01'
-        end: '2011-09-01'
-      - brief: Friedman Lab, Phenokeeper
-        title: PhenoKeeper - Systematically Querying Patient Phenotypes.
-        url: 'http://www.friedmanlab.org/'
-        description: Supervised by Dr. Jan Friedman at UBC Dept. of Medical Genetics.
-          Software to store patient phenotypes using the Human
-          Phenotype Ontology to support medical genetics studies.
-        start: '2011-09-01'
-        end: '2012-09-01'
-      - brief: MacKay Lab
-        title: Structure-Function Relationships of Myelination in Multiple Sclerosis.
-        url: 'https://mriresearch.med.ubc.ca/'
-        description: Supervised by Dr. Alex MacKay at UBC MRI Research Centre.
-          Correlated MRI myelin imaging with evoked potentials
-          in central demyelinating disease.
-        start: '2012-09-01'
-        end: '2013-09-01'
-      - brief: Jones Lab
-        title: Clinical Implications and Evolution of Mutational Processes in Cancer.
-        url: 'https://www.bcgsc.ca/people/steven-jones'
-        description: Supervised by Dr. Steven Jones at BC Cancer.
-          Validated novel DNA repair
-          biomarkers of platinum sensitivity. Developed novel bioinformatics methods
-          and characterized the evolution of
-          mutational processes through tumorigenesis, metastasis, treatment,
-          and resistance.
-        start: '2013-09-01'
-        end: '2018-05-01'
-      - brief: POG
-        title: Bioinformatics for the Personalized Oncogenomics Project.
-        url: 'https://www.personalizedoncogenomics.org/'
-        description: Supervised by Dr. Steven Jones at BC Cancer.
-          Clinical whole genome and transcriptome analysis of over 800 metastatic
-          cancers to report actionable drug targets.
-        start: '2013-09-01'
-        end: '2018-05-01'
-      - brief: Pugh Lab
-        title: The Clinical Utility of Whole Exome Sequencing in Cancer.
-        description: Supervised by Dr. Trevor Pugh at PM-OICR Translational Genomics Lab.
-          Targeted whole exome/transcriptome sequencing of 100 cancer
-          patients to quantify the marginal benefit of extended sequencing.
-        url: 'https://labs.oicr.on.ca/translational-genomics-laboratory'
-        start: '2019-12-01'
-        end: '2020-08-01'
-      - brief: VCH IPAC Lit Review Team
-        url: 'http://ipac.vch.ca/'
-        title: COVID-19 Rapid Literature Review Team.
-        description: Supervised by Dr. Titus Wong at Vancouver Coastal Health Infection
-          Prevention and Control. Generated rapid reviews of the latest infection control
-          evidence on SARS-nCoV-2 to inform hospital policies.
-        start: '2020-03-15'
-        end: '2020-06-01'
+    - brief: Discovery to Impact Grant
+      date: '2022-09-15'
+      category: Research Grant
+      title: Yamana Gold Discovery to Impact Grant
+      description: >
+        $300,000. This grant funded my independent-conceived post-doctoral fellowship
+        research under PI Dr. Trevor Pugh. Other co-investigators
+        included Dr. Gelareh Zadeh, Dr. Federico Gaiti, and Dr. Stefan Pfister.
+        The funded project spearheads the use of single cell methylation analysis
+        to facilitate immune analysis in brain tumours. We propose to leverage
+        immune inference for the analysis of large scale tumour methylation and
+        to develop novel liquid biopsy biomarkers.
+    - brief: PM Catalyst Grant
+      date: '2022-12-07'
+      category: Research Grant
+      title: Princess Margaret Catalyst Grant
+      description: >
+        $100,000. This grant helped to fund the research initiative called
+        ''Accelerating Clinical Translation of Non-invasive Imaging
+        and Molecular Biomarkers'' (ACT-NIMBly), a project which I
+        conceived with my supervisor Dr. Scott Bratman. ACT-NIMBly leverages
+        multi-modal analysis of imaging and circulating tumour biomarkers
+        to perform real-time integrative recurrence risk updating
+        during the course of radiotherapy.
+
 
   - title: Peer-Reviewed Journal Articles
     display:
@@ -443,7 +400,7 @@ sections:
       date: '2017-03-10'
       category: Co-author
       title: >
-        Homologous recombination deficiency in breast cancer:
+        Homologous recombination deficiency in breast cancer - 
         a clinical review
       description: >
         <strong>JCO Precision Oncology</strong>. Wendie D den Brok,
@@ -697,12 +654,72 @@ sections:
         <strong>Science Advances</strong>.
         Enrique Sanz Garcia, <u>Eric Y. Zhao</u>* (co-primary), Scott V. Bratman, Lillian Siu.
       url: https://www.science.org/doi/10.1126/sciadv.abi8618
-    - brief: Wong et al.
+    - brief: Wong et al, Cancer Res Commun.
       date: '2023-01-28'
       category: Co-author
       title: "Integrated, Longitudinal Analysis of Cell-Free DNA in Uveal Melanoma"
-      description: 'Derek Wong, Ping Luo, Nadia Znassi, ... Eric Stutheit-Zhao, ... Marcus Butler, and Trevor Pugh'
+      description: '<strong>Cancer Research Communications</strong>. Derek Wong, Ping Luo, Nadia Znassi, ... <u>Eric Stutheit-Zhao</u>, ... Marcus Butler, and Trevor Pugh'
       url: https://aacrjournals.org/cancerrescommun/article/3/2/267/716555/Integrated-Longitudinal-Analysis-of-Cell-free-DNA
+    - brief: Zeng et al. Bioinformatics
+      date: '2023-07-04'
+      category: Co-author
+      title: "MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis"
+      description: >
+        <strong>Bioinformatics</strong>.
+        Yong Zeng, Ye Wenbin, <u>Eric Y. Stutheit-Zhao</u>, Ming Han, Scott V. Bratman, Trevor J. Pugh, Housheng Hansen He.
+      url: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad423/7218932
+    - brief: Kolodziejczak et al. 2023, Neuro Oncol
+      date: '2023-06-28'
+      category: Co-author
+      title: "Clinical outcome of pediatric medulloblastoma patients with Li-Fraumeni syndrome"
+      description: >
+        <strong>Neuro Oncol</strong>.
+        Anna S Kolodziejczak, Lea Guerrini-Rousseau, Julien Masliah Planchon ...
+        Robert J. Autry, <u>Eric Zhao</u>, Kristian W Pajtler, Stefan M Pfister,
+        Franck Bourdeaut, Till Milde
+      url: https://pubmed.ncbi.nlm.nih.gov/37379234/
+    - brief: Wong et al. 2023, Cancer Discovery
+      date: '2023-09-19'
+      category: Co-author
+      title: "Early Cancer Detection in Li-Fraumeni Syndrome with Cell-Free DNA"
+      description: >
+        <strong>Cancer Discovery</strong>.
+        Derek Wong, Ping Luo, Leslie Oldfield, Haifan Gong, Ledia Brunga, Ron Rabinowicz, ...
+        Eric Zhao, ... David Malkin, Raymond H Kim, Trevor J Pugh
+      url: https://pubmed.ncbi.nlm.nih.gov/37874259/
+    - brief: Stutheit-Zhao et al., Cancer Discovery
+      date: 'present'
+      category: Primary Author
+      title: "Early changes in tumor-naive cell-free methylomes and fragmentomes predict outcomes in patients with solid tumors treated with pembrolizumab"
+      description: >
+        <strong>Cancer Discovery</strong>.
+        Eric Y. Stutheit-Zhao, Enrique Sanz-Garcia (co-primary), Zhihui Liu, Derek Wong, ...
+        Philip Awadalla, Scott V. Bratman, Pamela S. Ohashi, Trevor J. Pugh, Lillian L. Siu
+      url: https://pubmed.ncbi.nlm.nih.gov/38393391/
+    - brief: Imle et al., in review
+      date: 'present'
+      title: "Somatic gene delivery for flexible in vivo modeling of high-risk sarcoma"
+      category: Co-author
+      description: >
+        <strong>In review</strong>.
+        Roland Imle, Daniel Blösel, Felix K.F. Kommoss, Eric Stutheit-Zhao, Robert Autry, ...
+        Patrick Günther, Martin Sill, Kevin B. Jones, Stefan M. Pfister, Ana Banito.
+    - brief: Stutheit-Zhao et al. in review
+      date: 'present'
+      category: Primary Author
+      title: "HPV circulating tumor DNA clearance and baseline tumor burden are independent predictors of recurrence in p16-positive oropharyngeal cancer"
+      description: >
+        <strong>In review</strong>.
+        Eric Y. Stutheit-Zhao, Ariana Rostami, Zhen Zhao, Yangqiao Zheng, Jinfeng Zou, Tony Tadic, ...
+        Lillian L. Siu, Anna Spreafico, John N. Waldron, Scott V. Bratman
+    - brief: Stutheit-Zhao et al. in review
+      date: 'present'
+      category: Primary Author
+      title: "Tumor-adjacent air volume expansion on cone beam CT is prognostic in nasopharyngeal cancer patients undergoing radiotherapy"
+      description: >
+        <strong>In review</strong>.
+        Eric Y. Stutheit-Zhao, Ahmad Bushehri, Biu Chan, ..., Tony Tadic, Andrew J. Hope, Scott V. Bratman.
+
 
   - title: Invited Articles
     display:
@@ -884,7 +901,7 @@ sections:
           <u>Eric Y. Zhao</u>, E. Sanz Garcia, Zhihui Liu, ...
           Bernard Lam, Trevor J. Pugh, Lillian L. Siu
         url: https://www.annalsofoncology.org/article/S0923-7534(22)03595-5/fulltext
-      - brief: ASTRO, San Antonio
+      - brief: ASTRO (oral) & CARO (poster)
         date: '2022-10-23'
         category: Oral Presentation
         title: >
@@ -892,6 +909,7 @@ sections:
           Prognostic Dynamic Biomarker in Nasopharyngeal Cancer
         description: >
           American Society for Radiation Oncology.
+          Also presented as a poster at Canadian Association of Radiation Oncology.
           <u>Eric Y. Zhao</u>, Ahmad Bushehri, Biu Chan, ...
           Tony Tadic, Andrea McNiven, Andrew Hope, Scott Bratman.
         url: https://www.sciencedirect.com/science/article/abs/pii/S0360301622011993
@@ -917,10 +935,40 @@ sections:
           <u>Eric Y. Stutheit-Zhao</u>, Ariana Rostami, Zhen Zhao, ...
           John Waldron, Scott V. Bratman
         url: https://docs.google.com/document/d/e/2PACX-1vTn4aaGhjTwvimkIf5nSEaBHiOTHFumbY3bXUbyP1SZ__w79tAyTyPRmavmDGBbmNcIFpVb23IBIjDm/pub
+      - brief: ASTRO (poster) & CARO (oral)
+        date: '2023-10-01'
+        category: Oral Presentation
+        title: >
+          Plasma EBV DNA in nasopharyngeal cancer (NPC) treated with definitive radiotherapy (RT)
+        description: >
+          American Society for Radiation Oncology - Poster.
+          Canadian Association of Radiation Oncology - Oral Presentation.
+          <u>Eric Y. Stutheit-Zhao</u>, Ian King, Shao Hui Huang, ...
+          John Waldron, Andrew Hope, Scott V. Bratman
+        url: https://www.sciencedirect.com/science/article/pii/S0360301623064532
+      - brief: ASTRO MHNCS
+        date: '2023-10-01'
+        category: Oral Presentation
+        title: >
+          HPV-seq improves the sensitivity and prognostic value of plasma HPV DNA in oropharyngeal cancer.
+        description: >
+          Plenary session. American Society for Radiation Oncology Multidisciplinary Head & Neck Symposium.
+          <u>Eric Stutheit-Zhao</u>, Lucas Penny, Zhen Zhao, ..., John N. Waldron, Kathy Han, Scott V. Bratman.
+        url: https://docs.google.com/document/d/e/2PACX-1vSkvchAI43AXCnkyaCfnJgSgy6ByFVhzYS7ClFVcXbbWIgKASn6ZuVxVLyBvh_iLp6NyU7Cw5HeKJRW/pub
+      - brief: ASTRO and CARO
+        date: '2024-06-17'
+        category: Oral Presentation
+        title: >
+          HPV-Seq is Prognostic in p16-Positive Oropharyngeal Cancer (OPC): Independent Validation on a Large Prospective Cohort and a Secondary Analysis of NRG-HN002 
+        description: >
+          Oral Presentation. American Society for Radiation Oncology and Canadian Association of Radiation Oncology.
+          <u>Eric Stutheit-Zhao</u>, Jonathan Harris, Jinfeng Zou, ... Quynh-Thu Le, Sue Yom, Scott Bratman 
+        url: https://docs.google.com/document/d/e/2PACX-1vTVO9mXfGZNOBzYZI1FxV_jxQswTEObCwbGfi3JJlr7eHp4zGFFgsztUw1VMJ74EBQNOltZzprw-pRY/pub
      
   - title: Travel/Conference Awards
     display:
       type: events
+      year_labels: true 
     entries:
     - brief: UBC SUS Grant
       hidden: true
@@ -993,10 +1041,18 @@ sections:
         was one of five abstracts, selected from over 262 submitted abstracts and 54
         oral presentations to be highlighted as an example of an impressive
         scientific contribution.
+    - brief: CARO Best Presenter
+      date: '2023-09-22'
+      category: Conference Prize
+      title: Best Oral Presentation - Canadian Association of Radiation Oncology.
+      description: >
+        Conference award for top oral presentation from a radiation oncology resident
+        at the 2023 CARO conference.
 
   - title: Invited Speaker
     display:
       type: events
+      year_labels: true 
     entries:
     - brief: Mental Health Workshop
       date: '2017-03-09'
@@ -1059,6 +1115,14 @@ sections:
       description: >
         Invited oral presentation at the 2022 Wharton Research Day on
         head & neck oncology at Princess Margaret Hospital.
+    - brief: Wharton Research Day
+      date: '2023-06-09'
+      category: Research Talk
+      title: "ACT-NIMBly: Accelerating Clinical Translation of Non-invasive Imaging and Molecular Biomarkers in Head & Neck Cancer."
+      description: >
+        Invited oral presentation at the 2023 Wharton Research Day on
+        head & neck oncology at Princess Margaret Hospital.
+
 
   - title: Education and Teaching
     display:
@@ -1262,25 +1326,21 @@ sections:
       url: https://stratplan.med.ubc.ca/
     - brief: CaRMS Awards Committee
       start: '2017-01-15'
-      end: 'present'
+      end: '2021-01-01'
       title: >
         Member, Awards Committee of the Canadian Resident Matching Service (CaRMS).
       description: >
         Student representative on the committee tasked with the selection of recipients
         of the CaRMS Sandra Banner Student Award for Leadership.
       url: https://www.carms.ca/events-awards/sandra-banner-student-award-for-leadership/
-
-  - title: Leadership Training
-    display:
-      type: overlapping
-    entries:
-    - brief: GOLD Program
-      start: '2021-08-01'
-      end: '2022-06-01'
-      title: Global Oncology Leadership Development Program.
-      description: "The Princess Margaret Global Oncology Leadership Development Program is a series of lectures and interactive small group sessions designed to equip UHN Fellows with the skills, networks and opportunities to develop as leaders in cancer care at a local, regional and international level."
-      url: https://www.uhn.ca/PrincessMargaret/Education/Cancer_Campus/global_leadership_development
-
+    - brief: Asst. Chief Resident
+      start: '2024-01-01'
+      end: 'present'
+      title: >
+        Assistant Chief Resident, Radiation Oncology.
+      description: >
+        Resident leadership representative within the radiation oncology program at the
+        University of Toronto. Roles include call scheduling and committee representation.
 
 
   - title: 'Mentorship'
@@ -1407,6 +1467,7 @@ sections:
         MD/PhD program funding.
       url: https://www.cma.ca/
 
+
   - title: 'Supporting Learner Mental Health'
     display:
       type: overlapping
@@ -1486,6 +1547,17 @@ sections:
           mobilized to staff HealthLinkBC 811 call centres to
           field health-related concerns from the public.
 
+  - title: Leadership Training
+    display:
+      type: overlapping
+    entries:
+    - brief: GOLD Program
+      start: '2021-08-01'
+      end: '2022-06-01'
+      title: Global Oncology Leadership Development Program.
+      description: "The Princess Margaret Global Oncology Leadership Development Program is a series of lectures and interactive small group sessions designed to equip UHN Fellows with the skills, networks and opportunities to develop as leaders in cancer care at a local, regional and international level."
+      url: https://www.uhn.ca/PrincessMargaret/Education/Cancer_Campus/global_leadership_development
+
   - title: 'Palliative Care Volunteering'
     display:
       hidden: true
@@ -1505,54 +1577,4 @@ sections:
         description: >
           Providing companionship to patients at the newly established VHS hospice
           in accordance with hospice principles of death with dignity.
-
-- title: Artist
-  display:
-    background-image: 'images/gradspeech.png'
-    background-color: '#002859'
-    color: '#FFFFFF'
-
-  subsections:
-  - title: 'Digital Media'
-    display:
-      type: overlapping
-    entries:
-      - brief: CITAC Logo & Website
-        start: '2015-11-01'
-        end: '2016-11-01'
-        title: CITAC Logo & Website.
-        description: Led the design and development of a full-featured website for the Clinician-Investigator Trainee Association of Canada.
-      - brief: Cofounder, Kickassslimes
-        start: '2017-03-01'
-        end: 'present'
-        title: CTO and co-founder, Kickassslimes.
-        description: Managing an active online store, analytics, and fulfillment pipeline for www.kickassslimes.com,
-          associated with the instagram handle @kickassslimes with 500,000+ followers.
-        url: https://www.kickassslimes.com
-
-  - title: 'Classical Piano'
-    display:
-      type: events
-    entries:
-      - brief: Young Artist Experience
-        category: Performance
-        date: '2010-08-31'
-        title: Young Artist Experience at UBC.
-        description: UBC-based Summer Collaborative and Chamber Music Intensive. Pieces performed&colon; (1) Shostakovich Piano Trio no. 2, op. 67, mvt 1, (2) Mozart Piano Quartet K. 478, mvt 1 (3) Dvorak Piano Quartet No. 2, Op. 87, mvt 3, (4) Beethoven Piano Trio op. 1 no. 3, mvt 1
-      - brief: Graduation Recital
-        category: Performance
-        date: '2013-06-01'
-        title: Graduation Recital, Saman Arfaie and Eric Zhao.
-        description: Pieces performed&colon; (1) Beethoven, Sonata no. 30, op. 109., (2) Mendelssohn Piano Trio no. 1, op 49., (3) Chopin, Ballade no. 3, op 47., (4) Debussy L. 106, "L'isle Joyeuse".
-      - brief: Spring Gala
-        category: Performance
-        date: '2014-03-01'
-        title: UBC Medicine Spring Gala at the Chan Centre.
-        description: 2014, Tango by Piazzolla, "Oblivion". 2018, Liszt Etude S. 144 no. 1, "Un Sospiro". 2019, Poulenc Flute Sonata FP 164 mvt. 3. 2020, Mendelssohn Piano Trio in D Minor mvt. 1 (with UBC President Dr. Santa Ono).
-      - brief: Spring Gala
-        category: Performance
-        date: '2018-03-01'
-      - brief: Spring Gala
-        category: Performance
-        date: '2019-03-01'
 
