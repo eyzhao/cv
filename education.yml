@@ -205,7 +205,6 @@ sections:
       date: '2011-01-10'
       category: Award
     - brief: Physiology Prize
-      pagebreak: true
       title: Physiology Prize.
       description: For best undergraduate thesis.
       date: '2013-05-15'
@@ -307,7 +306,6 @@ sections:
       year_labels: true
     entries: 
     - brief: Science Excellence in Service Award
-      pagebreak: true
       title: Dean of Science Excellence in Service Award
       description: >
         $1000. Awarded annual to 5 staff, 5 students, and 5 faculty
@@ -648,7 +646,6 @@ sections:
       ref_details: "4(2):a002626. doi: 10.1101/mcs.a002626. PMID: 29610392"
       url: https://www.ncbi.nlm.nih.gov/pubmed/29610392
     - brief: Arthur et al. Nat Comm
-      pagebreak: true
       date: '2018-10-01'
       category: Co-author
       title: >
@@ -906,7 +903,6 @@ sections:
 
   - title: Invited Articles
     display:
-      pagebreak: true
       type: events
       year_labels: true
     entries:
@@ -1171,7 +1167,6 @@ sections:
         Technology (BIG) Research Day.
       url: https://www.bigresearchday.com/about/
     - brief: Building Bridges Seminar
-      pagebreak: true
       date: '2017-04-11'
       category: Research Talk
       title: >
@@ -1272,7 +1267,6 @@ sections:
   
 - title: Leader
   display:
-    pagebreak: true
     background-image: 'images/gradspeech.png'
     background-color: '#990000'
     color: '#FFFFFF'
@@ -1590,7 +1584,6 @@ sections:
 
   - title: 'Supporting Learner Mental Health'
     display:
-      pagebreak: true
       type: overlapping
     entries:
     - brief: SSC Mental Health Chair
