@@ -1,13 +1,13 @@
 contact:
   name: Eric Stutheit-Zhao
   credentials: MD, PhD
-  title: Radiation Oncology Resident
-  email: eric@zhao.science
+  title: Radiation Oncology Resident, Postdoctoral Fellow, Data Scientist
+  email: ey.zhao@mail.utoronto.ca
   website: http://eyzhao.com
-  lastupdate: June 18, 2021
+  lastupdate: Sep 26, 2024
   blurb: >
-    Committed to high quality patient care, research
-    excellence, and supporting our educational programs.
+    Aspiring clinician-scientist aiming to develop an independent research
+    program focused on translational genomics, bioinformatics, and precision oncology.
   photo: images/eric-zhao-portrait.jpg
 sections:
 - title: Scholar
@@ -16,7 +16,7 @@ sections:
     background-color: '#002859'
     color: '#FFFFFF'
   subsections:
-  - title: Education
+  - title: Education/Training
     display:
       type: overlapping
       year_labels: true 
@@ -45,6 +45,7 @@ sections:
       description: >
         5-year clinical training program in the
         University of Toronto Department of Radiation Oncology.
+        Planned completion in June 2026.
       start: '2020-07-01'
       end: '2026-06-30'
       url: https://www.radonc.utoronto.ca/radiation-oncology-residency
@@ -64,7 +65,122 @@ sections:
         Dr. Scott Bratman, and Dr. Stefan Pfister. 
       url: https://www.uhn.ca/PrincessMargaret/Global_Cancer_Program/Documents/Clinician_Scientist_Fellowship_Program_Description_and_Application.pdf
 
-  - title: Research and Academic Awards
+  - title: Major Research Fellowships Grants
+    display:
+      type: events
+      year_labels: true 
+    entries:
+    - brief: UBC 4YF
+      title: UBC 4 Year Doctoral Fellowship.
+      description: $72 000. PhD research stipend award.
+      date: '2013-09-01'
+      category: Fellowship Grant
+      url: https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf
+    - brief: CIHR - CGS-M
+      date: '2014-04-01'
+      category: Fellowship Grant
+      title: CIHR Canada Graduate Scholarship - Master's.
+      description: >
+        $17 500. Research stipend for 1 year of a master's or
+        PhD program, awarded in a national competition by the
+        Canadian Institutes for Health Research.
+      url: http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
+    - brief: Vanier Scholar
+      date: '2015-05-15'
+      category: Fellowship Grant
+      title: Vanier Canada Graduate Scholarship.
+      description: >
+        $150 000. Three-year scholarship to attract & retain
+        world class graduate students who demonstrate leadership,
+        research potential, and academic excellence.
+      url: http://www.vanier.gc.ca/en/home-accueil.html
+    - brief: Int'l Clinician-Scientist
+      date: '2021-06-10'
+      category: Fellowship Grant
+      title: DKFZ-PM International Clinician-Scientist
+      description: >
+        Award to promote transatlantic professional
+        training and translational research. Includes a 1-year site visit to
+        DKFZ (German Cancer Centre) to carry out a collaborative research project
+        between Dr. Trevor Pugh (UHN) and Dr. Stefan Pfister (DKFZ).
+    - brief: CRI Irvington Postdoc Fellowship
+      date: '2021-06-18'
+      category: Fellowship Grant
+      title: Cancer Research Institute Irvington Postdoctoral Fellowship.
+      description: >
+        2-3 year fellowship providing career training to the most promising
+        young scientists in basic and tumor immunology.
+    - brief: PMH Postdoctoral Fellowship
+      date: '2021-07-05'
+      category: Fellowship Grant
+      title: Princess Margaret Postdoctoral Fellowship.
+      description: >
+        Award offered but declined on account of having already accepted the CRI
+        postdoctoral fellowship.
+    - brief: Hold'em for Life Fellowship
+      date: '2025-01-15'
+      category: Fellowship Grant
+      title: Hold'em for Life Research Fellowship.
+      description: >
+        Open to University of Toronto residents and clinical fellows pursuing cancer research.
+        Provides $50 000 salary support for dedicated research training during residency/fellowship.
+
+
+  - title: Research Grant Funding
+    display:
+      type: events
+      year_labels: true 
+    entries:
+    - brief: Discovery to Impact Grant
+      date: '2022-09-15'
+      category: Research Grant
+      title: Yamana Gold Discovery to Impact Grant
+      description: >
+        $300,000. This grant funded my independent-conceived post-doctoral fellowship
+        research under PI Dr. Trevor Pugh. Other co-investigators
+        included Dr. Gelareh Zadeh, Dr. Federico Gaiti, and Dr. Stefan Pfister.
+        The funded project spearheads the use of single cell methylation analysis
+        to facilitate immune analysis in brain tumours. We propose to leverage
+        immune inference for the analysis of large scale tumour methylation and
+        to develop novel liquid biopsy biomarkers.
+    - brief: PM Catalyst Grant
+      date: '2022-12-07'
+      category: Research Grant
+      title: Princess Margaret Catalyst Grant
+      description: >
+        $100,000. This grant helped to fund the research initiative called
+        ''Accelerating Clinical Translation of Non-invasive Imaging
+        and Molecular Biomarkers'' (ACT-NIMBly), a project which I
+        conceived with my supervisor Dr. Scott Bratman. ACT-NIMBly leverages
+        multi-modal analysis of imaging and circulating tumour biomarkers
+        to perform real-time integrative recurrence risk updating
+        during the course of radiotherapy.
+    - brief: ASCO YIA
+      date: '2025-04-02'
+      category: Research Grant
+      title: ASCO Conquer Cancer Young Investigator Award
+      description: >
+        $50,000. Provides funding to promising investigators as they transition
+        from a fellowship program to a faculty appointment. This grant
+        supported the launch of the TITRATE clinical trial, which will evaluate
+        the use of significantly de-escalated (chemo)radiotherapy in oropharynx
+        cancer, using ctDNA to guide the use of subsequent surgery.
+      url: 'https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award'
+    - brief: CIHR Project Grant
+      date: '2025-07-01'
+      category: Research Grant
+      title: CIHR Project Grant - TITRATE study.
+      description: >
+        $1.4 million. As a post-doctoral fellow, I took a leading role in
+        conceptualizing and writing this CIHR project grant, and associated
+        clinical trial protocol, on which I was listed as a co-investigator,
+        and successfully obtained major grant funding. The project title was "The TITRATE
+        (Tailored Intensity of Treatment with Radio(chemo)therapy After Timely
+        Evaluation) study - Towards personalized de-escalated multimodal
+        therapy for oropharynx cancer.
+
+
+  - title: Other Academic Awards
     display:
       type: events
       year_labels: true 
@@ -89,6 +205,7 @@ sections:
       date: '2011-01-10'
       category: Award
     - brief: Physiology Prize
+      pagebreak: true
       title: Physiology Prize.
       description: For best undergraduate thesis.
       date: '2013-05-15'
@@ -135,35 +252,11 @@ sections:
         $2500. To support summer research at UBC.
       date: '2013-04-15'
       category: Research Scholarship
-    - brief: UBC 4YF
-      title: UBC 4 Year Doctoral Fellowship.
-      description: $72 000. PhD research stipend award.
-      date: '2013-09-01'
-      category: Fellowship Grant
-      url: https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf
     - brief: FoM Graduate Scholarship
       date: '2014-02-11'
       category: Research Scholarship
       title: Faculty of Medicine Graduate Scholarship.
       description: $3700.
-    - brief: CIHR - CGS-M
-      date: '2014-04-01'
-      category: Fellowship Grant
-      title: CIHR Canada Graduate Scholarship - Master's.
-      description: >
-        $17 500. Research stipend for 1 year of a master's or
-        PhD program, awarded in a national competition by the
-        Canadian Institutes for Health Research.
-      url: http://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
-    - brief: Vanier Scholar
-      date: '2015-05-15'
-      category: Fellowship Grant
-      title: Vanier Canada Graduate Scholarship.
-      description: >
-        $150 000. Three-year scholarship to attract & retain
-        world class graduate students who demonstrate leadership,
-        research potential, and academic excellence.
-      url: http://www.vanier.gc.ca/en/home-accueil.html
     - brief: Margaret Patterson Award
       date: '2020-08-15'
       category: Award
@@ -179,29 +272,6 @@ sections:
       description: >
         $2000. Award to recognize and support trans-disciplinary research.
       url: https://www.radonc.utoronto.ca/stars21
-    - brief: Int'l Clinician-Scientist
-      date: '2021-06-10'
-      category: Fellowship Grant
-      title: DKFZ-PM International Clinician-Scientist
-      description: >
-        Award to promote transatlantic professional
-        training and translational research. Includes a 1-year site visit to
-        DKFZ (German Cancer Centre) to carry out a collaborative research project
-        between Dr. Trevor Pugh (UHN) and Dr. Stefan Pfister (DKFZ).
-    - brief: CRI Irvington Postdoc Fellowship
-      date: '2021-06-18'
-      category: Fellowship Grant
-      title: Cancer Research Institute Irvington Postdoctoral Fellowship.
-      description: >
-        2-3 year fellowship providing career training to the most promising
-        young scientists in basic and tumor immunology.
-    - brief: PMH Postdoctoral Fellowship
-      date: '2021-07-05'
-      category: Fellowship Grant
-      title: Princess Margaret Postdoctoral Fellowship.
-      description: >
-        Award offered but declined on account of having already accepted the CRI
-        postdoctoral fellowship.
     - brief: U of T PGME Research Award
       date: '2021-07-06'
       category: Research Scholarship
@@ -231,13 +301,13 @@ sections:
         Recognizes research potential in a University of Toronto Resident and provides
         scholarship funding to support research activities.
 
-
   - title: Leadership Awards
     display:
       type: events
       year_labels: true
     entries: 
     - brief: Science Excellence in Service Award
+      pagebreak: true
       title: Dean of Science Excellence in Service Award
       description: >
         $1000. Awarded annual to 5 staff, 5 students, and 5 faculty
@@ -316,35 +386,103 @@ sections:
       description: Recognizes excellence in mentorship of junior trainees and peers and
         advocacy within the Radiation Oncology Residency Program at the University of Toronto.
 
-  - title: Research Grant Funding
+  - title: Travel/Conference Awards
     display:
       type: events
       year_labels: true 
     entries:
-    - brief: Discovery to Impact Grant
-      date: '2022-09-15'
-      category: Research Grant
-      title: Yamana Gold Discovery to Impact Grant
+    - brief: UBC SUS Grant
+      hidden: true
+      title: UBC SUS Professional Development Grant.
+      description: $250. Supported conference travel.
+      date: '2013-01-10'
+      category: Travel Award
+      url: http://sus.ubc.ca/grants/
+    - brief: ISMRM Travel Award
+      title: ISMRM Educational Stipend.
       description: >
-        $300,000. This grant funded my independent-conceived post-doctoral fellowship
-        research under PI Dr. Trevor Pugh. Other co-investigators
-        included Dr. Gelareh Zadeh, Dr. Federico Gaiti, and Dr. Stefan Pfister.
-        The funded project spearheads the use of single cell methylation analysis
-        to facilitate immune analysis in brain tumours. We propose to leverage
-        immune inference for the analysis of large scale tumour methylation and
-        to develop novel liquid biopsy biomarkers.
-    - brief: PM Catalyst Grant
-      date: '2022-12-07'
-      category: Research Grant
-      title: Princess Margaret Catalyst Grant
+        $440. Travel award to attend international
+        magnetic resonance imaging conference.
+      date: '2013-03-15'
+      category: Travel Award
+      url: https://www.ismrm.org/
+    - brief: John Bosdet Travel Award
+      date: '2017-02-24'
+      category: Travel Award
+      title: John Bosdet Travel Award.
+      description: $1500. Award to support trainee conference travel.
+    - brief: BIG Research Day
+      date: '2017-03-15'
+      category: Conference Prize
+      title: Top Poster Prize.
+      description: Bioinformatics, Integrated Oncology, Genome Science & Technology Research Day (BIG).
+      url: https://www.bigresearchday.com/about/
+    - brief: CITAC Young Investigator Forum
+      date: '2017-11-24'
+      category: Conference Prize
+      title: CSCI/CITAC Young Investigator Forum Poster Prize - Honourable Mention.
+      description: $50 prize from the Banting Foundation.
+    - brief: TGC Travel Award
+      date: '2018-03-28'
+      category: Travel Award
+      title: Translational Genomics Cluster (TGC) Trainee Collaboration & Travel Award.
       description: >
-        $100,000. This grant helped to fund the research initiative called
-        ''Accelerating Clinical Translation of Non-invasive Imaging
-        and Molecular Biomarkers'' (ACT-NIMBly), a project which I
-        conceived with my supervisor Dr. Scott Bratman. ACT-NIMBly leverages
-        multi-modal analysis of imaging and circulating tumour biomarkers
-        to perform real-time integrative recurrence risk updating
-        during the course of radiotherapy.
+        $2500. Travel award to enable development and/or expansion of collaborations with
+        national and international researchers.
+      url: https://research.ubc.ca/about-vpri/initiatives/research-excellence-clusters/translational-cancer-genomics-tcg-cluster
+    - brief: CCSRI Travel Award
+      date: '2018-08-01'
+      category: Travel Award
+      title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
+      description: >
+        $1000. Travel award to support attendance at a cancer research conference.
+      url: http://www.cancer.ca/en/research/funding-results/recent-competition-results/may-2018-trv-results/
+    - brief: John Bosdet Travel Award
+      date: '2019-03-12'
+      category: Travel Award
+    - brief: ESMO Merit Award
+      date: '2022-08-01'
+      category: Conference Prize
+      title: ESMO Congress Merit Award.
+      description: >
+        Conference award for submitting a top trainee abstract at the 2022 ESMO congress.
+    - brief: ASTRO Top Oral Abstract Award
+      date: '2022-10-25'
+      category: Conference Prize
+      title: ASTRO Top Oral Abstract Award.
+      description: >
+        Conference award for submitting a top trainee abstract at the 2022 ASTRO Conference.
+    - brief: ASTRO Physics Science Highlights
+      date: '2022-10-25'
+      category: Conference Prize
+      title: Physics Science Highlights.
+      description: >
+        Our 2022 ASTRO abstract "Daily Assessment of On-Treatment Tumor Regression by
+        Cone Beam CT as a Prognostic Dynamic Biomarker in Nasopharyngeal Cancer"
+        was one of five abstracts, selected from over 262 submitted abstracts and 54
+        oral presentations to be highlighted as an example of an impressive
+        scientific contribution.
+    - brief: CARO Best Presenter
+      date: '2023-09-22'
+      category: Conference Prize
+      title: Best Oral Presentation - Canadian Association of Radiation Oncology.
+      description: >
+        Conference award for top oral presentation from a radiation oncology resident
+        at the 2023 CARO conference.
+    - brief: ASTRO Top Oral Abstract Award
+      date: '2024-10-01'
+      category: Conference Prize
+      title: ASTRO Top Oral Abstract Award.
+      description: >
+        Conference award for submitting a top trainee abstract at the 2024 ASTRO Conference.
+    - brief: CARO Book Prize
+      date: '2024-09-14'
+      title: Book Prize - Biology and Technology at the 2024 CARO ASM.
+      category: Conference Prize
+      description: >
+        For best presentation at the Canadian Association of Radiation Oncology
+        conference in the topics of biology and technology.
+
 
 
   - title: Peer-Reviewed Journal Articles
@@ -358,11 +496,13 @@ sections:
       title: >
         Frequent mutation of histone-modifying genes in
         Non-Hodgkin’s lymphoma.
-      description: >
-        <strong>Nature</strong>. Ryan D. Morin, Maria Mendez-Lago, Andrew J. Mungall,
+      journal: Nature
+      ref_details: 476, 298-303
+      authors: >
+        Ryan D. Morin, Maria Mendez-Lago, Andrew J. Mungall,
         ... <u>Eric Y. Zhao</u>, ...
         Steven J. M. Jones, Joseph M. Connors,
-        Martin Hirst, Randy D. Gascoyne, Marco A. Marra.
+        Martin Hirst, Randy D. Gascoyne, Marco A. Marra
       url: https://www.ncbi.nlm.nih.gov/pubmed/21796119
     - brief: Laskin et al. MCS
       date: '2015-10-10'
@@ -370,11 +510,13 @@ sections:
       title: >
         Lessons learned from the application of whole genome
         analysis to the treatment of patients with advanced cancers
-      description: >
-        <strong>Cold Spring Harbor Molecular Case Studies</strong>. Janessa Laskin, Steven Jones,
+      journal: Molecular Case Studies
+      authors: >
+        Janessa Laskin, Steven Jones,
         Samuel Aparicio, Stephen Chia, Carolyn Ch'ng, Rebecca Deyell,
         ... <u>Eric Y. Zhao</u>,
         Stephen Yip, Marco A. Marra.
+      ref_details: "Oct;1(1):a000570. doi: 10.1101/mcs.a000570. PMID: 27148575"
       url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4850882/
     - brief: Sheffield et al. J Histochem Cytochem
       date: '2016-10-01'
@@ -382,11 +524,13 @@ sections:
       title: >
         Investigation of PD-L1 Biomarker Testing Methods for PD-1
         Axis Inhibition in Non-squamous Non-small Cell Lung Cancer.
-      description: >
-        <strong>J Histochem Cytochem</strong>. Brandon S. Sheffield, Regan Fulton,
+      journal: J Histochem Cytochem
+      authors: >
+        Brandon S. Sheffield, Regan Fulton,
         Steven E. Kalloger,
         ... <u>Eric Y. Zhao</u> ...
         Cheryl Ho, Diana N. Ionescu.
+      ref_details: "Oct;64(10):587-600. doi: 10.1369/0022155416665338. PMID: 27148575"
       url: https://www.ncbi.nlm.nih.gov/pubmed/27591097
     - brief: Xie et al. UBCMJ
       date: '2016-10-01'
@@ -394,9 +538,9 @@ sections:
       title: >
         The role of BDNF in Huntington Disease: A targeted
         analysis of 12 microarray studies.
-      description: >
-        <strong>UBC Medical Journal</strong>. Ronald Xie, Sharon Yang, Felix Ma,
-        <u>Eric Y. Zhao</u>
+      authors: Ronald Xie, Sharon Yang, Felix Ma, <u>Eric Y. Zhao</u>
+      journal: UBC Medical Journal</strong>. 
+      ref_details: "8.1 (17-22)"
       url: https://ojs.library.ubc.ca/index.php/ubcmj/article/view/185951
     - brief: den Brok et al. JCO PO
       date: '2017-03-10'
@@ -405,10 +549,13 @@ sections:
         Homologous recombination deficiency in breast cancer - 
         a clinical review
       description: >
-        <strong>JCO Precision Oncology</strong>. Wendie D den Brok,
+      journal: JCO Precision Oncology
+      authors: >
+        Wendie D den Brok,
         Kasmintan A. Schrader, Sophie Sun, Anna V. Tinker, 
         <u>Eric Y. Zhao</u>, Samuel Aparicio,
         Karen A. Gelmon
+      ref_details: "1:1-13. doi: 10.1200/PO.16.00031. PMID: 35172494"
       url: http://ascopubs.org/doi/abs/10.1200/PO.16.00031
     - brief: Thibodeau et al. MCS
       date: '2017-05-16'
@@ -418,30 +565,35 @@ sections:
         in a woman with a germline CHEK:c.delC mutation and a
         concomitant diagnosis of metastatic invasive ductal 
         breast carcinoma.
-      description: >
-        <strong>Cold Spring Harbor Molecular Case Studies</strong>. My Linh Thibodeau, Caralyn Reisle,
+      journal: Molecular Case Studies
+      authors: >
+        My Linh Thibodeau, Caralyn Reisle,
         <u>Eric Y. Zhao</u>, ...
         Janessa Laskin, Marco A Marra, Kasmintan A. Schrader,
         Steven J. M. Jones.
       url: https://www.ncbi.nlm.nih.gov/pubmed/28514723
+      ref_details: "3(5):a001628. doi: 10.1101/mcs.a001628. PMID: 28514723."
     - brief: Siu et al. JOE
       date: '2017-09-05'
       category: Co-author
       title: >
         Characterization of the Human Thyroid Epigenome
-      description: >
-        <strong>Journal of Endocrinology</strong>. Celia Siu, Sam Wiseman,
+      authors: >
+        Celia Siu, Sam Wiseman,
         ... <u>Eric Y. Zhao</u> ...
         Marco A. Marra, Martin Hirst, Steven J. M. Jones.
+      journal: Journal of Endocrinology
+      ref_details: "235(2):153-165. doi: 10.1530/JOE-17-0145. PMID: 28808080."
       url: https://www.ncbi.nlm.nih.gov/pubmed/28808080
     - brief: Smith et al. UBCMJ
       date: '2017-11-18'
       category: Co-author
-      title: >
-        'MIND Speaks Up: an online platform for youth mental health'
-      description: >
-        <strong>UBC Medical Journal</strong>. Meghan Smith, <u>Eric Zhao</u>,
+      title: "MIND Speaks Up: an online platform for youth mental health"
+      journal: UBC Medical Journal
+      authors: >
+        Meghan Smith, <u>Eric Zhao</u>,
         Connor Hawkins, Megan Lucey, Jordan Yeo, Kelly Zerr
+      ref_details: "9.2 (42-43)"
       url: https://med-fom-ubcmj.sites.olt.ubc.ca/files/2018/02/Smith-et-al-PROOF.pdf
     - brief: Zhao et al. Clin Cancer Res
       date: '2017-12-15'
@@ -449,11 +601,13 @@ sections:
       title: >
         Homologous Recombination Deficiency and Platinum-based
         Therapy Outcomes in Advanced Breast Cancer.
-      description: >
-        <strong>Clinical Cancer Research</strong>. <u>Eric Y. Zhao</u>,
+      journal: Clinical Cancer Research
+      authors: >
+        <u>Eric Y. Zhao</u>,
         Yaoqing Shen, Erin D. Pleasance, ...
         Janessa Laskin, Marco A. Marra, Steven J. M. Jones.
       url: https://www.ncbi.nlm.nih.gov/pubmed/29246904
+      ref_details: "23(24):7521-7530. doi: 10.1158/1078-0432.CCR-17-1941. PMID: 29246904"
     - brief: Wong et al. MCS
       date: '2018-02-01'
       category: Co-author
@@ -461,21 +615,25 @@ sections:
         Molecular characterization of metastatic pancreatic
         neuroendocrine tumors (PNETs) using whole-genome and
         transcriptome sequencing
-      description: >
-        <strong>Cold Spring Harbor Molecular Case Studies</strong>. Hui-li Wong, Kevin C Yang,
+      journal: Molecular Case Studies
+      authors: >
+        Hui-li Wong, Kevin C Yang,
         <u>Eric Y. Zhao</u>, ... David F. Shaeffer,
         Sharon M. Gorski, Daniel J. Renouf.
       url: https://www.ncbi.nlm.nih.gov/pubmed/29092957
+      ref_details: "4(1):a002329. doi: 10.1101/mcs.a002329. PMID: 29092957"
     - brief: Thibodeau et al. NPJ Precision Oncology
       date: '2018-03-19'
       category: Co-author
       title: >
         Whole genome and whole transcriptome genomic profiling
         of a metastatic eccrine porocarcinoma
-      description: >
-        <strong>NPJ Precision Oncology</strong>. My Linh Thibodeau, Melika Bonakdar,
+      journal: NPJ Precision Oncology
+      authors: >
+        My Linh Thibodeau, Melika Bonakdar,
         <u>Eric Zhao</u>, Karen Mungall, Caralyn Resile,
         ... Kasmintan A. Schrader, Steven J. M. Jones.
+      ref_details: "2(1):8. doi: 10.1038/s41698-018-0050-5. PMID: 29872726"
       url: https://www.nature.com/articles/s41698-018-0050-5
     - brief: Chahal et al. 2018, MCS
       date: '2018-04-06'
@@ -483,21 +641,24 @@ sections:
       title: >
         Personalized oncogenomic analysis of metastatic adenoid cystic
         carcinoma: using whole-genome sequencing to inform clinical decision-making.
-      description: >
-        <strong>Cold Spring Harb Mol Case Stud.</strong>.
+      journal: Molecular Case Studies
+      authors: >
         Manik Chahal, Erin Pleasance, Jasleen Grewal, <u>Eric Zhao</u>,
         ... Steven JM Jones, Marco A Marra, Janessa Laskin.
+      ref_details: "4(2):a002626. doi: 10.1101/mcs.a002626. PMID: 29610392"
       url: https://www.ncbi.nlm.nih.gov/pubmed/29610392
-    - brief: Morin et al. Nat Comm
+    - brief: Arthur et al. Nat Comm
+      pagebreak: true
       date: '2018-10-01'
       category: Co-author
       title: >
         Genome-wide discovery of somatic regulatory variants in Diffuse Large B-cell Lymphoma
-      description: >
-        <strong>Nature Communications</strong>.
+      journal: Nature Communications
+      authors: >
         Sarah E. Arthur, Aixiang Jiang, Bruno M. Grande, ...
         <u>Eric Y. Zhao</u>, ... Christian Steidl,
         David W. Scott & Ryan D. Morin
+      ref_details: "9(1):4001. doi: 10.1038/s41467-018-06354-3."
       url: https://www.nature.com/articles/s41467-018-06354-3/
     - brief: Wong, Zhao, et al. JCO PO
       date: '2018-10-19'
@@ -506,12 +667,14 @@ sections:
         Temporal dynamics of genomic alterations in a BRCA1
         germline mutated pancreatic cancer with low genomic
         instability burden but exceptional response to FOLFIRINOX.
-      description: >
-        <strong>JCO Precision Oncology</strong>. Hui-li Wong,
+      journal: JCO Precision Oncology
+      authors: >
+        Hui-li Wong,
         <u>Eric Y. Zhao</u>* (co-primary), Martin R. Jones,
         Caralyn R. Reisle, ...
         Steven J. M. Jones, Kasmintan Schrader,
         David F. Schaeffer, Daniel J. Renouf.
+      ref_details: "2:PO.18.00057. doi: 10.1200/PO.18.00057. PMID: 32913994"
       url: http://ascopubs.org/doi/abs/10.1200/PO.18.00057?journalCode=po
     - brief: Grande et al. Blood
       date: '2019-01-04'
@@ -519,10 +682,12 @@ sections:
       title: >
         Genome-wide discovery of somatic coding and non-coding mutations in pediatric endemic and
         sporadic Burkitt lymphoma.
-      description: >
-        <strong>Blood</strong>. Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
+      journal: Blood
+      authors: >
+        Bruno M. Grande, Daniela S. Gerhard, Aixiang Jiang,
         ... <u>Eric Y. Zhao</u> ...,
         Marco A. Marra, Ryan D. Morin, Louis M. Staudt
+      ref_details: "133(12):1313-1324. doi: 10.1182/blood-2018-09-871418. PMID: 30617194"
       url: http://www.bloodjournal.org/content/early/2019/01/04/blood-2018-09-871418
     - brief: Zhao et al. UBCMJ
       date: '2019-03-22'
@@ -530,10 +695,11 @@ sections:
       title: >
         Coordinating Student Academic Advocacy in the UBC Medical
         Undergraduate Program through the Medical Education Committee (MEC)
-      description: >
-        <strong>UBC Medical Journal</strong>.
+      journal: UBC Medical Journal
+      authors: >
         <u>Eric Y. Zhao</u>, Kevin Nguyen, Alvin Qiu, Jesse Tinker,
         Daphne Lu, John Liu.
+      ref_details: "2019: 10.2 (36-38)"
       url: https://ojs.library.ubc.ca/index.php/ubcmj/article/view/190997
     - brief: Thibodeau et al. MCS
       date: '2019-04-01'
@@ -543,19 +709,22 @@ sections:
         germline and somatic MUTYH aberrations in pancreatic
         ductal adenocarcinoma and breast cancer oncogenesis.
       description: >
-        <strong>Cold Spring Harbor Molecular Case Studies</strong>.
+      journal: Molecular Case Studies
+      authors: >
         My Linh Thibodeau, Eric Y. Zhao, Caralyn Reisle, Carolyn Ch'ng,
         Hui-li Wong, ..., David Huntsman, David F. Shaeffer, Janessa
         Laskin, Marco A. Marra, Daniel J. Renouf, Steven J. M. Jones,
         Kasmintan A. Schrader
+      ref_details: "5(2):a003681. doi: 10.1101/mcs.a003681"
       url: https://www.ncbi.nlm.nih.gov/pubmed/30833417
     - brief: Lever et al. Nat Methods
       date: '2019-05-20'
       category: Co-author
       title: >
         CancerMine, A literature-mined resource for drivers, oncogenes and tumor suppressors in cancer
-      description: >
-        <strong>Nature Methods</strong>. Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
+      journal: Nature Methods
+      authors: Jake Lever, <u>Eric Y. Zhao</u>, Jasleen Grewal, Martin R. Jones, Steven J. M. Jones.
+      ref_details: "16(6):505-507. doi: 10.1038/s41592-019-0422-y. PMID: 31110280"
       url: https://www.nature.com/articles/s41592-019-0422-y
     - brief: Williamson et al. MCS
       date: '2019-06-03'
@@ -563,8 +732,8 @@ sections:
       title: >
         Genomic characterization of a well-differentiated
         grade 3 pancreatic neuroendocrine tumor.
-      description: >
-        <strong>Cold Spring Harbor Molecular Case Studies</strong>.
+      journal: Molecular Case Studies
+      authors: >
         Laura M. Williamson, Michael Steel, Jasleen K. Grewal,
         My Linh Thibodeau, <u>Eric Y. Zhao</u>, ..., Janessa Laskin,
         Daniel J. Renouf, David F. Schaeffer, Steven J. M. Jones
@@ -574,12 +743,13 @@ sections:
       category: Primary Author
       title: >
         Therapeutic Implication of Genomic Landscape of Adult Metastatic Sarcoma
-      description: >
-        <strong>JCO Precision Oncology</strong>.
+      journal: JCO Precision Oncology
+      authors: >
         Xiaolan Feng, Erin D. Pleasance* (co-primary),
         <u>Eric Y. Zhao</u>* (co-primary), Tony Ng* (co-primary), Jasleen Grewal,
         Nisreen Mohammad, Sara Taylor, Christine Simmons, ..., Steven J. M. Jones,
         Marco A. Marra, and Janessa Laskin.
+      ref_details: "3:1-25. doi: 10.1200/PO.18.00325. PMID: 35100702"
       url: https://ascopubs.org/doi/10.1200/PO.18.00325
     - brief: Shen et al. PNAS
       date: '2019-09-17'
@@ -588,11 +758,12 @@ sections:
         Comprehensive genomic profiling of matched glioblastoma tumours,
         cell-lines, and xenografts reveals genomic stability and
         adaptation to disparate growth environments.  
-      description: >
-        <strong>Proceedings of the National Academy of Science.</strong>
+      journal: Proceedings of the National Academy of Science
+      authors: >
         Yaoqing Shen, Cameron J. Grisdale, Sumaiya A. Islam, Pinaki Bose, Jake Lever,
         <u>Eric Y. Zhao</u>, ... David R. Kaplan, J. Gregory Cairncross, Marco A. Marra,
         and Steven J. M. Jones
+      ref_details: "116(38):19098-19108. doi: 10.1073/pnas.1813495116. PMID: 31471491"
       url: https://www.pnas.org/content/early/2019/08/29/1813495116
     - brief: Zhao et al. Front Phys
       date: '2019-10-09'
@@ -600,131 +771,142 @@ sections:
       title: >
         Myelin water imaging and transcranial magnetic stimulation suggest
         structure-function relationships in multiple sclerosis.
-      description: >
-        <strong>Frontiers in Physics</strong>.
+      journal: Frontiers in Physics
+      authors: >
         <u>Eric Y. Zhao</u>, Irene M. Vavasour, Marjan Zakeri,
         Michael R. Borich, Cornelia Laule, Alexander Rauscher, Anthony Traboulsee,
         David K. B. Li, Lara A. Boyd, Alex L. MacKay
+      ref_details: "Vol 7. doi: 10.3389/fphy.2019.00141."
       url: https://www.frontiersin.org/articles/10.3389/fphy.2019.00141/full
     - brief: Pleasance et al. Nat Cancer
       date: '2020-04-13'
       category: Co-author
       title: >
         Pan-cancer analysis of advanced patient tumors reveals interactions between therapy and genomic landscapes.
-      description: >
-        <strong>Nature Cancer</strong>.
+      journal: Nature Cancer
+      authors: >
         Erin Pleasance, Emma Titmuss, Laura Williamson, Harwood Kwan, <u>Eric Zhao</u>, ...
         Howard Lim, Daniel Renouf, Steven Jones, Janessa Laskin, and Marco Marra.
+      ref_details: "1(4):452-468. doi: 10.1038/s43018-020-0050-6. PMID: 35121966"
       url: https://www.nature.com/articles/s43018-020-0050-6
     - brief: Zhao et al. Clin Oncol
       date: '2020-05-29'
       category: Primary Author
       title: Emerging Precision Oncology Applications of Liquid Biopsy using Circulating Tumor DNA and Methylome Profiling.
-      description: >
-        <strong>Clinical Oncology</strong>. <u>Eric Y. Zhao</u>, Scott V. Bratman.
+      journal: Clinical Oncology
+      authors: <u>Eric Y. Zhao</u>, Scott V. Bratman.
+      ref_details: "32(10):626-631. doi: 10.1016/j.clon.2020.05.022. PMID: 32586654"
       url: https://www.sciencedirect.com/science/article/pii/S093665552030234X?dgcid=coauthor
     - brief: Dixon et al. JNCI Spectrum
       date: '2020-05-29'
       category: Co-author
       title: >
         Establishing a framework for the clinical translation of germline findings in precision oncology.
-      description: >
-        <strong>JNCI Spectrum</strong>.
+      journal: JNCI Spectrum
+      authors: >
         Katherine Dixon, Sean Young, Yaoqing Shen, My Linh Thibodeau,
         Alexandra Fok, Erin Pleasance, <u>Eric Y. Zhao</u>,
         Martin Jones, ..., Aly Karsan, Marco Marra,
         Janessa Laskin, Howard Lim, Kasmintan A. Schrader.
+      ref_details: "4(5):pkaa045. doi: 10.1093/jncics/pkaa045. PMID: 33134827"
       url: https://academic.oup.com/jncics/article/doi/10.1093/jncics/pkaa045/5848657
-    - brief: Zhao et al. In Review
-      hidden: true
-      date: 'present'
-      category: Primary Author
-      title: >
-        "SignIT: Inferring Mutation Signatures and their Clonal
-        Evolution in Individual Tumours."
-      description: >
-        <em>In Review</em>. <u>Eric Y. Zhao</u>,
-        Erin D. Pleasance, Martin R. Jones, 
-        ... Janessa Laskin, Marco A. Marra,
-        Steven J. M. Jones.
     - brief: Sanz Garcia, Zhao et al. Science Advances
       date: '2022-01-26'
       category: Primary Author
       title: >
         Monitoring and Adapting Cancer Treatment Using Circulating Tumor DNA Kinetics: Current Research and Challenges
-      description: >
-        <strong>Science Advances</strong>.
+      journal: Science Advances
+      authors: >
         Enrique Sanz Garcia, <u>Eric Y. Zhao</u>* (co-primary), Scott V. Bratman, Lillian Siu.
+      ref_details: "8(4):eabi8618. doi: 10.1126/sciadv.abi8618. PMID: 35080978"
       url: https://www.science.org/doi/10.1126/sciadv.abi8618
     - brief: Wong et al, Cancer Res Commun.
       date: '2023-01-28'
       category: Co-author
       title: "Integrated, Longitudinal Analysis of Cell-Free DNA in Uveal Melanoma"
-      description: '<strong>Cancer Research Communications</strong>. Derek Wong, Ping Luo, Nadia Znassi, ... <u>Eric Stutheit-Zhao</u>, ... Marcus Butler, and Trevor Pugh'
+      journal: Cancer Research Communications
+      authors: >
+        Derek Wong, Ping Luo, Nadia Znassi, ... <u>Eric Stutheit-Zhao</u>, ... Marcus Butler, and Trevor Pugh
+      ref_details: "3(2):267-280. doi: 10.1158/2767-9764.CRC-22-0456. PMID: 36860651"
       url: https://aacrjournals.org/cancerrescommun/article/3/2/267/716555/Integrated-Longitudinal-Analysis-of-Cell-free-DNA
-    - brief: Zeng et al. Bioinformatics
-      date: '2023-07-04'
-      category: Co-author
-      title: "MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis"
-      description: >
-        <strong>Bioinformatics</strong>.
-        Yong Zeng, Ye Wenbin, <u>Eric Y. Stutheit-Zhao</u>, Ming Han, Scott V. Bratman, Trevor J. Pugh, Housheng Hansen He.
-      url: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad423/7218932
     - brief: Kolodziejczak et al. 2023, Neuro Oncol
       date: '2023-06-28'
       category: Co-author
       title: "Clinical outcome of pediatric medulloblastoma patients with Li-Fraumeni syndrome"
-      description: >
-        <strong>Neuro Oncol</strong>.
+      journal: Neuro Oncol
+      authors: >
         Anna S Kolodziejczak, Lea Guerrini-Rousseau, Julien Masliah Planchon ...
         Robert J. Autry, <u>Eric Zhao</u>, Kristian W Pajtler, Stefan M Pfister,
         Franck Bourdeaut, Till Milde
+      ref_details: "25(12):2273-2286. doi: 10.1093/neuonc/noad114. PMID: 37379234"
       url: https://pubmed.ncbi.nlm.nih.gov/37379234/
+    - brief: Zeng et al. Bioinformatics
+      date: '2023-07-04'
+      category: Co-author
+      title: "MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis"
+      journal: Bioinformatics
+      authors: >
+        Yong Zeng, Ye Wenbin, <u>Eric Y. Stutheit-Zhao</u>, Ming Han, Scott V. Bratman, Trevor J. Pugh, Housheng Hansen He.
+      ref_details: "39(7):btad423. doi: 10.1093/bioinformatics/btad423. PMID: 37402621"
+      url: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad423/7218932
     - brief: Wong et al. 2023, Cancer Discovery
       date: '2023-09-19'
       category: Co-author
       title: "Early Cancer Detection in Li-Fraumeni Syndrome with Cell-Free DNA"
-      description: >
-        <strong>Cancer Discovery</strong>.
+      journal: Cancer Discovery
+      authors: >
         Derek Wong, Ping Luo, Leslie Oldfield, Haifan Gong, Ledia Brunga, Ron Rabinowicz, ...
         Eric Zhao, ... David Malkin, Raymond H Kim, Trevor J Pugh
+      ref_details: "14(1):104-119. doi: 10.1158/2159-8290.CD-23-0456. PMID: 37874259"
       url: https://pubmed.ncbi.nlm.nih.gov/37874259/
-    - brief: Stutheit-Zhao et al., Cancer Discovery
-      date: 'present'
+    - brief: Stutheit-Zhao, Sanz-Garcia et al., Cancer Discovery
+      date: '2024-06-03'
       category: Primary Author
       title: "Early changes in tumor-naive cell-free methylomes and fragmentomes predict outcomes in patients with solid tumors treated with pembrolizumab"
-      description: >
-        <strong>Cancer Discovery</strong>.
+      journal: Cancer Discovery
+      authors: >
         Eric Y. Stutheit-Zhao, Enrique Sanz-Garcia (co-primary), Zhihui Liu, Derek Wong, ...
         Philip Awadalla, Scott V. Bratman, Pamela S. Ohashi, Trevor J. Pugh, Lillian L. Siu
+      ref_details: "14(6):1048-1063. doi: 10.1158/2159-8290.CD-23-1060. PMID: 38393391"
       url: https://pubmed.ncbi.nlm.nih.gov/38393391/
-    - brief: Imle et al., in review
-      date: 'present'
+    - brief: Imle et al., Nat Comm
+      date: '2025-03-11'
       title: "Somatic gene delivery for flexible in vivo modeling of high-risk sarcoma"
       category: Co-author
-      description: >
-        <strong>In review</strong>.
+      journal: Nature Communications
+      authors: >
         Roland Imle, Daniel Blösel, Felix K.F. Kommoss, Eric Stutheit-Zhao, Robert Autry, ...
         Patrick Günther, Martin Sill, Kevin B. Jones, Stefan M. Pfister, Ana Banito.
-    - brief: Stutheit-Zhao et al. in review
+      ref_details: ""
+      url: https://www.nature.com/articles/s41467-025-60519-5
+    - brief: Maas, Tang, Stutheit-Zhao. Nat Genetics
+      display:
+        padding: 100
+      date: 'present'
+      category: Primary Author
+      title: 'A microenvironment-determined risk continuum replaces subtyping in meningioma and reveals determinants of machine learning-based tumour classification'
+      journal: Nat Genetics (Accepted)
+      authors: >
+        Sybren L.N. Maas, Yiheng Tang (co-primary), Eric Stutheit-Zhao (co-primary), Ramin Rahmanzade (co-primary), Christina Blume, ..., Volker Hovestadt, Moritz Gerstung, Matthias Schlesner, The German Aggressive Meningiomas Consortium (KAM), Felix Sahm
+    - brief: Stutheit-Zhao et al. in prep
       date: 'present'
       category: Primary Author
       title: "HPV circulating tumor DNA clearance and baseline tumor burden are independent predictors of recurrence in p16-positive oropharyngeal cancer"
-      description: >
-        <strong>In review</strong>.
+      journal: "In preparation"
+      authors: >
         Eric Y. Stutheit-Zhao, Ariana Rostami, Zhen Zhao, Yangqiao Zheng, Jinfeng Zou, Tony Tadic, ...
         Lillian L. Siu, Anna Spreafico, John N. Waldron, Scott V. Bratman
-    - brief: Stutheit-Zhao et al. in review
+    - brief: Stutheit-Zhao et al. in prep
       date: 'present'
       category: Primary Author
       title: "Tumor-adjacent air volume expansion on cone beam CT is prognostic in nasopharyngeal cancer patients undergoing radiotherapy"
-      description: >
-        <strong>In review</strong>.
+      journal: "In preparation"
+      authors: >
         Eric Y. Stutheit-Zhao, Ahmad Bushehri, Biu Chan, ..., Tony Tadic, Andrew J. Hope, Scott V. Bratman.
-
 
   - title: Invited Articles
     display:
+      pagebreak: true
       type: events
       year_labels: true
     entries:
@@ -786,12 +968,11 @@ sections:
           PhenoKeeper: User-friendly, machine readable patient
           phenotype data storage to support clinical genetics
           and genomics research.
-        description: >
-          "Getting ready for the human phenome project," a
-          meeting of the Human Variome Project (HVP).
+        journal: >
+          Oral Presentation and Panelist. Human Variome Project (HVP)
+        authors: >
           <u>Eric Y. Zhao</u>,
           Erica Tsang, Jan M. Friedman, Farah R. Zahir.
-          <strong>Oral Presentation and Panelist</strong>
         url: https://www.ncbi.nlm.nih.gov/pubmed/23401191
       - brief: ISMRM, Salt Lake City
         date: '2013-04-22'
@@ -799,14 +980,14 @@ sections:
         title: >
           Corpus callosal myelin water fraction and transcallosal
           inhibition in multiple sclerosis patients and controls.
-        description: >
-          International Society for Magnetic Resonance in Medicine
+        journal: >
+          Oral Presentation, International Society for Magnetic Resonance in Medicine
           (ISMRM).
+        authors: >
           <u>Eric Y. Zhao</u>, Irene Vavasour,
           Marjan Zakeri, Michael Borich, Cornelia Laule,
           Alexander Rauscher,
           Anthony Traboulsee, David Li, Lara Boyd, Alex MacKay.
-          <strong>Oral Presentation</strong>
         url: https://cds.ismrm.org/protected/13MProceedings/files/0051.PDF
       - brief: AGBT, Orlando
         date: '2016-02-13'
@@ -814,12 +995,12 @@ sections:
         title: >
           BRCA-Related Genomic Signature Predicts Clinical
           Improvement with Cisplatin
-        description: >
-          Advances in Genome Biology and Technology (AGBT).
+        journal:
+          Oral Presentation, Advances in Genome Biology and Technology (AGBT).
+        authors:
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones.
-          <strong>Oral Presentation</strong>
         url: https://www.agbt.org/agbt-general-meeting-2016-agenda/
       - brief: ASHG, Vancouver
         date: '2016-10-20'
@@ -827,12 +1008,12 @@ sections:
         title: >
           Guiding Platinum-based Chemotherapy with a Somatic
           Mutation Signature of BRCA1/2 Impairment.
-        description: >
-          American Society for Human Genetics (ASHG).
+        journal: >
+          Poster, American Society for Human Genetics (ASHG).
+        authors: >
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones.
-          <strong>Poster Presentation</strong>
         url: http://www.ashg.org/2016meeting/listing/PosterSessions.shtml
       - brief: AACR, Washington DC
         date: '2017-04-04'
@@ -840,12 +1021,12 @@ sections:
         title: >
           Breast Cancer Whole Genomes Link Homologous
           Recombination Deficiency (HRD) with Therapeutic Outcomes.
-        description: >
-          American Association of Cancer Research (AACR).
+        journal: >
+          Poster, American Association of Cancer Research (AACR).
+        authors: >
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones.
-          <strong>Poster Presentation</strong>
         url: http://cancerres.aacrjournals.org/content/77/13_Supplement/2473
       - brief: CCRC, Vancouver BC
         date: '2017-11-05'
@@ -853,19 +1034,20 @@ sections:
         title: >
           Homologous Recombination Deficiency and Platinum-based
           Therapy Outcomes in Advanced Breast Cancer
-        description: >
-          Canadian Cancer Research Conference (CCRC).
+        journal: >
+          Poster, Canadian Cancer Research Conference (CCRC).
+        authors: >
           <u>Eric Y. Zhao</u>, Yaoqing Shen,
           Erin D. Pleasance, ..., Janessa Laskin,
           Marco A. Marra, Steven J. M. Jones.
-          <strong>Poster Presentation</strong>
       - brief: ASCO, Chicago IL
         date: '2018-06-05'
         category: Oral Presentation
         title: >
           The Evolution of Genomic Instability in Metastatic Cancer
-        description: >
-          American Society of Clinical Oncology (ASCO).
+        journal: >
+          Oral Presentation, American Society of Clinical Oncology (ASCO).
+        authors: >
           <u>Eric Y. Zhao</u>, Erin D Pleasance, Martin R Jones, Yaoqing Shen,
           ... Janessa J. Laskin, Marco A. Marra, Steven J. M. Jones.
           <strong>Oral Presentation</strong>
@@ -875,8 +1057,9 @@ sections:
         category: Poster Presentation
         title: >
           The Whole Genome Landscape of Adult Metastatic Sarcoma
-        description: >
-          American Society of Clinical Oncology (ASCO).
+        journal: >
+          Poster, American Society of Clinical Oncology (ASCO).
+        authors: >
           <u>Eric Y. Zhao</u>, Xiaolan Feng, Erin Pleasance, Tony Ng, Jasleen Grewal,
           Nisreen Mohammad, Sara K. Taylor, Christine Simmons (designated presenter)*,
           ... Karen Gelmon, Stephen Yip, Steven J.M. Jones, Marco Marra
@@ -888,8 +1071,9 @@ sections:
         title: >
           Exomes and transcriptomes to reveal actionable findings in patients
           with negative-targeted panel sequencing.
-        description: >
-          American Society of Clinical Oncology (ASCO).
+        journal: >
+          Poster, American Society of Clinical Oncology (ASCO).
+        authors: >
           <u>Eric Y. Zhao</u>, Jonathan Torchia, Alexander Fortuna, Dax Torti,
           ... Lillian Siu, Philippe Bedard, Trevor J Pugh
         url: https://ascopubs.org/doi/10.1200/JCO.2020.38.15_suppl.3562
@@ -898,8 +1082,9 @@ sections:
         category: Oral Presentation
         title: >
           Tumor-naïve methylomes and fragmentomes during pembrolizumab in metastatic cancer patients.
-        description: >
-          European Society for Medical Oncology (ESMO).
+        journal: >
+          Oral Presentation, European Society for Medical Oncology (ESMO)
+        authors: >
           <u>Eric Y. Zhao</u>, E. Sanz Garcia, Zhihui Liu, ...
           Bernard Lam, Trevor J. Pugh, Lillian L. Siu
         url: https://www.annalsofoncology.org/article/S0923-7534(22)03595-5/fulltext
@@ -909,9 +1094,9 @@ sections:
         title: >
           Daily Assessment of On-Treatment Tumor Regression by Cone Beam CT as a
           Prognostic Dynamic Biomarker in Nasopharyngeal Cancer
-        description: >
-          American Society for Radiation Oncology.
-          Also presented as a poster at Canadian Association of Radiation Oncology.
+        journal: >
+          Oral Presentation, ASTRO. Poster, CARO.
+        authors: >
           <u>Eric Y. Zhao</u>, Ahmad Bushehri, Biu Chan, ...
           Tony Tadic, Andrea McNiven, Andrew Hope, Scott Bratman.
         url: https://www.sciencedirect.com/science/article/abs/pii/S0360301622011993
@@ -921,8 +1106,9 @@ sections:
         title: >
           Circulating HPV DNA Kinetics and Clinical Outcomes in a Large Cohort of
           Radiotherapy-Treated p16-Positive Oropharyngeal Cancers.
-        description: >
-          American Society for Radiation Oncology.
+        journal: >
+          Oral Presentation, ASTRO.
+        authors: >
           <u>Eric Y. Zhao</u>, Ariana Rostami, Zhen Zhao, ...
           John Waldron, Scott V. Bratman.
         url: https://www.sciencedirect.com/science/article/abs/pii/S036030162201094X
@@ -932,8 +1118,9 @@ sections:
         title: >
           Circulating HPV DNA is linked with disease burden, treatment,
           and outcomes in a prospective cohort.
-        description: >
-          European Congress on Head & Neck Oncology.
+        journal: >
+          Oral Presentation, European Congress on Head & Neck Oncology.
+        authors: >
           <u>Eric Y. Stutheit-Zhao</u>, Ariana Rostami, Zhen Zhao, ...
           John Waldron, Scott V. Bratman
         url: https://docs.google.com/document/d/e/2PACX-1vTn4aaGhjTwvimkIf5nSEaBHiOTHFumbY3bXUbyP1SZ__w79tAyTyPRmavmDGBbmNcIFpVb23IBIjDm/pub
@@ -942,9 +1129,9 @@ sections:
         category: Oral Presentation
         title: >
           Plasma EBV DNA in nasopharyngeal cancer (NPC) treated with definitive radiotherapy (RT)
-        description: >
-          American Society for Radiation Oncology - Poster.
-          Canadian Association of Radiation Oncology - Oral Presentation.
+        journal: >
+          Poster, ASTRO. Oral Presentation, CARO.
+        authors: >
           <u>Eric Y. Stutheit-Zhao</u>, Ian King, Shao Hui Huang, ...
           John Waldron, Andrew Hope, Scott V. Bratman
         url: https://www.sciencedirect.com/science/article/pii/S0360301623064532
@@ -953,8 +1140,9 @@ sections:
         category: Oral Presentation
         title: >
           HPV-seq improves the sensitivity and prognostic value of plasma HPV DNA in oropharyngeal cancer.
-        description: >
-          Plenary session. American Society for Radiation Oncology Multidisciplinary Head & Neck Symposium.
+        journal: >
+          Oral Presentation, Multidisciplinary Head & Neck Symposium.
+        authors: >
           <u>Eric Stutheit-Zhao</u>, Lucas Penny, Zhen Zhao, ..., John N. Waldron, Kathy Han, Scott V. Bratman.
         url: https://docs.google.com/document/d/e/2PACX-1vSkvchAI43AXCnkyaCfnJgSgy6ByFVhzYS7ClFVcXbbWIgKASn6ZuVxVLyBvh_iLp6NyU7Cw5HeKJRW/pub
       - brief: ASTRO and CARO
@@ -962,95 +1150,12 @@ sections:
         category: Oral Presentation
         title: >
           HPV-Seq is Prognostic in p16-Positive Oropharyngeal Cancer (OPC): Independent Validation on a Large Prospective Cohort and a Secondary Analysis of NRG-HN002 
-        description: >
-          Oral Presentation. American Society for Radiation Oncology and Canadian Association of Radiation Oncology.
+        journal: >
+          Oral Presentation, ASTRO. Oral Presentation, CARO.
+        authors: >
           <u>Eric Stutheit-Zhao</u>, Jonathan Harris, Jinfeng Zou, ... Quynh-Thu Le, Sue Yom, Scott Bratman 
         url: https://docs.google.com/document/d/e/2PACX-1vTVO9mXfGZNOBzYZI1FxV_jxQswTEObCwbGfi3JJlr7eHp4zGFFgsztUw1VMJ74EBQNOltZzprw-pRY/pub
      
-  - title: Travel/Conference Awards
-    display:
-      type: events
-      year_labels: true 
-    entries:
-    - brief: UBC SUS Grant
-      hidden: true
-      title: UBC SUS Professional Development Grant.
-      description: $250. Supported conference travel.
-      date: '2013-01-10'
-      category: Travel Award
-      url: http://sus.ubc.ca/grants/
-    - brief: ISMRM Travel Award
-      title: ISMRM Educational Stipend.
-      description: >
-        $440. Travel award to attend international
-        magnetic resonance imaging conference.
-      date: '2013-03-15'
-      category: Travel Award
-      url: https://www.ismrm.org/
-    - brief: John Bosdet Travel Award
-      date: '2017-02-24'
-      category: Travel Award
-      title: John Bosdet Travel Award.
-      description: $1500. Award to support trainee conference travel.
-    - brief: BIG Research Day
-      date: '2017-03-15'
-      category: Conference Prize
-      title: Top Poster Prize.
-      description: Bioinformatics, Integrated Oncology, Genome Science & Technology Research Day (BIG).
-      url: https://www.bigresearchday.com/about/
-    - brief: CITAC Young Investigator Forum
-      date: '2017-11-24'
-      category: Conference Prize
-      title: CSCI/CITAC Young Investigator Forum Poster Prize - Honourable Mention.
-      description: $50 prize from the Banting Foundation.
-    - brief: TGC Travel Award
-      date: '2018-03-28'
-      category: Travel Award
-      title: Translational Genomics Cluster (TGC) Trainee Collaboration & Travel Award.
-      description: >
-        $2500. Travel award to enable development and/or expansion of collaborations with
-        national and international researchers.
-      url: https://research.ubc.ca/about-vpri/initiatives/research-excellence-clusters/translational-cancer-genomics-tcg-cluster
-    - brief: CCSRI Travel Award
-      date: '2018-08-01'
-      category: Travel Award
-      title: Canadian Cancer Society Research Institute (CCSRI) Travel Award
-      description: >
-        $1000. Travel award to support attendance at a cancer research conference.
-      url: http://www.cancer.ca/en/research/funding-results/recent-competition-results/may-2018-trv-results/
-    - brief: John Bosdet Travel Award
-      date: '2019-03-12'
-      category: Travel Award
-    - brief: ESMO Merit Award
-      date: '2022-08-01'
-      category: Conference Prize
-      title: ESMO Congress Merit Award.
-      description: >
-        Conference award for submitting a top trainee abstract at the 2022 ESMO congress.
-    - brief: ASTRO Abstract Award
-      date: '2022-10-25'
-      category: Conference Prize
-      title: ASTRO Abstract Award.
-      description: >
-        Conference award for submitting a top trainee abstract at the 2022 ASTRO Conference.
-    - brief: ASTRO Physics Science Highlights
-      date: '2022-10-25'
-      category: Conference Prize
-      title: Physics Science Highlights.
-      description: >
-        Our 2022 ASTRO abstract "Daily Assessment of On-Treatment Tumor Regression by
-        Cone Beam CT as a Prognostic Dynamic Biomarker in Nasopharyngeal Cancer"
-        was one of five abstracts, selected from over 262 submitted abstracts and 54
-        oral presentations to be highlighted as an example of an impressive
-        scientific contribution.
-    - brief: CARO Best Presenter
-      date: '2023-09-22'
-      category: Conference Prize
-      title: Best Oral Presentation - Canadian Association of Radiation Oncology.
-      description: >
-        Conference award for top oral presentation from a radiation oncology resident
-        at the 2023 CARO conference.
-
   - title: Invited Speaker
     display:
       type: events
@@ -1066,6 +1171,7 @@ sections:
         Technology (BIG) Research Day.
       url: https://www.bigresearchday.com/about/
     - brief: Building Bridges Seminar
+      pagebreak: true
       date: '2017-04-11'
       category: Research Talk
       title: >
@@ -1166,6 +1272,7 @@ sections:
   
 - title: Leader
   display:
+    pagebreak: true
     background-image: 'images/gradspeech.png'
     background-color: '#990000'
     color: '#FFFFFF'
@@ -1341,8 +1448,7 @@ sections:
       title: >
         Assistant Chief Resident, Radiation Oncology.
       description: >
-        Resident leadership representative within the radiation oncology program at the
-        University of Toronto. Roles include call scheduling and committee representation.
+        Resident leadership representative, with roles include call scheduling and representing the interests and concerns of my co-residents on program committees.
 
 
   - title: 'Mentorship'
@@ -1469,9 +1575,22 @@ sections:
         MD/PhD program funding.
       url: https://www.cma.ca/
 
+  - title: Leadership Training
+    display:
+      type: overlapping
+    entries:
+    - brief: GOLD Program
+      start: '2021-08-01'
+      end: '2022-06-01'
+      title: Global Oncology Leadership Development Program.
+      description: "The Princess Margaret Global Oncology Leadership Development Program is a series of lectures and interactive small group sessions designed to equip UHN Fellows with the skills, networks and opportunities to develop as leaders in cancer care at a local, regional and international level."
+      url: https://www.uhn.ca/PrincessMargaret/Education/Cancer_Campus/global_leadership_development
+
+
 
   - title: 'Supporting Learner Mental Health'
     display:
+      pagebreak: true
       type: overlapping
     entries:
     - brief: SSC Mental Health Chair
@@ -1501,7 +1620,7 @@ sections:
       url: https://memorial.support.ubc.ca/laura-taylor/
     - brief: Wellness Committee
       start: '2020-10-01'
-      end: present
+      end: '2022-06-30'
       title: Wellness Committee, Radiation Medicine Program, University of Toronto.
       description: In charge of organizing initiatives to support the wellbeing of peers in my residency program.
 
@@ -1548,17 +1667,6 @@ sections:
           During the COVID-19 pandemic, UBC medical students were
           mobilized to staff HealthLinkBC 811 call centres to
           field health-related concerns from the public.
-
-  - title: Leadership Training
-    display:
-      type: overlapping
-    entries:
-    - brief: GOLD Program
-      start: '2021-08-01'
-      end: '2022-06-01'
-      title: Global Oncology Leadership Development Program.
-      description: "The Princess Margaret Global Oncology Leadership Development Program is a series of lectures and interactive small group sessions designed to equip UHN Fellows with the skills, networks and opportunities to develop as leaders in cancer care at a local, regional and international level."
-      url: https://www.uhn.ca/PrincessMargaret/Education/Cancer_Campus/global_leadership_development
 
   - title: 'Palliative Care Volunteering'
     display:

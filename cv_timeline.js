@@ -216,6 +216,14 @@ write_subsection = function(subsection_data, section_id) {
     return(subsection_id);
 }
 
+remove_period = function(str) {
+    str = str.trim()
+    if (str[str.length-1] === ".") {
+        str = str.slice(0,-1);
+    }
+    return(str.trim())
+}
+
 fill_details = function(entries, element_id, year_labels) {
     for (const [index, entry_data] of entries.entries()) {
         if ('new_year' in entry_data) {
@@ -229,7 +237,51 @@ fill_details = function(entries, element_id, year_labels) {
                     `)
             }
         }
-        if ('description' in entry_data || 'title' in entry_data) {
+
+        if ('date' in entry_data) {
+            formatted_date = new Date(entry_data['date']).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            date_text = formatted_date
+        } else if ('start' in entry_data & 'end' in entry_data) {
+            formatted_date_1 = new Date(entry_data['start']).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            formatted_date_2 = new Date(entry_data['end']).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            date_text = formatted_date_1 + ' - ' + formatted_date_2
+        } else {
+            date_text = ""
+        }
+
+        if ('authors' in entry_data || 'journal' in entry_data) {
+            if (entry_data['date'] == 'present') {
+                year_label = ''
+            } else {
+                year_label = entry_data['date'].getFullYear()
+            }
+
+            if ('ref_details' in entry_data) {
+                ref_details_text = entry_data['ref_details']
+            } else {
+                ref_details_text = ""
+            }
+            
+            $(`#${element_id}`)
+                .append(`
+                    <div class="entry">
+                        <div class="entry-text ${entry_data['highlight'] ? 'highlight' : 'nohighlight'}">
+                            ${remove_period(entry_data['authors'])}.
+
+                            <${entry_data['url'] ? 'a' : 'span'}
+                                href="${entry_data['url'] ? entry_data['url'] : '#'}"
+                                class="${entry_data['url'] ? 'entry-title-link' : 'entry-title-nolink'}">
+
+                                <em>${remove_period(entry_data['title'])}.</em>
+                                <span class="entry-title" id="${element_id}_${index}_title">
+                                    ${entry_data['journal']} (${year_label});
+                                </span>
+                            </${entry_data['url'] ? 'a' : 'span'}>
+                            ${ref_details_text}
+                        </div>
+                    </div>
+                `)
+        } else if ('description' in entry_data || 'title' in entry_data) {
             if (entry_data['url']) {
                 while (entry_data['title'].charAt(entry_data['title'].length - 1) == '.') {
                     entry_data['title'] = entry_data['title'].substring(0, entry_data['title'].length - 1);
@@ -247,19 +299,26 @@ fill_details = function(entries, element_id, year_labels) {
                     <div class="entry">
 
                         <div class="entry-text ${entry_data['highlight'] ? 'highlight' : 'nohighlight'}">
-                            <${entry_data['url'] ? 'a' : 'span'}
-                                href="${entry_data['url'] ? entry_data['url'] : '#'}"
-                                class="${entry_data['url'] ? 'entry-title-link' : 'entry-title-nolink'}">
+                            <div class="title-date">
+                                <${entry_data['url'] ? 'a' : 'span'}
+                                    href="${entry_data['url'] ? entry_data['url'] : '#'}"
+                                    class="${entry_data['url'] ? 'entry-title-link' : 'entry-title-nolink'}">
 
-                                <span class="entry-title" id="${element_id}_${index}_title">
-                                    ${entry_data['title']}
+                                    <span class="entry-title" id="${element_id}_${index}_title">
+                                        ${entry_data['title']}
+                                    </span>
+                                </a>
+                                <span class="date-text">
+                                    ${date_text}
                                 </span>
-                            </a>
-                            ${description_text}
+                            </div>
+                            <div class="description-text">
+                                ${description_text}
+                            </div>
                         </div>
                     </div>
                 `)
-        }
+        } 
 
         if (entry_data['url']) {
             $(`#${element_id}_${index}_title`)
@@ -301,7 +360,7 @@ overlapping_timeline = function(data, element_id) {
     entries = entries.map(parse_entry_dates)
 
     entries = entries.sort(function(a, b) {
-        return(a['start'] - b['start'])
+        return(b['start'] - a['start'])
     });
 
     var min_date = d3.min(entries.map(e => { return(e['start']) })),
@@ -317,7 +376,7 @@ overlapping_timeline = function(data, element_id) {
     var x_scale = d3.scaleBand().rangeRound([0, 10]).padding(0.1),
         y_scale = d3.scaleTime()
                 .domain([min_date, max_date])
-                .range([0, height])
+                .range([height-10, 10])
 
     svg_container.selectAll('.timeline-block')
         .data(data['entries'])
@@ -327,11 +386,11 @@ overlapping_timeline = function(data, element_id) {
                 return(60 + (i % 8) * 4);
             })
             .attr('y', (d) => {
-                return(y_scale(d['start']));
+                return(y_scale(d['end']));
             })
             .attr('width', 1.5)
             .attr('height', d => {
-                return(y_scale(d['end']) - y_scale(d['start']))
+                return(y_scale(d['start']) - y_scale(d['end']))
             })
             .attr('fill', '#387EB9')
 
@@ -345,7 +404,7 @@ overlapping_timeline = function(data, element_id) {
             .attr('class', 'timeline-brief')
             .attr('x', 100)
             .attr('y', (d, i) => {
-                return(i * 50 + TEXT_Y_OFFSET);
+                return(height - (i * 50) + TEXT_Y_OFFSET - 40);
             })
             .attr('alignment-baseline', 'hanging')
             .text((d) => { return(d['brief']) })
@@ -358,7 +417,7 @@ overlapping_timeline = function(data, element_id) {
         .enter().append('path')
             .attr('d', (d, i) => {
                 var x = 100 - 5,
-                    y = 50 * i + 8,
+                    y = height - (50 * i) - 30,
                     new_x = 60 + (i % 8) * 4;
 
                 new_y = get_label_intersect(d, y, y_scale)
@@ -372,7 +431,7 @@ overlapping_timeline = function(data, element_id) {
         .enter().append('circle')
             .attr('cx', (d, i) => { return(60 + (i % 8) * 4 + 1) })
             .attr('cy', (d, i) => {
-                y = 50 * i + 8;
+                y = height - (50 * i) - 30;
                 return(get_label_intersect(d, y, y_scale))
             })
             .attr('r', 2.5)
@@ -392,9 +451,9 @@ overlapping_timeline = function(data, element_id) {
 }
 
 get_label_intersect = function(d, y, y_scale) {
-    if (y > y_scale(d['start']) && y < y_scale(d['end'])) {
+    if (y < y_scale(d['start']) && y > y_scale(d['end'])) {
         return(y)
-    } else if (y < y_scale(d['start'])) {
+    } else if (y > y_scale(d['start'])) {
         return(y_scale(d['start']) + 0.01 * (y_scale(d['end']) - y_scale(d['start'])))
     } else {
         return(y_scale(d['end']) - 0.01 * (y_scale(d['end']) - y_scale(d['start'])))
@@ -464,7 +523,14 @@ nonoverlapping_timeline = function(data, element_id) {
 
 events_timeline = function(data, element_id, legend_id) {
     entries = data['entries'];
-    entries = entries.map(parse_entry_dates)
+
+    entries = entries
+        .map(parse_entry_dates)
+        .sort(function(a, b) {
+            return(b['date'] - a['date'])
+        })
+
+    entries = entries
         .map((entry, index) => {
             if (! entry['title'] && ! entry['description']) {
                 // If entry will not appear in text description, then no need for a new year label before it
@@ -478,10 +544,6 @@ events_timeline = function(data, element_id, legend_id) {
             }
             return(entry)
         })
-
-    entries = entries.sort(function(a, b) {
-        return(a['date'] - b['date'])
-    });
 
     unique_categories = entries.map(entry => {
         return(entry['category'])
@@ -515,7 +577,7 @@ events_timeline = function(data, element_id, legend_id) {
                     entries_slice[i]['dy'] = 0;
                 }
             } else {
-                entries_slice[i]['dy'] = entries_slice[i-1]['dy'] + Math.floor(entries_slice[i-1]['brief'].length / 24);
+                entries_slice[i]['dy'] = entries_slice[i-1]['dy'] + Math.floor(entries_slice[i-1]['brief'].length / 18);
             }
 
             if (i == 0) {
