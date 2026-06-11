@@ -6,8 +6,8 @@ contact:
   website: http://eyzhao.com
   lastupdate: Sep 26, 2024
   blurb: >
-    Aspiring clinician-scientist aiming to develop an independent research
-    program focused on translational genomics, bioinformatics, and precision oncology.
+    Clinician-scientist focused on translational genomics,
+    bioinformatics, and precision oncology.
   photo: images/eric-zhao-portrait.jpg
 sections:
 - title: Scholar
@@ -29,18 +29,24 @@ sections:
       start: '2009-09-01'
       end: '2013-06-01'
       url: 'https://cps.med.ubc.ca/undergraduate/'
-    - brief: MD PhD (UBC)
-      title: Joint Doctor of Medicine & Doctor of Philosophy.
+    - brief: MD
+      title: MD.
+        The University of British Columbia.
+      start: '2013-08-20'
+      end: '2020-06-01'
+    - brief: PhD
+      title: PhD, Bioinformatics.
         The University of British Columbia.
       description: >
-        MD and PhD in Bioinformatics. Dissertation was entitled
+        MD/PhD program, under the bioinformatics graduate program.
+        My dissertation was entitled
         ''Clinical Actionability and Evolution
         of Mutational Processes in Metastatic Cancer.''
       start: '2013-08-20'
       end: '2020-06-01'
       url: https://mdprogram.med.ubc.ca/mdphd/
     - brief: Resident Physician (U of T)
-      title: Radiation Oncology Postgraduate Residency Training Program.
+      title: Resident Physician, Radiation Oncology.
         The University of Toronto.
       description: >
         5-year clinical training program in the
@@ -56,7 +62,7 @@ sections:
       start: '2021-07-01'
       end: '2024-07-01'
     - brief: Int'l Clinician Scientist.
-      title: PMH/DKFZ International Clinician Scientist Award.
+      title: Postdoctoral Fellow, PMH/DKFZ International Clinician Scientist
       start: '2021-07-01'
       end: '2023-07-01'
       description: >
@@ -77,6 +83,7 @@ sections:
       category: Fellowship Grant
       url: https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf
     - brief: CIHR - CGS-M
+      pagebreak: true
       date: '2014-04-01'
       category: Fellowship Grant
       title: CIHR Canada Graduate Scholarship - Master's.
@@ -133,7 +140,7 @@ sections:
     entries:
     - brief: Discovery to Impact Grant
       date: '2022-09-15'
-      category: Research Grant
+      category: Principal
       title: Yamana Gold Discovery to Impact Grant
       description: >
         $300,000. This grant funded my independent-conceived post-doctoral fellowship
@@ -145,7 +152,7 @@ sections:
         to develop novel liquid biopsy biomarkers.
     - brief: PM Catalyst Grant
       date: '2022-12-07'
-      category: Research Grant
+      category: Co-investigator
       title: Princess Margaret Catalyst Grant
       description: >
         $100,000. This grant helped to fund the research initiative called
@@ -157,7 +164,7 @@ sections:
         during the course of radiotherapy.
     - brief: ASCO YIA
       date: '2025-04-02'
-      category: Research Grant
+      category: Principal
       title: ASCO Conquer Cancer Young Investigator Award
       description: >
         $50,000. Provides funding to promising investigators as they transition
@@ -168,7 +175,7 @@ sections:
       url: 'https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award'
     - brief: CIHR Project Grant
       date: '2025-07-01'
-      category: Research Grant
+      category: Co-investigator
       title: CIHR Project Grant - TITRATE study.
       description: >
         $1.4 million. As a post-doctoral fellow, I took a leading role in
@@ -205,6 +212,7 @@ sections:
       date: '2011-01-10'
       category: Award
     - brief: Physiology Prize
+      hidden: true
       title: Physiology Prize.
       description: For best undergraduate thesis.
       date: '2013-05-15'
@@ -227,18 +235,21 @@ sections:
         academic record as a doctoral student.
       url: https://www.grad.ubc.ca/awards/governor-generals-gold-medal
     - brief: GSAT Scholarship
+      hidden: true
       title: GSAT-Funded Summer Research Award.
       description: $3600. Supports summer research internship in genome science.
       date: '2010-05-01'
       category: Research Scholarship
       url: https://www.gsat.ubc.ca/
     - brief: BCCGN Award
+      hidden: true
       title: BC Clinical Genomics Network Summer Research Scholarship.
       description: $3750.
       date: '2011-05-01'
       category: Research Scholarship
       url: https://bccgn.med.ubc.ca/resources/awards/training-awards/
     - brief: BCCHRI Scholarship
+      hidden: true
       title: BC Children's Hospital Research Institute (BCCHRI) Summer Research Scholarship.
       description: >
         $3750. To support a summer research internship at the BCCHRI.
@@ -246,6 +257,7 @@ sections:
       category: Research Scholarship
       url: https://bcchr.ca/about-us/training-opportunities/undergraduate-medical-students/summer-student-research-program-4
     - brief: Dean of Science Research Award
+      hidden: true
       title: Dean of Science Research Award.
       description: >
         $2500. To support summer research at UBC.
@@ -255,6 +267,7 @@ sections:
       date: '2014-02-11'
       category: Research Scholarship
       title: Faculty of Medicine Graduate Scholarship.
+      hidden: true
       description: $3700.
     - brief: Margaret Patterson Award
       date: '2020-08-15'
@@ -272,6 +285,7 @@ sections:
         $2000. Award to recognize and support trans-disciplinary research.
       url: https://www.radonc.utoronto.ca/stars21
     - brief: U of T PGME Research Award
+      pagebreak: true
       date: '2021-07-06'
       category: Research Scholarship
       title: Temerty Faculty of Medicine Postgraduate Medical Education Research Award.
@@ -299,6 +313,14 @@ sections:
       description: >
         Recognizes research potential in a University of Toronto Resident and provides
         scholarship funding to support research activities.
+    - brief: RSNA Roentgen Award
+      date: '2025-08-22'
+      category: Award
+      title: RSNA Roentgen Research Award
+      description: >
+        This award allows residency program directors and department chairs to recognize=
+        outstanding residents and fellows who’ve advanced radiologic research.
+
 
   - title: Leadership Awards
     display:
@@ -306,6 +328,7 @@ sections:
       year_labels: true
     entries: 
     - brief: Science Excellence in Service Award
+      hidden: true
       title: Dean of Science Excellence in Service Award
       description: >
         $1000. Awarded annual to 5 staff, 5 students, and 5 faculty
@@ -316,6 +339,7 @@ sections:
       category: Award
       url: https://science.ubc.ca/faculty/awards/service
     - brief: Science Student Recognition Award
+      hidden: true
       title: Science Student Recognition Award
       description: >
         $500. I was awarded the inaugural SSRA by my peers,
@@ -326,6 +350,7 @@ sections:
       category: Award
       url: http://sus.ubc.ca/grants/
     - brief: Commencement Speaker
+      hidden: true
       title: Commencement speaker.
       description: >
         Selected to deliver a brief address at my graduation ceremony.
@@ -349,6 +374,7 @@ sections:
         $1850. Awarded annually to two students who have demonstrated
         strong leadership at UBC and within Greater Vancouver.
     - brief: Commencement Address
+      hidden: true
       date: '2015-06-20'
       category: Honour / Distinction
       title: Commencement Address.
@@ -356,6 +382,7 @@ sections:
         University Transition Program graduation ceremony.
       url: http://universitytransition.altervista.org/
     - brief: Faces of Today Award
+      hidden: true
       date: '2017-01-11'
       category: Award
       title: Faces of Today Award - Student Leadership Conference.
@@ -397,6 +424,7 @@ sections:
       category: Travel Award
       url: http://sus.ubc.ca/grants/
     - brief: ISMRM Travel Award
+      hidden: true
       title: ISMRM Educational Stipend.
       description: >
         $440. Travel award to attend international
@@ -416,6 +444,7 @@ sections:
       description: Bioinformatics, Integrated Oncology, Genome Science & Technology Research Day (BIG).
       url: https://www.bigresearchday.com/about/
     - brief: CITAC Young Investigator Forum
+      hidden: true
       date: '2017-11-24'
       category: Conference Prize
       title: CSCI/CITAC Young Investigator Forum Poster Prize - Honourable Mention.
@@ -461,6 +490,7 @@ sections:
         oral presentations to be highlighted as an example of an impressive
         scientific contribution.
     - brief: CARO Best Presenter
+      pagebreak: true
       date: '2023-09-22'
       category: Conference Prize
       title: Best Oral Presentation - Canadian Association of Radiation Oncology.
@@ -475,13 +505,14 @@ sections:
         Conference award for submitting a top trainee abstract at the 2024 ASTRO Conference.
     - brief: CARO Book Prize
       date: '2024-09-14'
-      title: Book Prize - Biology and Technology at the 2024 CARO ASM.
       category: Conference Prize
+    - brief: CARO Book Prize
+      date: '2025-09-12'
+      category: Conference Prize
+      title: Book Prize - Biology and Technology at the 2024 CARO ASM.
       description: >
         For best presentation at the Canadian Association of Radiation Oncology
         conference in the topics of biology and technology.
-
-
 
   - title: Peer-Reviewed Journal Articles
     display:
@@ -541,6 +572,7 @@ sections:
       ref_details: "8.1 (17-22)"
       url: https://ojs.library.ubc.ca/index.php/ubcmj/article/view/185951
     - brief: den Brok et al. JCO PO
+      pagebreak: true
       date: '2017-03-10'
       category: Co-author
       title: >
@@ -838,6 +870,7 @@ sections:
       ref_details: "25(12):2273-2286. doi: 10.1093/neuonc/noad114. PMID: 37379234"
       url: https://pubmed.ncbi.nlm.nih.gov/37379234/
     - brief: Zeng et al. Bioinformatics
+      pagebreak: true
       date: '2023-07-04'
       category: Co-author
       title: "MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis"
@@ -853,7 +886,7 @@ sections:
       journal: Cancer Discovery
       authors: >
         Derek Wong, Ping Luo, Leslie Oldfield, Haifan Gong, Ledia Brunga, Ron Rabinowicz, ...
-        Eric Zhao, ... David Malkin, Raymond H Kim, Trevor J Pugh
+        <u>Eric Zhao</u>, ... David Malkin, Raymond H Kim, Trevor J Pugh
       ref_details: "14(1):104-119. doi: 10.1158/2159-8290.CD-23-0456. PMID: 37874259"
       url: https://pubmed.ncbi.nlm.nih.gov/37874259/
     - brief: Stutheit-Zhao, Sanz-Garcia et al., Cancer Discovery
@@ -862,7 +895,7 @@ sections:
       title: "Early changes in tumor-naive cell-free methylomes and fragmentomes predict outcomes in patients with solid tumors treated with pembrolizumab"
       journal: Cancer Discovery
       authors: >
-        Eric Y. Stutheit-Zhao, Enrique Sanz-Garcia (co-primary), Zhihui Liu, Derek Wong, ...
+        <u>Eric Y. Stutheit-Zhao</u>, Enrique Sanz-Garcia (co-primary), Zhihui Liu, Derek Wong, ...
         Philip Awadalla, Scott V. Bratman, Pamela S. Ohashi, Trevor J. Pugh, Lillian L. Siu
       ref_details: "14(6):1048-1063. doi: 10.1158/2159-8290.CD-23-1060. PMID: 38393391"
       url: https://pubmed.ncbi.nlm.nih.gov/38393391/
@@ -872,34 +905,44 @@ sections:
       category: Co-author
       journal: Nature Communications
       authors: >
-        Roland Imle, Daniel Blösel, Felix K.F. Kommoss, Eric Stutheit-Zhao, Robert Autry, ...
+        Roland Imle, Daniel Blösel, Felix K.F. Kommoss, <u>Eric Stutheit-Zhao</u>, Robert Autry, ...
         Patrick Günther, Martin Sill, Kevin B. Jones, Stefan M. Pfister, Ana Banito.
       ref_details: ""
       url: https://www.nature.com/articles/s41467-025-60519-5
+    - brief: Deng et al. Neuro Oncol
+      date: '2025-05-27'
+      category: Co-author
+      title: "Postoperative radiotherapy in subtotally-resected recurrent WHO grade 1 meningiomas with intermediate-/high-risk molecular profiles"
+      journal: Neuro-Oncology.
+      authors: >
+        Maximilian Y Deng, Sybren L N Maas, Günes Anil,
+        Philipp Sievers, Jonathan Lischalk, <u>Eric Zhao</u>, Sophie Rauh 
     - brief: Maas, Tang, Stutheit-Zhao. Nat Genetics
-      display:
-        padding: 100
-      date: 'present'
+      date: '2026-02-09'
       category: Primary Author
       title: 'A microenvironment-determined risk continuum replaces subtyping in meningioma and reveals determinants of machine learning-based tumour classification'
-      journal: Nat Genetics (Accepted)
+      journal: Nat Genetics
       authors: >
-        Sybren L.N. Maas, Yiheng Tang (co-primary), Eric Stutheit-Zhao (co-primary), Ramin Rahmanzade (co-primary), Christina Blume, ..., Volker Hovestadt, Moritz Gerstung, Matthias Schlesner, The German Aggressive Meningiomas Consortium (KAM), Felix Sahm
-    - brief: Stutheit-Zhao et al. in prep
-      date: 'present'
+        Sybren L.N. Maas, Yiheng Tang (co-primary), <u>Eric Stutheit-Zhao (co-primary)</u>, Ramin Rahmanzade (co-primary), Christina Blume, ..., Volker Hovestadt, Moritz Gerstung, Matthias Schlesner, The German Aggressive Meningiomas Consortium (KAM), Felix Sahm
+      url: https://www.nature.com/articles/s41588-025-02475-w
+    - brief: Zeng et al., Nat Cancer
+      date: '2026-02-19'
+      category: Co-author
+      title: "A pan-cancer compendium of 1,294 plasma cell-free DNA methylomes and fragmentomes."
+      journal: "Nature Cancer."
+      authors: >
+        Yong Zeng, Dory D. Abelman, Althaf Singhawansa, ... <u>Eric Stutheit-Zhao</u>, ... Scott V. Bratman,
+        Mathieu Lupien, Trevor J. Pugh, Housheng Hansen He
+      url: https://www.nature.com/articles/s43018-026-01116-3
+    - brief: Stutheit-Zhao et al. npj PO 
+      date: '2026-02-13'
       category: Primary Author
-      title: "HPV circulating tumor DNA clearance and baseline tumor burden are independent predictors of recurrence in p16-positive oropharyngeal cancer"
-      journal: "In preparation"
+      title: 'Clinical validation of a tissue-agnostic genome-wide methylome enrichment assay to monitor response to pembrolizumab'
+      journal: 'npj Precision Oncology'
       authors: >
-        Eric Y. Stutheit-Zhao, Ariana Rostami, Zhen Zhao, Yangqiao Zheng, Jinfeng Zou, Tony Tadic, ...
-        Lillian L. Siu, Anna Spreafico, John N. Waldron, Scott V. Bratman
-    - brief: Stutheit-Zhao et al. in prep
-      date: 'present'
-      category: Primary Author
-      title: "Tumor-adjacent air volume expansion on cone beam CT is prognostic in nasopharyngeal cancer patients undergoing radiotherapy"
-      journal: "In preparation"
-      authors: >
-        Eric Y. Stutheit-Zhao, Ahmad Bushehri, Biu Chan, ..., Tony Tadic, Andrew J. Hope, Scott V. Bratman.
+        Eric Y. Stutheit-Zhao, Yongqi Zhong, Collin A. Melton, Elizabeth Lightbody, ...
+        Daniel De Carvalho, Anne-Renee Hartman, Lillian L. Siu, Enrique Sanz Garcia
+      url: https://www.nature.com/articles/s41698-026-01327-y
 
   - title: Invited Articles
     display:
@@ -954,6 +997,7 @@ sections:
 
   - title: Selected Conference Talks
     display:
+      pagebreak: true
       type: events
       year_labels: true
     entries:
@@ -1225,6 +1269,13 @@ sections:
       description: >
         Invited oral presentation at the 2023 Wharton Research Day on
         head & neck oncology at Princess Margaret Hospital.
+    - brief: NIH LB SIG
+      date: '2025-10-20'
+      category: Research Talk
+      title: "Treatment monitoring and molecular residual disease assessment in oropharyngeal cancer using HPV ctDNA"
+      description: >
+        Invited talk at the National Institutes of Health Liquid Biopsy
+        Special Interest Group.
 
 
   - title: Education and Teaching
@@ -1354,6 +1405,7 @@ sections:
 
   - title: Committee Memberships
     display:
+      pagebreak: true
       type: overlapping
     entries:
     - brief: Vice Chair, Senate Teaching & Learning
@@ -1448,6 +1500,7 @@ sections:
   - title: 'Mentorship'
     display:
       type: overlapping
+      hidden: true
     entries:
     - brief: UBC Orientations Squad Leader
       hidden: true
@@ -1458,6 +1511,7 @@ sections:
       start: '2010-04-01'
       end: '2012-05-30'
     - brief: University Transition Program
+      hidden: true
       start: '2010-11-01'
       end: '2014-06-01'
       title: Music Director, University Transition Program.
@@ -1487,6 +1541,7 @@ sections:
         clinician-scientists amongst the general medical student
         body.
     - brief: Project Pulse Panelist
+      hidden: true
       start: '2019-03-02'
       end: '2019-03-02'
       title: Panelist, Project Pulse Vancouver
@@ -1494,6 +1549,7 @@ sections:
         Panelist at a conference for aspiring healthcare professionals.
       url: http://project-pulse.org/
     - brief: LGHF MedEd Panelist
+      hidden: true
       start: '2019-04-13'
       end: '2019-04-13'
       title: Lions Gate Hospital Foundation (LGHF) Med Ed Conference Panelist.
@@ -1501,6 +1557,7 @@ sections:
         Panelist for career mentorship conference in healthcare.
       url: https://lghfoundation.com/community_events/meded/
     - brief: Operation Med School Panelist
+      hidden: true
       start: '2020-03-08'
       end: '2020-03-08'
       title: Panelist, Operation Med School.
@@ -1508,6 +1565,7 @@ sections:
         career pathways in medicine.
       url: https://operationmedschool.com/
     - brief: Speaker, Millenium STEM
+      hidden: true
       start: '2020-06-27'
       end: '2020-06-27'
       title: Invited Speaker, Millenium STEM Webinar.
@@ -1519,6 +1577,7 @@ sections:
   - title: Health Advocacy Events
     display:
       type: events
+      hidden: true
     entries:
     - brief: BC Lobby Day
       date: '2014-04-15'
