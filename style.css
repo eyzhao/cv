@@ -372,3 +372,204 @@ div.section-title-underline {
 @page {
     @bottom-center { content: element(footer) }
 }
+
+
+/* ===========================================================================
+ * VIEW TOGGLE + TABULAR (CANADIAN ACADEMIC) CV VIEW
+ * Added to support switching between the D3 timeline view and a date-left
+ * tabular layout. The toggle itself is hidden when printing.
+ *
+ *   - Range entries: start/end stacked on two lines ("Mon YYYY").
+ *   - Event entries: nested  YEAR > MONTH > item(s); a shared month is
+ *     labelled once. Publications/talks are numbered forwards.
+ * ===========================================================================*/
+
+/* ---- floating Timeline / Table toggle ---- */
+#view-toggle {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    z-index: 1000;
+    display: inline-flex;
+    gap: 2px;
+    padding: 3px;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+}
+
+#view-toggle button {
+    border: none;
+    background: transparent;
+    color: #444;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 6px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+#view-toggle button:hover { background: #eef3f8; }
+
+#view-toggle button.active {
+    background: rgb(55, 126, 184);
+    color: #ffffff;
+}
+
+/* The toggle must never appear in the printed / PDF output. */
+@media print {
+    #view-toggle,
+    .no-print { display: none !important; }
+}
+
+/* ---- subsection headings (shared by both row styles) ---- */
+h2.cv-subsection-title {
+    text-align: left;
+    margin: 26px 0 8px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #e0e0e0;
+    color: #222;
+}
+
+/* ---- range entries: two-line "Mon YYYY" date column ---- */
+.cv-row-range {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    gap: 0 18px;
+    padding: 7px 0;
+    border-bottom: 1px solid #f0f0f0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+.cv-row-range:last-child { border-bottom: none; }
+
+.cv-date-range {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    font-size: 12pt;
+    font-style: normal;
+    color: #555;
+    line-height: 1.3;
+    white-space: nowrap;
+    padding-top: 1px;
+}
+.cv-d-end { color: #6b6b6b; }
+
+/* ---- event entries: nested year > month > item(s) ---- */
+.cv-events { margin: 2px 0 12px; }
+
+.cv-year-group {
+    display: grid;
+    grid-template-columns: 3.1em 1fr;
+    gap: 0 10px;
+    align-items: baseline;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.cv-year-group:last-child { border-bottom: none; }
+
+.cv-year {
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: #3a3a3a;
+    white-space: nowrap;
+}
+.cv-year-body { min-width: 0; }
+
+.cv-month-group {
+    display: grid;
+    grid-template-columns: 2.6em 1fr;
+    gap: 0 8px;
+    align-items: baseline;
+}
+.cv-month-group + .cv-month-group { margin-top: 5px; }
+
+.cv-month {
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    font-size: 11.5pt;
+    font-weight: 400;
+    color: #8a8a8a;
+    white-space: nowrap;
+}
+.cv-month-body { min-width: 0; }
+
+.cv-event {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+.cv-event + .cv-event {
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px dotted #ececec;
+}
+
+/* citation items: hanging-indent number column */
+.cv-event-cite {
+    display: grid;
+    grid-template-columns: 2.3em 1fr;
+    align-items: baseline;
+}
+.cv-num {
+    color: #888;
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 11pt;
+}
+.cv-cite { line-height: 1.4; }
+.cv-cite-title { color: #111; }
+.cv-cite-venue { font-weight: 600; }       /* keeps the crimson .entry-title colour */
+.cv-cite-link { color: inherit; }
+.cv-cite-link:hover .cv-cite-venue { text-decoration: underline; }
+
+/* ---- shared block-content bits (titles, descriptions, tags) ---- */
+.cv-block-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px;
+}
+.cv-block-head .entry-title,
+.cv-block-head .entry-title-link { font-weight: bold; }
+
+.cv-desc {
+    margin-top: 2px;
+    line-height: 1.4;
+    color: #2b2b2b;
+}
+
+.cv-cat {
+    font-family: 'Titillium Web', 'Lato', sans-serif;
+    font-size: 9.5pt;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #6a6a6a;
+    background: #f1f1f1;
+    border-radius: 4px;
+    padding: 1px 7px;
+    white-space: nowrap;
+}
+
+/* keep a subsection header from being stranded at the bottom of a printed page */
+@media print {
+    h2.cv-subsection-title {
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+}
+
+/* narrower columns on small screens */
+@media screen and (max-width: 600px) {
+    .cv-row-range { grid-template-columns: 80px 1fr; gap: 0 12px; }
+    .cv-year-group { grid-template-columns: 2.8em 1fr; gap: 0 7px; }
+    .cv-month-group { grid-template-columns: 2.4em 1fr; gap: 0 6px; }
+    .cv-event-cite { grid-template-columns: 2em 1fr; }
+}

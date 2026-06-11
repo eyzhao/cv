@@ -12,7 +12,7 @@
         <!-- tocify scripts -->
         <script src="js/tocify/libs/jquery/jquery-1.8.3.min.js"></script>
         <script src="js/tocify/libs/jqueryui/jquery-ui-1.9.1.custom.min.js"></script>
-        <script src="js/tocify/src/javascripts/jquery.tocify.min.js""></script>
+        <script src="js/tocify/src/javascripts/jquery.tocify.min.js"></script>
 
         <!-- Imported CSS -->
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -21,12 +21,13 @@
 
         <!-- specific CV timeline scripts and CSS -->
         <script src='cv_timeline.js'></script>
+        <script src='cv_table.js'></script>
         <link rel="stylesheet" href="style.css">
 
         <script>
 	    data_string = $.ajax({
 		url : "education.yml",
-                success : plot_timeline
+                success : init_cv
 	    });
         </script>
     </head>
@@ -41,5 +42,3 @@
     </body>
 
 </html>
-
-

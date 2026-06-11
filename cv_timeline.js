@@ -60,10 +60,9 @@ populate_contact_data = function(contact_data) {
             </div>
         `)
 
-    $('title')
-        .append(`
-            Eric Y. Zhao - Curriculum Vitae
-        `)
+    // Page <title> is managed once by init_cv (cv_table.js) so that toggling
+    // between the timeline and table views does not repeatedly append to it.
+    // (Original behavior appended the title string on every render.)
 }
 
 function draw_highlights(entries, svg_container, highlights_group) {
